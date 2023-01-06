@@ -44,7 +44,7 @@
   "gridUnits": "yd",
   "socket": true,
   "url": "https://github.com/cdlight62/blackbirds",
-  "manifest": "https://raw.githubusercontent.com/cdlight62/blackbirds/main/zweihander-main/system.json",
+  "manifest": "https://raw.githubusercontent.com/cdlight62/blackbirds/main/system.json",
   "download": "https://github.com/cdlight62/blackbirds/archive/refs/heads/main.zip",
   "license": "LICENCE.txt",
   "primaryTokenAttribute": "stats.secondaryAttributes.damageCurrent",
