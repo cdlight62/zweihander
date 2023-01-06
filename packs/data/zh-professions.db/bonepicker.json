@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/bonepicker.svg",
+  "img": "systems/blackbird/assets/icons/bonepicker.svg",
   "name": "Bonepicker",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

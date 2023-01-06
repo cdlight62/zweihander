@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/meat-cleaver.svg",
+  "img": "systems/blackbird/assets/icons/meat-cleaver.svg",
   "name": "Butcherpriest",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

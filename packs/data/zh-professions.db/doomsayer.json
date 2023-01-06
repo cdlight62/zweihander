@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/doomsayer.svg",
+  "img": "systems/blackbird/assets/icons/doomsayer.svg",
   "name": "Doomsayer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

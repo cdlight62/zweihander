@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/full-folder.svg",
+  "img": "systems/blackbird/assets/icons/full-folder.svg",
   "name": "Forger",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

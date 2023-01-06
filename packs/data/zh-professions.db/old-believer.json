@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/old-believer.svg",
+  "img": "systems/blackbird/assets/icons/old-believer.svg",
   "name": "Old Believer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

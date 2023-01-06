@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/hot-meal.svg",
+  "img": "systems/blackbird/assets/icons/hot-meal.svg",
   "name": "Valet",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

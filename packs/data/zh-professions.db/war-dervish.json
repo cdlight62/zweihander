@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/war-dervish.svg",
+  "img": "systems/blackbird/assets/icons/war-dervish.svg",
   "name": "War Dervish",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

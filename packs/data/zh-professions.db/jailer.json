@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/jailer.svg",
+  "img": "systems/blackbird/assets/icons/jailer.svg",
   "name": "Jailer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

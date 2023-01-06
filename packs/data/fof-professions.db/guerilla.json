@@ -107,10 +107,10 @@
       "hash": "9ea6808be6f923f7456a529091b602801bee4e2d",
       "sourceId": "Item.YY1PTS06PvZCm4Dt"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Guerilla",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/pirate-flag.svg",
+  "img": "systems/blackbird/assets/icons/pirate-flag.svg",
   "name": "Buccaneer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

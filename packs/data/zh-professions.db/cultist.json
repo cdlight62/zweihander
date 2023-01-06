@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/cultist.svg",
+  "img": "systems/blackbird/assets/icons/cultist.svg",
   "name": "Cultist",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

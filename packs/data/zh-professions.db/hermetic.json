@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/hermetic.svg",
+  "img": "systems/blackbird/assets/icons/hermetic.svg",
   "name": "Hermetic",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

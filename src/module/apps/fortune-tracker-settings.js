@@ -1,7 +1,7 @@
 export default class FortuneTrackerSettings extends FormApplication {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      template: 'systems/zweihander/src/templates/app/fortune-tracker-settings.hbs',
+      template: 'systems/blackbird/src/templates/app/fortune-tracker-settings.hbs',
       popOut: true,
       minimizable: true,
       resizable: false,

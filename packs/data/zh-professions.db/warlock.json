@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/warlock.svg",
+  "img": "systems/blackbird/assets/icons/warlock.svg",
   "name": "Warlock",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

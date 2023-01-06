@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/glass-celebration.svg",
+  "img": "systems/blackbird/assets/icons/glass-celebration.svg",
   "name": "Fop",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

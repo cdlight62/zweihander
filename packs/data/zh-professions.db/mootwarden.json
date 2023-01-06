@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/village.svg",
+  "img": "systems/blackbird/assets/icons/village.svg",
   "name": "Mootwarden",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

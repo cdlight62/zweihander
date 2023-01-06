@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/rune-thane.svg",
+  "img": "systems/blackbird/assets/icons/rune-thane.svg",
   "name": "Rune Thane",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -107,10 +107,10 @@
       "hash": "5732bce9c7ee5e294824dab16c053b8af81261f3",
       "sourceId": "Item.nRz9SMatwI1AS7Xq"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Counterfeiter",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

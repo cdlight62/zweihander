@@ -107,10 +107,10 @@
       "hash": "5c57e047f615a601c65cefc59c0f3b097c8c14ee",
       "sourceId": "Item.hwukYTAHQmixYxo9"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Officer",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

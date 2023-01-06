@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/mouse.svg",
+  "img": "systems/blackbird/assets/icons/mouse.svg",
   "name": "Rat Catcher",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

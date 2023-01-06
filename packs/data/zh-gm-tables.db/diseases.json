@@ -8,7 +8,7 @@
   },
   "folder": null,
   "formula": "1d11",
-  "img": "systems/zweihander/assets/icons/half-dead.svg",
+  "img": "systems/blackbird/assets/icons/half-dead.svg",
   "name": "Diseases",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,
@@ -21,7 +21,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         1,
         1
@@ -38,7 +38,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         2,
         2
@@ -55,7 +55,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         3,
         3
@@ -72,7 +72,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         4,
         4
@@ -89,7 +89,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         5,
         5
@@ -106,7 +106,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         6,
         6
@@ -123,7 +123,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         7,
         7
@@ -140,7 +140,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         8,
         8
@@ -157,7 +157,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         9,
         9
@@ -174,7 +174,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         10,
         10
@@ -191,7 +191,7 @@
       "collection": "zweihander.zh-diseases",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/half-dead.svg",
+      "img": "systems/blackbird/assets/icons/half-dead.svg",
       "range": [
         11,
         11

@@ -29,7 +29,7 @@ const fvttHandlebarsHML = () => ({
           type: 'custom',
           event: 'handlebars-update',
           data: {
-            file: 'systems/zweihander/src/templates/' + file.split('/templates/')[1],
+            file: 'systems/blackbirds/src/templates/' + file.split('/templates/')[1],
             content,
           },
         })
@@ -43,7 +43,7 @@ export default () => {
   /** @type {import('vite').UserConfig} */
   return {
     root: 'src/', // Source location / esbuild root.
-    base: '/systems/zweihander/', // Base module path that 30001 / served dev directory.
+    base: '/systems/blackbirds/', // Base module path that 30001 / served dev directory.
     publicDir: false, // No public resources to copy.
     cacheDir: '../.vite-cache', // Relative from root directory.
 
@@ -70,8 +70,8 @@ export default () => {
       port: 40001,
       open: false,
       proxy: {
-        '^(/systems/zweihander/(lang|packs|assets|fonts|tinymce))': 'http://localhost:40000',
-        '^(?!/systems/zweihander/)': 'http://localhost:40000',
+        '^(/systems/blackbirds/(lang|packs|assets|fonts|tinymce))': 'http://localhost:40000',
+        '^(?!/systems/blackbirds/)': 'http://localhost:40000',
         '/socket.io': { target: 'ws://localhost:40000', ws: true },
       },
     },

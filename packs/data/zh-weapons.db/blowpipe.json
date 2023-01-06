@@ -33,13 +33,13 @@
     },
     "exportSource": {
       "coreVersion": "0.8.9",
-      "system": "zweihander",
+      "system": "blackbirds",
       "systemVersion": "0.3.30",
       "world": "talron2"
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/straight-pipe.svg",
+  "img": "systems/blackbird/assets/icons/straight-pipe.svg",
   "name": "Blowpipe",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

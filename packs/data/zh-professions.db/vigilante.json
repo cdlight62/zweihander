@@ -5,15 +5,15 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667813979307,
-    "systemId": "zweihander",
+    "systemId": "blackbirds",
     "systemVersion": "5.0.1"
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/vigilante.svg",
+  "img": "systems/blackbird/assets/icons/vigilante.svg",
   "name": "Vigilante",
   "ownership": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/heptagram.svg",
+  "img": "systems/blackbird/assets/icons/heptagram.svg",
   "name": "Occult Magician",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

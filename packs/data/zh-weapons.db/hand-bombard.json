@@ -33,13 +33,13 @@
     },
     "exportSource": {
       "coreVersion": "0.8.9",
-      "system": "zweihander",
+      "system": "blackbirds",
       "systemVersion": "0.3.30",
       "world": "talron2"
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/firework-rocket.svg",
+  "img": "systems/blackbird/assets/icons/firework-rocket.svg",
   "name": "Hand Bombard",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

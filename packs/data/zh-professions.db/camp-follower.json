@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/camp-follower.svg",
+  "img": "systems/blackbird/assets/icons/camp-follower.svg",
   "name": "Camp Follower",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/inquisitor.svg",
+  "img": "systems/blackbird/assets/icons/inquisitor.svg",
   "name": "Inquisitor",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

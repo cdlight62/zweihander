@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/druid.svg",
+  "img": "systems/blackbird/assets/icons/druid.svg",
   "name": "Druid",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

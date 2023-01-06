@@ -92,10 +92,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/ballista.svg",
+  "img": "systems/blackbird/assets/icons/ballista.svg",
   "name": "Artillerist",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

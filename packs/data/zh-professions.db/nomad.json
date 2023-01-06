@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/goblin-camp.svg",
+  "img": "systems/blackbird/assets/icons/goblin-camp.svg",
   "name": "Nomad",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

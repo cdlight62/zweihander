@@ -5,7 +5,7 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667844283186,
-    "systemId": "zweihander",
+    "systemId": "blackbirds",
     "systemVersion": "5.0.1"
   },
   "effects": [],
@@ -20,7 +20,7 @@
     },
     "exportSource": {
       "coreVersion": "0.8.9",
-      "system": "zweihander",
+      "system": "blackbirds",
       "systemVersion": "0.3.30",
       "world": "talron2"
     },
@@ -30,7 +30,7 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/broken-bone.svg",
+  "img": "systems/blackbird/assets/icons/broken-bone.svg",
   "name": "Chest Wound (Serious)",
   "ownership": {
     "VOagSWOxwT3osUDT": 3,

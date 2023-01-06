@@ -107,10 +107,10 @@
       "hash": "8258e2d5e2643dad6c3744d74b3c91e37fff3d4e",
       "sourceId": "Item.fYe2z2QuTuEg4fLe"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Alchemist",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

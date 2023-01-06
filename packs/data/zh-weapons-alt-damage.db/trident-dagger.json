@@ -33,13 +33,13 @@
     },
     "exportSource": {
       "coreVersion": "0.8.9",
-      "system": "zweihander",
+      "system": "blackbirds",
       "systemVersion": "0.3.30",
       "world": "talron2"
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/magic-trident.svg",
+  "img": "systems/blackbird/assets/icons/magic-trident.svg",
   "name": "Trident Dagger",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

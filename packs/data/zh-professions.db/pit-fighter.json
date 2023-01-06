@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/pit_fighter.svg",
+  "img": "systems/blackbird/assets/icons/pit_fighter.svg",
   "name": "Pit Fighter",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

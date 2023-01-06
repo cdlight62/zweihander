@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/chattel-slaver.svg",
+  "img": "systems/blackbird/assets/icons/chattel-slaver.svg",
   "name": "Chattel Slaver",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

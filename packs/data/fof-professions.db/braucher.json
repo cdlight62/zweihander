@@ -107,10 +107,10 @@
       "hash": "555bf3ccf430e56686410296b866e00df5472992",
       "sourceId": "Item.vVVRjRZK4OBfIKXt"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Braucher",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

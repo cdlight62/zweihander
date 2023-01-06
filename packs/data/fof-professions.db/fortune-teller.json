@@ -107,10 +107,10 @@
       "hash": "fd4c1c4cfe375710713d934a9142aec70189fd5c",
       "sourceId": "Item.BdRSBdtSOejqOQRy"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Fortune Teller",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

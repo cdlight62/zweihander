@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/courtier.svg",
+  "img": "systems/blackbird/assets/icons/courtier.svg",
   "name": "Courtier",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

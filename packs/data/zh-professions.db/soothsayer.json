@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/soothsayer.svg",
+  "img": "systems/blackbird/assets/icons/soothsayer.svg",
   "name": "Soothsayer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

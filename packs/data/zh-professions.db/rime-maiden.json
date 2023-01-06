@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/ice-iris.svg",
+  "img": "systems/blackbird/assets/icons/ice-iris.svg",
   "name": "Rime Maiden",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

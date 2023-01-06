@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/double-face-mask.svg",
+  "img": "systems/blackbird/assets/icons/double-face-mask.svg",
   "name": "Rake",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

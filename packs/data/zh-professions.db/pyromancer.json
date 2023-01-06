@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/pyromancer.svg",
+  "img": "systems/blackbird/assets/icons/pyromancer.svg",
   "name": "Pyromancer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

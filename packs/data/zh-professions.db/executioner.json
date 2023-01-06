@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/executioner.svg",
+  "img": "systems/blackbird/assets/icons/executioner.svg",
   "name": "Executioner",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

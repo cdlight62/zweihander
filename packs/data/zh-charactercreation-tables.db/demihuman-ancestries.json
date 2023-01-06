@@ -5,7 +5,7 @@
   "flags": {},
   "folder": null,
   "formula": "1d5",
-  "img": "systems/zweihander/assets/icons/ancestry.svg",
+  "img": "systems/blackbird/assets/icons/ancestry.svg",
   "name": "Demihuman Ancestries",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
@@ -18,7 +18,7 @@
       "collection": "zweihander.zh-ancestries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/family-tree.svg",
+      "img": "systems/blackbird/assets/icons/family-tree.svg",
       "range": [
         1,
         1
@@ -35,7 +35,7 @@
       "collection": "zweihander.zh-ancestries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/family-tree.svg",
+      "img": "systems/blackbird/assets/icons/family-tree.svg",
       "range": [
         2,
         2
@@ -52,7 +52,7 @@
       "collection": "zweihander.zh-ancestries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/family-tree.svg",
+      "img": "systems/blackbird/assets/icons/family-tree.svg",
       "range": [
         3,
         3
@@ -69,7 +69,7 @@
       "collection": "zweihander.zh-ancestries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/family-tree.svg",
+      "img": "systems/blackbird/assets/icons/family-tree.svg",
       "range": [
         4,
         4
@@ -86,7 +86,7 @@
       "collection": "zweihander.zh-ancestries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/family-tree.svg",
+      "img": "systems/blackbird/assets/icons/family-tree.svg",
       "range": [
         5,
         5

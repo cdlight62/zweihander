@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/robin-hood-hat.svg",
+  "img": "systems/blackbird/assets/icons/robin-hood-hat.svg",
   "name": "Outlaw Chief",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

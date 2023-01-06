@@ -28,7 +28,7 @@
     {
       "type": "cover",
       "url": "https://images-geeknative-com.exactdn.com/wp-content/uploads/2020/11/27135148/blackbirds.png?strip=all&lossy=1&sharp=1&ssl=1",
-      "caption": "zweihander"
+      "caption": "blackbirds"
     }
   ],
   "esmodules": ["index.js"],
@@ -62,252 +62,252 @@
     {
       "name": "skills",
       "label": "Zweihander Skills",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/skills.db",
       "type": "Item"
     },
     {
       "name": "zh-ancestries",
       "label": "Zweihander Ancestries",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-ancestries.db",
       "type": "Item"
     },
     {
       "name": "zh-ancestral-traits",
       "label": "Zweihander Ancestral Traits",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-ancestral-traits.db",
       "type": "Item"
     },
     {
       "name": "zh-magick",
       "label": "Zweihander Magick",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-magick.db",
       "type": "Item"
     },
     {
       "name": "zh-professions",
       "label": "Zweihander Professions",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-professions.db",
       "type": "Item"
     },
     {
       "name": "zh-talents",
       "label": "Zweihander Talents",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-talents.db",
       "type": "Item"
     },
     {
       "name": "zh-drawbacks",
       "label": "Zweihander Drawbacks",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-drawbacks.db",
       "type": "Item"
     },
     {
       "name": "zh-traits",
       "label": "Zweihander Traits",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-traits.db",
       "type": "Item"
     },
     {
       "name": "zh-creature-traits",
       "label": "Zweihander Creature Traits",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-creature-traits.db",
       "type": "Item"
     },
     {
       "name": "zh-weapons",
       "label": "Zweihander Weapons",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-weapons.db",
       "type": "Item"
     },
     {
       "name": "zh-weapons-alt-damage",
       "label": "Zweihander Weapons (Alt. Damage)",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-weapons-alt-damage.db",
       "type": "Item"
     },
     {
       "name": "zh-attack-profiles",
       "label": "Zweihander Attack Profiles",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-attack-profiles.db",
       "type": "Item"
     },
     {
       "name": "zh-taints",
       "label": "Zweihander Taints of Chaos",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-taints.db",
       "type": "Item"
     },
     {
       "name": "zh-trappings",
       "label": "Zweihander Trappings",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-trappings.db",
       "type": "Item"
     },
     {
       "name": "zh-conditions",
       "label": "Zweihander Conditions",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-conditions.db",
       "type": "Item"
     },
     {
       "name": "zh-armor",
       "label": "Zweihander Armor",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-armor.db",
       "type": "Item"
     },
     {
       "name": "zh-qualities",
       "label": "Zweihander Qualities",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-qualities.db",
       "type": "Item"
     },
     {
       "name": "zh-diseases",
       "label": "Zweihander Diseases",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-diseases.db",
       "type": "Item"
     },
     {
       "name": "zh-disorders",
       "label": "Zweihander Disorders",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-disorders.db",
       "type": "Item"
     },
     {
       "name": "zh-rituals",
       "label": "Zweihander Rituals",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-rituals.db",
       "type": "Item"
     },
     {
       "name": "zh-injuries",
       "label": "Zweihander Injuries",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-injuries.db",
       "type": "Item"
     },
     {
       "name": "zh-charactercreation-tables",
       "label": "Zweihander Character Creation",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-charactercreation-tables.db",
       "type": "RollTable"
     },
     {
       "name": "zh-gm-tables",
       "label": "Zweihander GM Tables",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-gm-tables.db",
       "type": "RollTable"
     },
     {
       "name": "zh-bestiary",
       "label": "Zweihander Bestiary",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-bestiary.db",
       "type": "Actor"
     },
     {
       "name": "zh-macros",
       "label": "Zweihander Macros",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/zh-macros.db",
       "type": "Macro"
     },
     {
       "name": "fof-afflictions",
       "label": "FoF Afflictions (Disorders)",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-afflictions.db",
       "type": "Item"
     },
     {
       "name": "fof-ailments-and-drugs",
       "label": "FoF Ailments & Drugs (Diseases)",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-ailments-and-drugs.db",
       "type": "Item"
     },
     {
       "name": "fof-injuries",
       "label": "FoF Injuries",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-injuries.db",
       "type": "Item"
     },
     {
       "name": "fof-professional-traits",
       "label": "FoF Professional Traits",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-professional-traits.db",
       "type": "Item"
     },
     {
       "name": "fof-professions",
       "label": "FoF Professions",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-professions.db",
       "type": "Item"
     },
     {
       "name": "fof-qualities",
       "label": "FoF Qualities",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-qualities.db",
       "type": "Item"
     },
     {
       "name": "fof-quirks",
       "label": "FoF Quirks (Drawbacks)",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-quirks.db",
       "type": "Item"
     },
     {
       "name": "fof-spells",
       "label": "FoF Spells",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-spells.db",
       "type": "Item"
     },
     {
       "name": "fof-talents",
       "label": "FoF Talents",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-talents.db",
       "type": "Item"
     },
     {
       "name": "fof-traits",
       "label": "FoF Traits",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-traits.db",
       "type": "Item"
     },
     {
       "name": "fof-weapons",
       "label": "FoF Weapons",
-      "system": "zweihander",
+      "system": "blackbirds",
       "path": "./packs/fof-weapons.db",
       "type": "Item"
     }

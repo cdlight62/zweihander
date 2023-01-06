@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/dark-disciple.svg",
+  "img": "systems/blackbird/assets/icons/dark-disciple.svg",
   "name": "Dark Disciple",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

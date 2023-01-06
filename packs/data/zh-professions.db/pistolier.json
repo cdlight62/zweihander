@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/pistolier.svg",
+  "img": "systems/blackbird/assets/icons/pistolier.svg",
   "name": "Pistolier",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

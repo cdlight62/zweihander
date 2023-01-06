@@ -107,10 +107,10 @@
       "hash": "0c91d5fc3bc7bfdd16453802d161557d2e846aa7",
       "sourceId": "Item.21ZGZMajX2Kb4pmm"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Fur Trapper",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

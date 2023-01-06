@@ -107,10 +107,10 @@
       "hash": "81999fe825fece5fe15825f7371f62ee3d89c473",
       "sourceId": "Item.bYcPHfPpTwiD9uQD"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Gunsmith",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

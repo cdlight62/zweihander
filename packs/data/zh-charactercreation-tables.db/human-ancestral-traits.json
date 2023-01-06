@@ -8,7 +8,7 @@
   },
   "folder": null,
   "formula": "1d12",
-  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
+  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
   "name": "Human Ancestral Traits",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,
@@ -21,7 +21,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/hand-of-god.svg",
+      "img": "systems/blackbird/assets/icons/hand-of-god.svg",
       "range": [
         1,
         1
@@ -38,7 +38,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/awareness.svg",
+      "img": "systems/blackbird/assets/icons/awareness.svg",
       "range": [
         2,
         2
@@ -55,7 +55,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/deadly-strike.svg",
+      "img": "systems/blackbird/assets/icons/deadly-strike.svg",
       "range": [
         3,
         3
@@ -72,7 +72,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/brain-stem.svg",
+      "img": "systems/blackbird/assets/icons/brain-stem.svg",
       "range": [
         4,
         4
@@ -89,7 +89,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/honeypot.svg",
+      "img": "systems/blackbird/assets/icons/honeypot.svg",
       "range": [
         5,
         5
@@ -106,7 +106,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/armor-upgrade.svg",
+      "img": "systems/blackbird/assets/icons/armor-upgrade.svg",
       "range": [
         6,
         6
@@ -123,7 +123,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/orb-direction.svg",
+      "img": "systems/blackbird/assets/icons/orb-direction.svg",
       "range": [
         7,
         7
@@ -140,7 +140,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/transfuse.svg",
+      "img": "systems/blackbird/assets/icons/transfuse.svg",
       "range": [
         8,
         8
@@ -157,7 +157,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/mountaintop.svg",
+      "img": "systems/blackbird/assets/icons/mountaintop.svg",
       "range": [
         9,
         9
@@ -174,7 +174,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/divided-spiral.svg",
+      "img": "systems/blackbird/assets/icons/divided-spiral.svg",
       "range": [
         10,
         10
@@ -191,7 +191,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/mountain-climbing.svg",
+      "img": "systems/blackbird/assets/icons/mountain-climbing.svg",
       "range": [
         11,
         11
@@ -208,7 +208,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/nose-side.svg",
+      "img": "systems/blackbird/assets/icons/nose-side.svg",
       "range": [
         12,
         12

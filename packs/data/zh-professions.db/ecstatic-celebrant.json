@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/heartburn.svg",
+  "img": "systems/blackbird/assets/icons/heartburn.svg",
   "name": "Ecstatic Celebrant",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

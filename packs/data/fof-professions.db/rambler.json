@@ -107,10 +107,10 @@
       "hash": "d0d5b2bc79449a084df00261833a8c6fa0e9686c",
       "sourceId": "Item.B5RFbQw4CsNTJ1id"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Rambler",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

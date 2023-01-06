@@ -107,10 +107,10 @@
       "hash": "365e99be99d31ce2a1361407421588f1c60acdcc",
       "sourceId": "Item.M8NlsvTWYTJhcKXc"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Diplomat",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

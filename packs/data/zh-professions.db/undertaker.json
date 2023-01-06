@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/coffin.svg",
+  "img": "systems/blackbird/assets/icons/coffin.svg",
   "name": "Undertaker",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

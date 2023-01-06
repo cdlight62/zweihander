@@ -107,10 +107,10 @@
       "hash": "482eb8e844a4d4cf67cf71ecef908c1a42e75c7b",
       "sourceId": "Item.dqFCQ4IclE8wlqxz"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Hired Hand",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

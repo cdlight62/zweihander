@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/tusks-flag.svg",
+  "img": "systems/blackbird/assets/icons/tusks-flag.svg",
   "name": "Witch Doktor",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

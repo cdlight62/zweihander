@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/highwayman.svg",
+  "img": "systems/blackbird/assets/icons/highwayman.svg",
   "name": "Highwayman",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

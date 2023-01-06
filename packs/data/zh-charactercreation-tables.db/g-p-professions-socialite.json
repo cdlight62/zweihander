@@ -5,7 +5,7 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667812951342,
-    "systemId": "zweihander",
+    "systemId": "blackbirds",
     "systemVersion": "5.0.1"
   },
   "description": "",
@@ -16,7 +16,7 @@
     },
     "exportSource": {
       "coreVersion": "9.255",
-      "system": "zweihander",
+      "system": "blackbirds",
       "systemVersion": "4.3.0",
       "world": "aeon-of-cinders"
     }
@@ -37,7 +37,7 @@
       "documentId": "pFtLfOZqLmtO0veL",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/anarchy.svg",
+      "img": "systems/blackbird/assets/icons/anarchy.svg",
       "range": [
         1,
         6
@@ -52,7 +52,7 @@
       "documentId": "NcUt6skU265dITKH",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/shepherds-crook.svg",
+      "img": "systems/blackbird/assets/icons/shepherds-crook.svg",
       "range": [
         7,
         13
@@ -67,7 +67,7 @@
       "documentId": "51dXx3kYoapwJ1tB",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/courtier.svg",
+      "img": "systems/blackbird/assets/icons/courtier.svg",
       "range": [
         14,
         20
@@ -82,7 +82,7 @@
       "documentId": "y9ORiK08M5BkqdBJ",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/cultist.svg",
+      "img": "systems/blackbird/assets/icons/cultist.svg",
       "range": [
         21,
         27
@@ -97,7 +97,7 @@
       "documentId": "ZC14Smh8DtulQlpH",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/duality-mask.svg",
+      "img": "systems/blackbird/assets/icons/duality-mask.svg",
       "range": [
         28,
         34
@@ -112,7 +112,7 @@
       "documentId": "Ln1pdS7GxN3BN1em",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/wax-seal.svg",
+      "img": "systems/blackbird/assets/icons/wax-seal.svg",
       "range": [
         35,
         41
@@ -127,7 +127,7 @@
       "documentId": "HTSUGWmhBHU1fVZS",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/glass-celebration.svg",
+      "img": "systems/blackbird/assets/icons/glass-celebration.svg",
       "range": [
         42,
         47
@@ -142,7 +142,7 @@
       "documentId": "4kXzbZ14QSP5LZJL",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/jester.svg",
+      "img": "systems/blackbird/assets/icons/jester.svg",
       "range": [
         48,
         54
@@ -157,7 +157,7 @@
       "documentId": "FQ1aqki2kyODJvJn",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/envelope.svg",
+      "img": "systems/blackbird/assets/icons/envelope.svg",
       "range": [
         55,
         61
@@ -172,7 +172,7 @@
       "documentId": "dI1Ec9peGw4SinUl",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/provocateur.svg",
+      "img": "systems/blackbird/assets/icons/provocateur.svg",
       "range": [
         62,
         68
@@ -187,7 +187,7 @@
       "documentId": "4TmyTM4jpzF0ll9E",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/bubbling-flask.svg",
+      "img": "systems/blackbird/assets/icons/bubbling-flask.svg",
       "range": [
         69,
         75
@@ -202,7 +202,7 @@
       "documentId": "qwXwnA9lyJuouwBn",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/racketeer.svg",
+      "img": "systems/blackbird/assets/icons/racketeer.svg",
       "range": [
         76,
         82
@@ -217,7 +217,7 @@
       "documentId": "ne3gJfgpzX0lDpAV",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/raconteur.svg",
+      "img": "systems/blackbird/assets/icons/raconteur.svg",
       "range": [
         83,
         89
@@ -232,7 +232,7 @@
       "documentId": "quOt9yIU9O64PFZB",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/double-face-mask.svg",
+      "img": "systems/blackbird/assets/icons/double-face-mask.svg",
       "range": [
         90,
         95
@@ -247,7 +247,7 @@
       "documentId": "q4Qserk7ORiABsEi",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/hot-meal.svg",
+      "img": "systems/blackbird/assets/icons/hot-meal.svg",
       "range": [
         96,
         100

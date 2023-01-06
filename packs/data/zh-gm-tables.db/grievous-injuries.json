@@ -8,7 +8,7 @@
   },
   "folder": null,
   "formula": "1d12",
-  "img": "systems/zweihander/assets/icons/deadly-strike.svg",
+  "img": "systems/blackbird/assets/icons/deadly-strike.svg",
   "name": "Grievous Injuries",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,
@@ -20,7 +20,7 @@
       "_id": "6LOCNOc1h5Pilwyg",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/shamrock.svg",
+      "img": "systems/blackbird/assets/icons/shamrock.svg",
       "range": [
         1,
         1
@@ -36,7 +36,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/wooden-pegleg.svg",
+      "img": "systems/blackbird/assets/icons/wooden-pegleg.svg",
       "range": [
         2,
         2
@@ -53,7 +53,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/stoned-skull.svg",
+      "img": "systems/blackbird/assets/icons/stoned-skull.svg",
       "range": [
         3,
         3
@@ -70,7 +70,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/human-ear.svg",
+      "img": "systems/blackbird/assets/icons/human-ear.svg",
       "range": [
         4,
         4
@@ -87,7 +87,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/foot-plaster.svg",
+      "img": "systems/blackbird/assets/icons/foot-plaster.svg",
       "range": [
         5,
         5
@@ -104,7 +104,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/liver.svg",
+      "img": "systems/blackbird/assets/icons/liver.svg",
       "range": [
         6,
         6
@@ -121,7 +121,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/hand-bandage.svg",
+      "img": "systems/blackbird/assets/icons/hand-bandage.svg",
       "range": [
         7,
         7
@@ -138,7 +138,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/nose-side.svg",
+      "img": "systems/blackbird/assets/icons/nose-side.svg",
       "range": [
         8,
         8
@@ -155,7 +155,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/lungs.svg",
+      "img": "systems/blackbird/assets/icons/lungs.svg",
       "range": [
         9,
         9
@@ -172,7 +172,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/elbow-pad.svg",
+      "img": "systems/blackbird/assets/icons/elbow-pad.svg",
       "range": [
         10,
         10
@@ -189,7 +189,7 @@
       "collection": "zweihander.zh-injuries",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/bleeding-eye.svg",
+      "img": "systems/blackbird/assets/icons/bleeding-eye.svg",
       "range": [
         11,
         11
@@ -205,7 +205,7 @@
       "_id": "rtPr45ynudauWQhB",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/blood.svg",
+      "img": "systems/blackbird/assets/icons/blood.svg",
       "range": [
         12,
         12

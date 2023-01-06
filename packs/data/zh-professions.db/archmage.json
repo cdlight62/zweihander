@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/archmage.svg",
+  "img": "systems/blackbird/assets/icons/archmage.svg",
   "name": "Archmage",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

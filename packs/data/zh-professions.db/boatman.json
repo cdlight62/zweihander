@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/boatman.svg",
+  "img": "systems/blackbird/assets/icons/boatman.svg",
   "name": "Boatman",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

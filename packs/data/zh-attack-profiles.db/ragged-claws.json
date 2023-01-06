@@ -5,13 +5,13 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667812317940,
-    "systemId": "zweihander",
+    "systemId": "blackbirds",
     "systemVersion": "5.0.1"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/zweihander/assets/icons/carnivore-mouth.svg",
+  "img": "systems/blackbird/assets/icons/carnivore-mouth.svg",
   "name": "Ragged Claws",
   "ownership": {
     "default": 0

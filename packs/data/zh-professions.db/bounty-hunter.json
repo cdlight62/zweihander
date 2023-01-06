@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/bounty.svg",
+  "img": "systems/blackbird/assets/icons/bounty.svg",
   "name": "Bounty Hunter",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

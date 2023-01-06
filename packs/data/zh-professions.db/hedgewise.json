@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/cauldron.svg",
+  "img": "systems/blackbird/assets/icons/cauldron.svg",
   "name": "Hedgewise",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/mounted-knight.svg",
+  "img": "systems/blackbird/assets/icons/mounted-knight.svg",
   "name": "Chevalier",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

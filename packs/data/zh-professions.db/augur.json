@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/augur.svg",
+  "img": "systems/blackbird/assets/icons/augur.svg",
   "name": "Augur",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

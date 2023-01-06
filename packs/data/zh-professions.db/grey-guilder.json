@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/grey-guilder.svg",
+  "img": "systems/blackbird/assets/icons/grey-guilder.svg",
   "name": "Grey Guilder",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

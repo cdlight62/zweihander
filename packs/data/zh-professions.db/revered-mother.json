@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/prayer-beads.svg",
+  "img": "systems/blackbird/assets/icons/prayer-beads.svg",
   "name": "Revered Mother",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

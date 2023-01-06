@@ -33,7 +33,7 @@
     },
     "exportSource": {
       "coreVersion": "0.8.9",
-      "system": "zweihander",
+      "system": "blackbirds",
       "systemVersion": "0.3.30",
       "world": "talron2"
     },
@@ -44,7 +44,7 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/fire-axe.svg",
+  "img": "systems/blackbird/assets/icons/fire-axe.svg",
   "name": "Hatchet",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

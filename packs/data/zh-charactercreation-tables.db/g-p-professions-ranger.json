@@ -5,7 +5,7 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667813916959,
-    "systemId": "zweihander",
+    "systemId": "blackbirds",
     "systemVersion": "5.0.1"
   },
   "description": "",
@@ -16,7 +16,7 @@
     },
     "exportSource": {
       "coreVersion": "9.255",
-      "system": "zweihander",
+      "system": "blackbirds",
       "systemVersion": "4.3.0",
       "world": "aeon-of-cinders"
     }
@@ -37,7 +37,7 @@
       "documentId": "mQ5SkDLfDvUU6E3k",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/animal-tamer.svg",
+      "img": "systems/blackbird/assets/icons/animal-tamer.svg",
       "range": [
         1,
         6
@@ -52,7 +52,7 @@
       "documentId": "yfDDai6WrgT8nlQR",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/bailiff.svg",
+      "img": "systems/blackbird/assets/icons/bailiff.svg",
       "range": [
         7,
         13
@@ -67,7 +67,7 @@
       "documentId": "PqawF9Jhiup2pHX1",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/bonepicker.svg",
+      "img": "systems/blackbird/assets/icons/bonepicker.svg",
       "range": [
         14,
         20
@@ -82,7 +82,7 @@
       "documentId": "A7c3Gh6oleavbhfx",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/bounty.svg",
+      "img": "systems/blackbird/assets/icons/bounty.svg",
       "range": [
         21,
         27
@@ -97,7 +97,7 @@
       "documentId": "jNbHQyg1wOHqW2IR",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/gamekeeper.svg",
+      "img": "systems/blackbird/assets/icons/gamekeeper.svg",
       "range": [
         28,
         34
@@ -112,7 +112,7 @@
       "documentId": "5cDT5JX6ZdzjVpdN",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/cauldron.svg",
+      "img": "systems/blackbird/assets/icons/cauldron.svg",
       "range": [
         35,
         41
@@ -127,7 +127,7 @@
       "documentId": "b7SpZmPuQuhe2JUf",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/goblin-camp.svg",
+      "img": "systems/blackbird/assets/icons/goblin-camp.svg",
       "range": [
         42,
         47
@@ -142,7 +142,7 @@
       "documentId": "MG30LDirARXgBT41",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/old-believer.svg",
+      "img": "systems/blackbird/assets/icons/old-believer.svg",
       "range": [
         48,
         54
@@ -157,7 +157,7 @@
       "documentId": "P4YPhdrNlNiQd8Nx",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/outrider.svg",
+      "img": "systems/blackbird/assets/icons/outrider.svg",
       "range": [
         55,
         61
@@ -172,7 +172,7 @@
       "documentId": "CWqUq3zgyQYVxrbh",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/pilgrim.svg",
+      "img": "systems/blackbird/assets/icons/pilgrim.svg",
       "range": [
         62,
         68
@@ -187,7 +187,7 @@
       "documentId": "LcOlEEm7RWQwSimO",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/rope-dart.svg",
+      "img": "systems/blackbird/assets/icons/rope-dart.svg",
       "range": [
         69,
         75
@@ -202,7 +202,7 @@
       "documentId": "NIyBiSIe0gEUpi3F",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/stone-path.svg",
+      "img": "systems/blackbird/assets/icons/stone-path.svg",
       "range": [
         76,
         82
@@ -217,7 +217,7 @@
       "documentId": "XuTBJeN5guTwOkts",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/lasso.svg",
+      "img": "systems/blackbird/assets/icons/lasso.svg",
       "range": [
         83,
         89
@@ -232,7 +232,7 @@
       "documentId": "KqSWfAols2qmU4ho",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/slayer.svg",
+      "img": "systems/blackbird/assets/icons/slayer.svg",
       "range": [
         90,
         95
@@ -247,7 +247,7 @@
       "documentId": "A9tYpvM6RlsYdtcx",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/trapper.svg",
+      "img": "systems/blackbird/assets/icons/trapper.svg",
       "range": [
         96,
         100

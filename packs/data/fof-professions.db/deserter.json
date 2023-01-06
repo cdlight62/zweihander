@@ -107,10 +107,10 @@
       "hash": "ba0f9c9f3db70c2aa39ce8ca10aee05f5895b019",
       "sourceId": "Item.8koLrtCJTRIemhiw"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Deserter",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

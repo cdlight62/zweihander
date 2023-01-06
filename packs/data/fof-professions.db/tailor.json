@@ -107,10 +107,10 @@
       "hash": "0395634823e1bf08a3820e3b02d9b76b60a23c42",
       "sourceId": "Item.TUzPKGxZTG99Kpkz"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Tailor",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

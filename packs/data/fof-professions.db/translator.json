@@ -107,10 +107,10 @@
       "hash": "a843e0eee323ac14d38661d5c353ce4b45e55f7c",
       "sourceId": "Item.qDUr5MWLMtugmoY9"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Translator",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

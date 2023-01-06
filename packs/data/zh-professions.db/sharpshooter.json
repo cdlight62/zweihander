@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/crosshair-arrow.svg",
+  "img": "systems/blackbird/assets/icons/crosshair-arrow.svg",
   "name": "Sharpshooter",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -19,9 +19,9 @@ export default class ZweihanderActorConfig extends FormApplication {
     isMagickUser: false,
     permanentChaosRanks: 0,
     permanentOrderRanks: 0,
-    dodgeSound: 'systems/zweihander/assets/sounds/dodge.mp3',
-    parrySound: 'systems/zweihander/assets/sounds/parry.mp3',
-    gruntSound: 'systems/zweihander/assets/sounds/grunt_m.mp3',
+    dodgeSound: 'systems/blackbird/assets/sounds/dodge.mp3',
+    parrySound: 'systems/blackbird/assets/sounds/parry.mp3',
+    gruntSound: 'systems/blackbird/assets/sounds/grunt_m.mp3',
     playGruntSound: true,
   };
 
@@ -42,7 +42,7 @@ export default class ZweihanderActorConfig extends FormApplication {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ['zweihander sheet actor-config'],
       id: 'zweihander_actor_config',
-      template: 'systems/zweihander/src/templates/app/actor-config.hbs',
+      template: 'systems/blackbird/src/templates/app/actor-config.hbs',
       submitOnChange: true,
       submitOnClose: true,
       closeOnSubmit: false,

@@ -8,7 +8,7 @@ export default class ZweihanderItemSheet extends ItemSheet {
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
       classes: ['zweihander', 'sheet', 'item'],
-      template: 'systems/zweihander/src/templates/item/main.hbs',
+      template: 'systems/blackbird/src/templates/item/main.hbs',
       width: 400,
       height: 550,
       resizable: true,

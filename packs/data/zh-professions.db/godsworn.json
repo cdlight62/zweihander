@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/godsworn.svg",
+  "img": "systems/blackbird/assets/icons/godsworn.svg",
   "name": "Godsworn",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

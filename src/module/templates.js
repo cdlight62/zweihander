@@ -1,4 +1,4 @@
-const $$ = (path) => `systems/zweihander/src/templates/${path}`;
+const $$ = (path) => `systems/blackbird/src/templates/${path}`;
 
 const templatesToLoad = [
   $$('app/actor-config.hbs'),

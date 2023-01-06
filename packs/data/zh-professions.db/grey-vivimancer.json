@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/daemon-skull.svg",
+  "img": "systems/blackbird/assets/icons/daemon-skull.svg",
   "name": "Grey Vivimancer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

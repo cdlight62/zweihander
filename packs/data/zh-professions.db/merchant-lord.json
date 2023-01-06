@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/merchant-lord.svg",
+  "img": "systems/blackbird/assets/icons/merchant-lord.svg",
   "name": "Merchant Lord",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/hierophant.svg",
+  "img": "systems/blackbird/assets/icons/hierophant.svg",
   "name": "Hierophant",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

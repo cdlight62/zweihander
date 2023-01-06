@@ -8,7 +8,7 @@
   },
   "folder": null,
   "formula": "1d12",
-  "img": "systems/zweihander/assets/icons/dwarf-face.svg",
+  "img": "systems/blackbird/assets/icons/dwarf-face.svg",
   "name": "Dwarven Ancestral Traits",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,
@@ -21,7 +21,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/night-vision.svg",
+      "img": "systems/blackbird/assets/icons/night-vision.svg",
       "range": [
         1,
         1
@@ -38,7 +38,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/muscle-fat.svg",
+      "img": "systems/blackbird/assets/icons/muscle-fat.svg",
       "range": [
         2,
         2
@@ -55,7 +55,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/beer-stein.svg",
+      "img": "systems/blackbird/assets/icons/beer-stein.svg",
       "range": [
         3,
         3
@@ -72,7 +72,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/warhammer.svg",
+      "img": "systems/blackbird/assets/icons/warhammer.svg",
       "range": [
         4,
         4
@@ -89,7 +89,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/bookmarklet.svg",
+      "img": "systems/blackbird/assets/icons/bookmarklet.svg",
       "range": [
         5,
         5
@@ -106,7 +106,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/abdominal-armor.svg",
+      "img": "systems/blackbird/assets/icons/abdominal-armor.svg",
       "range": [
         6,
         6
@@ -123,7 +123,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/griffin-shield.svg",
+      "img": "systems/blackbird/assets/icons/griffin-shield.svg",
       "range": [
         7,
         7
@@ -140,7 +140,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/atlas.svg",
+      "img": "systems/blackbird/assets/icons/atlas.svg",
       "range": [
         8,
         8
@@ -157,7 +157,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/rune-stone.svg",
+      "img": "systems/blackbird/assets/icons/rune-stone.svg",
       "range": [
         9,
         9
@@ -174,7 +174,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/carillon.svg",
+      "img": "systems/blackbird/assets/icons/carillon.svg",
       "range": [
         10,
         10
@@ -191,7 +191,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/rock.svg",
+      "img": "systems/blackbird/assets/icons/rock.svg",
       "range": [
         11,
         11
@@ -208,7 +208,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/zweihander/assets/icons/mountains.svg",
+      "img": "systems/blackbird/assets/icons/mountains.svg",
       "range": [
         12,
         12

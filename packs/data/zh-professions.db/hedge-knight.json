@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/hedge-knight.svg",
+  "img": "systems/blackbird/assets/icons/hedge-knight.svg",
   "name": "Hedge Knight",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

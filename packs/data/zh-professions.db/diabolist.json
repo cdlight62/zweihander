@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/diabolist.svg",
+  "img": "systems/blackbird/assets/icons/diabolist.svg",
   "name": "Diabolist",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

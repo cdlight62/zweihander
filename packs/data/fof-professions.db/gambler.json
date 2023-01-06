@@ -107,10 +107,10 @@
       "hash": "f177b7e5d48418e6aed872c8d49ad910b32ead87",
       "sourceId": "Item.JSHLa9VjI0MATV3W"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Gambler",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

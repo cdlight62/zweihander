@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/snatch.svg",
+  "img": "systems/blackbird/assets/icons/snatch.svg",
   "name": "Kinslayer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

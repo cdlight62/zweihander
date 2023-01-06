@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/coachman.svg",
+  "img": "systems/blackbird/assets/icons/coachman.svg",
   "name": "Coachman",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

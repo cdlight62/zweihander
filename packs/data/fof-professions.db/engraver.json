@@ -107,10 +107,10 @@
       "hash": "c1afbb20b07a7fc0a340698e72036f0bb6080480",
       "sourceId": "Item.PZymrZCjOVCqI6gl"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Engraver",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

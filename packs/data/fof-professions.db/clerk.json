@@ -107,10 +107,10 @@
       "hash": "cabaa1320eea6f3d912cebef72359ff1cd802511",
       "sourceId": "Item.LdkqNnJfEYp4y7GE"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Clerk",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

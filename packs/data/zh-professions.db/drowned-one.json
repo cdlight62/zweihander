@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/drowning.svg",
+  "img": "systems/blackbird/assets/icons/drowning.svg",
   "name": "Drowned One",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

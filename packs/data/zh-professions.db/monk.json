@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/monk.svg",
+  "img": "systems/blackbird/assets/icons/monk.svg",
   "name": "Monk",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

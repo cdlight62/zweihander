@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/body-swapping.svg",
+  "img": "systems/blackbird/assets/icons/body-swapping.svg",
   "name": "Infernal Saboteur",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

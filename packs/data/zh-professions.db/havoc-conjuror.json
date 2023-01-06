@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/radial-balance.svg",
+  "img": "systems/blackbird/assets/icons/radial-balance.svg",
   "name": "Havoc Conjuror",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

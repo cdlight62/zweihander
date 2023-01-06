@@ -4,10 +4,10 @@ ZWEI.debugTitle =
   '\n                                                                     \\\n                Initializing                ---======================]=====O\n                                                                     /\n ________          ________ _____ _    _  _   _  _   _ _____  ______ _____  \n|___  /\\ \\        / /  ____|_   _| |  | |(_)_(_)| \\ | |  __ \\|  ____|  __ \\ \n   / /  \\ \\  /\\  / /| |__    | | | |__| |  / \\  |  \\| | |  | | |__  | |__) |\n  / /    \\ \\/  \\/ / |  __|   | | |  __  | / _ \\ | . ` | |  | |  __| |  _  / \n / /__    \\  /\\  /  | |____ _| |_| |  | |/ ___ \\| |\\  | |__| | |____| | \\ \\ \n/_____|    \\/  \\/   |______|_____|_|  |_/_/   \\_\\_| \\_|_____/|______|_|  \\_\\\n\n      /\nO=====[======================---         Grim & Perilous RPG System         \n      \\';
 
 ZWEI.templates = {
-  skill: 'systems/zweihander/src/templates/chat/chat-skill.hbs',
-  spell: 'systems/zweihander/src/templates/chat/chat-spell.hbs',
-  weapon: 'systems/zweihander/src/templates/chat/chat-weapon.hbs',
-  skillConfigurationDialog: 'systems/zweihander/src/templates/dialog/dialog-skill-configuration.hbs',
+  skill: 'systems/blackbird/src/templates/chat/chat-skill.hbs',
+  spell: 'systems/blackbird/src/templates/chat/chat-spell.hbs',
+  weapon: 'systems/blackbird/src/templates/chat/chat-weapon.hbs',
+  skillConfigurationDialog: 'systems/blackbird/src/templates/dialog/dialog-skill-configuration.hbs',
 };
 
 ZWEI.testTypes = {
@@ -100,7 +100,7 @@ ZWEI.supportedGameSystems = {
 
 ZWEI.replacedDefaultCoreIcons = ['icons/svg/mystery-man.svg', 'icons/svg/item-bag.svg'];
 
-const d = 'systems/zweihander/assets/icons';
+const d = 'systems/blackbird/assets/icons';
 ZWEI.defaultItemIcons = {
   _default: `${d}/swap-bag.svg`,
   trapping: `${d}/swap-bag.svg`,
@@ -192,72 +192,72 @@ ZWEI.statusEffects = [
   {
     id: 'dead',
     label: 'EFFECT.StatusDead',
-    icon: 'systems/zweihander/assets/icons/death-skull.svg',
+    icon: 'systems/blackbird/assets/icons/death-skull.svg',
   },
   {
     id: 'blind',
     label: 'EFFECT.StatusBlind',
-    icon: 'systems/zweihander/assets/icons/sight-disabled.svg',
+    icon: 'systems/blackbird/assets/icons/sight-disabled.svg',
   },
   {
     id: 'choke',
     label: 'EFFECT.StatusChoked',
-    icon: 'systems/zweihander/assets/icons/slipknot.svg',
+    icon: 'systems/blackbird/assets/icons/slipknot.svg',
   },
   {
     id: 'defenseless',
     label: 'EFFECT.StatusDefenseless',
-    icon: 'systems/zweihander/assets/icons/broken-shield.svg',
+    icon: 'systems/blackbird/assets/icons/broken-shield.svg',
   },
   {
     id: 'disarmed',
     label: 'EFFECT.StatusDisarmed',
-    icon: 'systems/zweihander/assets/icons/sword-break.svg',
+    icon: 'systems/blackbird/assets/icons/sword-break.svg',
   },
   {
     id: 'helpless',
     label: 'EFFECT.StatusHelpless',
-    icon: 'systems/zweihander/assets/icons/handcuffed.svg',
+    icon: 'systems/blackbird/assets/icons/handcuffed.svg',
   },
   {
     id: 'inspired',
     label: 'EFFECT.StatusInspired',
-    icon: 'systems/zweihander/assets/icons/armor-upgrade.svg',
+    icon: 'systems/blackbird/assets/icons/armor-upgrade.svg',
   },
   {
     id: 'intimidated',
     label: 'EFFECT.StatusIntimidated',
-    icon: 'systems/zweihander/assets/icons/armor-downgrade.svg',
+    icon: 'systems/blackbird/assets/icons/armor-downgrade.svg',
   },
   {
     id: 'knocked',
     label: 'EFFECT.StatusKnockedOut',
-    icon: 'systems/zweihander/assets/icons/knockout.svg',
+    icon: 'systems/blackbird/assets/icons/knockout.svg',
   },
   {
     id: 'prone',
     label: 'EFFECT.StatusProne',
-    icon: 'systems/zweihander/assets/icons/falling.svg',
+    icon: 'systems/blackbird/assets/icons/falling.svg',
   },
   {
     id: 'stun',
     label: 'EFFECT.StatusStunned',
-    icon: 'systems/zweihander/assets/icons/stoned-skull.svg',
+    icon: 'systems/blackbird/assets/icons/stoned-skull.svg',
   },
   {
     id: 'surprised',
     label: 'EFFECT.StatusSurprised',
-    icon: 'systems/zweihander/assets/icons/surprised.svg',
+    icon: 'systems/blackbird/assets/icons/surprised.svg',
   },
   {
     id: 'burning',
     label: 'EFFECT.StatusBurning',
-    icon: 'systems/zweihander/assets/icons/flame.svg',
+    icon: 'systems/blackbird/assets/icons/flame.svg',
   },
   {
     id: 'bleeding',
     label: 'EFFECT.StatusBleeding',
-    icon: 'systems/zweihander/assets/icons/bleeding-wound.svg',
+    icon: 'systems/blackbird/assets/icons/bleeding-wound.svg',
   },
 ];
 

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/air-balloon.svg",
+  "img": "systems/blackbird/assets/icons/air-balloon.svg",
   "name": "Natural Philosopher",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -107,10 +107,10 @@
       "hash": "3346e030c599027048e2e1994829fa09259d3d70",
       "sourceId": "Item.kB1Svn7PaDpiNlmZ"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Herbalist",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

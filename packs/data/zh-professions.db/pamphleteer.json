@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/newspaper.svg",
+  "img": "systems/blackbird/assets/icons/newspaper.svg",
   "name": "Pamphleteer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

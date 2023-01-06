@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/rat.svg",
+  "img": "systems/blackbird/assets/icons/rat.svg",
   "name": "Minister of Rot",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

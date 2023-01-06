@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/drakkar.svg",
+  "img": "systems/blackbird/assets/icons/drakkar.svg",
   "name": "Reaver",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

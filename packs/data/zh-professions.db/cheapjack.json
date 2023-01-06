@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/cheapjack.svg",
+  "img": "systems/blackbird/assets/icons/cheapjack.svg",
   "name": "Cheapjack",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

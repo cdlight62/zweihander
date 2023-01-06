@@ -107,10 +107,10 @@
       "hash": "bd35971a54934ed4a4c595afdf765defa3399cdf",
       "sourceId": "Item.A8VIKrMWWzstT67R"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Purveyor",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

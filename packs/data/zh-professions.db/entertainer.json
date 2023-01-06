@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/duality-mask.svg",
+  "img": "systems/blackbird/assets/icons/duality-mask.svg",
   "name": "Entertainer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

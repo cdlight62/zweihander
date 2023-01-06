@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/secret-book.svg",
+  "img": "systems/blackbird/assets/icons/secret-book.svg",
   "name": "Oathkeeper",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

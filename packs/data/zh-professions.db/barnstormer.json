@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/steampunk-goggles.svg",
+  "img": "systems/blackbird/assets/icons/steampunk-goggles.svg",
   "name": "Barnstormer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

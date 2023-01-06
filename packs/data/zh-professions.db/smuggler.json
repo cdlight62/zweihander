@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/smuggler.svg",
+  "img": "systems/blackbird/assets/icons/smuggler.svg",
   "name": "Smuggler",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

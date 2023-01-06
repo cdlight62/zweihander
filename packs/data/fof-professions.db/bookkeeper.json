@@ -107,10 +107,10 @@
       "hash": "af81e99d05b802db4d038588f3c9fdc0815a31c7",
       "sourceId": "Item.9OPqVcYnnk1V7lcb"
     },
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/abstract-082.svg",
+  "img": "systems/blackbird/assets/icons/abstract-082.svg",
   "name": "Bookkeeper",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

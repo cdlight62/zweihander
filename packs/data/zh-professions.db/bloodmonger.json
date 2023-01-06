@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/bloodmonger.svg",
+  "img": "systems/blackbird/assets/icons/bloodmonger.svg",
   "name": "Bloodmonger",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

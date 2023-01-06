@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "zweihander": {}
+    "blackbirds": {}
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/all-for-one.svg",
+  "img": "systems/blackbird/assets/icons/all-for-one.svg",
   "name": "Cadet",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

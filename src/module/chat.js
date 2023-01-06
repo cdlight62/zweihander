@@ -25,7 +25,7 @@ function enableChatButtons(html, flags, message, data) {
         speaker: ChatMessage.getSpeaker({ alias: 'F&H Development' }),
         flags: {
           zweihander: {
-            img: 'systems/zweihander/assets/icons/informer.svg',
+            img: 'systems/blackbird/assets/icons/informer.svg',
             analytics: {},
           },
         },
@@ -46,7 +46,7 @@ function enableChatButtons(html, flags, message, data) {
         speaker: ChatMessage.getSpeaker({ alias: 'F&H Development' }),
         flags: {
           zweihander: {
-            img: 'systems/zweihander/assets/icons/informer.svg',
+            img: 'systems/blackbird/assets/icons/informer.svg',
             analytics: {},
           },
         },
