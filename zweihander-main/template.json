@@ -1,0 +1,389 @@
+{
+  "Actor": {
+    "types": ["npc", "creature", "character"],
+    "templates": {
+      "stats": {
+        "stats": {
+          "primaryAttributes": {
+            "combat": {
+              "value": 0
+            },
+            "brawn": {
+              "value": 0
+            },
+            "agility": {
+              "value": 0
+            },
+            "perception": {
+              "value": 0
+            },
+            "intelligence": {
+              "value": 0
+            },
+            "willpower": {
+              "value": 0
+            },
+            "fellowship": {
+              "value": 0
+            }
+          },
+          "secondaryAttributes": {
+            "perilCurrent": {
+              "value": 5,
+              "max": 5
+            },
+            "damageCurrent": {
+              "value": 5,
+              "max": 5
+            },
+            "parry": {
+              "associatedSkill": "Simple Melee"
+            },
+            "dodge": {
+              "associatedSkill": "Coordination"
+            },
+            "magick": {
+              "associatedSkill": "Odweft"
+            }
+          }
+        }
+      },
+      "flavor": {
+        "description": {
+          "@en": ""
+        },
+        "notes": ""
+      },
+      "currency": {
+        "currency": {}
+      },
+      "languages": {
+        "languages": []
+      },
+      "non-player": {
+        "skillRanks": {},
+        "stats": {
+          "manualMode": false,
+          "primaryAttributes": {
+            "combat": {
+              "value": 40,
+              "bonusAdvances": 0
+            },
+            "brawn": {
+              "value": 40,
+              "bonusAdvances": 0
+            },
+            "agility": {
+              "value": 40,
+              "bonusAdvances": 0
+            },
+            "perception": {
+              "value": 40,
+              "bonusAdvances": 0
+            },
+            "intelligence": {
+              "value": 40,
+              "bonusAdvances": 0
+            },
+            "willpower": {
+              "value": 40,
+              "bonusAdvances": 0
+            },
+            "fellowship": {
+              "value": 40,
+              "bonusAdvances": 0
+            }
+          },
+          "secondaryAttributes": {
+            "movement": {
+              "value": 0,
+              "fly": 0
+            },
+            "initiative": {
+              "value": 0
+            },
+            "parry": {
+              "value": 0
+            },
+            "dodge": {
+              "value": 0
+            },
+            "damageThreshold": {
+              "value": 0
+            },
+            "perilThreshold": {
+              "value": 0
+            }
+          }
+        },
+        "details": {
+          "riskFactor": {
+            "value": 0,
+            "notch": 0
+          }
+        }
+      }
+    },
+    "character": {
+      "templates": ["stats", "flavor", "currency", "languages"],
+      "details": {
+        "pronoun": "",
+        "socialClass": "",
+        "seasonOfBirth": "",
+        "dooming": "",
+        "distinguishingMarks": "",
+        "upbringing": "",
+        "age": "",
+        "sex": "",
+        "height": "",
+        "weight": "",
+        "hairColor": "",
+        "eyeColor": "",
+        "complexion": "",
+        "buildType": ""
+      },
+      "stats": {
+        "fate": 0,
+        "reputation": 0,
+        "rewardPoints": {
+          "current": 1000,
+          "total": 1000,
+          "spent": 0
+        }
+      },
+      "alignment": {
+        "corruption": 0,
+        "order": {
+          "rank": 0,
+          "name": "",
+          "description": ""
+        },
+        "chaos": {
+          "rank": 0,
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "creature": {
+      "templates": ["stats", "flavor", "currency", "non-player", "languages"],
+      "details": {
+        "classification": "",
+        "size": 0,
+        "role": "",
+        "influences": ""
+      }
+    },
+    "npc": {
+      "templates": ["stats", "flavor", "currency", "non-player", "languages"],
+      "details": {
+        "ancestry": "",
+        "archetype": "",
+        "age": "",
+        "sex": "",
+        "height": "",
+        "build": "",
+        "distinguishingMarks": "",
+        "complexion": "",
+        "socialClass": "",
+        "persona": "",
+        "motivation": "",
+        "alignment": "",
+        "mannerOfDress": ""
+      }
+    }
+  },
+  "Item": {
+    "types": [
+      "ancestry",
+      "armor",
+      "condition",
+      "disease",
+      "disorder",
+      "drawback",
+      "injury",
+      "profession",
+      "quality",
+      "ritual",
+      "skill",
+      "spell",
+      "taint",
+      "talent",
+      "trait",
+      "trapping",
+      "uniqueAdvance",
+      "weapon"
+    ],
+    "templates": {
+      "flavor": {
+        "description": {
+          "@en": ""
+        },
+        "notes": ""
+      },
+      "references": {
+        "references": []
+      },
+      "trapping": {
+        "price": {},
+        "encumbrance": 0,
+        "carried": true
+      },
+      "effect": {
+        "rules": {
+          "effect": {
+            "@en": ""
+          }
+        }
+      }
+    },
+    "quality": {
+      "templates": ["flavor", "effect"]
+    },
+    "ancestry": {
+      "templates": ["flavor"],
+      "ancestralModifiers": {
+        "positive": [],
+        "negative": []
+      },
+      "ancestralTrait": {
+        "name": "",
+        "linkedId": null
+      }
+    },
+    "drawback": {
+      "templates": ["flavor", "effect"]
+    },
+    "trait": {
+      "templates": ["flavor", "effect"]
+    },
+    "weapon": {
+      "templates": ["flavor", "trapping"],
+      "weaponType": "",
+      "equipped": false,
+      "associatedSkill": "Simple Melee",
+      "load": 0,
+      "handling": "One-handed",
+      "qualities": {
+        "value": ""
+      },
+      "distance": "",
+      "damage": {
+        "formula": "[CB] + 0 + (1+[#])d6x6"
+      }
+    },
+    "armor": {
+      "templates": ["flavor", "trapping"],
+      "equipped": true,
+      "qualities": {
+        "value": ""
+      },
+      "damageThresholdModifier": 0
+    },
+    "trapping": {
+      "templates": ["flavor", "trapping", "effect"],
+      "details": {
+        "category": { "@en": "" }
+      },
+      "quantity": 1
+    },
+    "profession": {
+      "templates": ["flavor"],
+      "expert": {
+        "value": false,
+        "requirements": ""
+      },
+      "archetype": "",
+      "bonusAdvances": [],
+      "skillRanks": [],
+      "talents": [],
+      "professionalTrait": {
+        "name": ""
+      },
+      "specialTrait": {
+        "name": ""
+      },
+      "drawback": {
+        "name": ""
+      },
+      "tier": ""
+    },
+    "spell": {
+      "templates": ["flavor", "effect"],
+      "tradition": "",
+      "principle": "",
+      "distance": "",
+      "duration": "",
+      "castingTime": "1 min",
+      "castingCost": 0,
+      "rules": {
+        "criticalSuccess": { "@en": "" },
+        "criticalFailure": { "@en": "" },
+        "reagents": { "@en": "" }
+      }
+    },
+    "ritual": {
+      "templates": ["flavor", "effect"],
+      "difficulty": "",
+      "channelAs": "",
+      "castingTime": "",
+      "rules": {
+        "consequences": { "@en": "" },
+        "condition": { "@en": "" },
+        "reagents": { "@en": "" }
+      }
+    },
+    "skill": {
+      "templates": ["flavor"],
+      "requiresTraining": false,
+      "associatedPrimaryAttribute": "Combat"
+    },
+    "talent": {
+      "templates": ["flavor", "effect"]
+    },
+    "uniqueAdvance": {
+      "templates": ["flavor"],
+      "advanceType": "",
+      "rewardPointCost": 0,
+      "associatedFocusSkill": ""
+    },
+    "disease": {
+      "templates": ["flavor", "effect"],
+      "resist": "",
+      "duration": "",
+      "rules": {
+        "treatment": {
+          "@en": ""
+        }
+      },
+      "active": true
+    },
+    "disorder": {
+      "templates": ["flavor", "effect"],
+      "details": {
+        "category": { "@en": "" }
+      },
+      "active": true
+    },
+    "taint": {
+      "templates": ["flavor", "effect"],
+      "details": {
+        "category": { "@en": "" }
+      },
+      "active": true
+    },
+    "injury": {
+      "templates": ["flavor", "effect"],
+      "severity": 0,
+      "active": true,
+      "recuperationTime": 0
+    },
+    "condition": {
+      "templates": ["flavor", "effect"],
+      "details": {
+        "category": { "@en": "" }
+      },
+      "active": true
+    }
+  }
+}

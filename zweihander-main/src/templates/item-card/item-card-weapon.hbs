@@ -1,0 +1,30 @@
+<section class="item-card">
+    <h2 class="item-card-title">{{name}}</h2>
+    <div class="item-card-description">
+      {{{zhProcessRuleText system.flavor.description}}}
+    </div>
+    <dl class="compact-details zh-collapsed zh-expandable" data-expand-title="Show Item Details">
+      <dt>Associated Skill</dt>
+      <dd>{{system.associatedSkill}}</dd>
+      <dt>Load</dt>
+      <dd>{{system.load}}</dd>
+      <dt>Handling</dt>
+      <dd>{{system.handling}}</dd>
+      <dt>Distance</dt>
+      <dd>{{system.distance}}</dd>
+      <dt>Type</dt>
+      <dd>{{system.weaponType}}</dd>
+      <dt>Encumbrance</dt>
+      <dd>{{system.encumbrance}}</dd>
+      <dt>Price</dt>
+      <dd>
+        {{zhPrice system.price}}
+      </dd>
+    </dl>
+    <dl class="item-card-qualities zh-expandable zh-collapsed" data-expand-title="Show Qualities">
+      {{#each system.qualities}}
+      <dt>{{name}}</dt>
+      <dd>{{effect}}</dd>
+      {{/each}}
+    </dl>
+  </section>

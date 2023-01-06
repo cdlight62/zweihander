@@ -1,0 +1,58 @@
+<div class="skill-test" data-item-id="{{itemId}}">
+{{#if spellTest}}
+  {{> ($$ "item-card/item-card-spell") spell }}
+{{else}}
+  <h2 class="skill-test-title">{{skill}}</h2>
+{{/if}}
+<dl class="compact-details compact-details-centered zh-collapsed zh-expandable" data-expand-title="Show Roll Details">
+  <dt>{{primaryAttribute}}</dt><dd> {{zhExplicitSign primaryAttributeValue}}%</dd>
+  <dt>Skill rank bonus</dt><dd> {{zhExplicitSign rankBonus}}%</dd>
+  <dt>Penalty from Peril</dt><dd> {{zhExplicitSign perilPenalty}}%</dd>
+  <dt>Special Modifier</dt><dd> {{zhExplicitSign specialBaseChanceModifier}}%</dd>
+  <dt>Capped Base Chance</dt><dd> {{baseChance}}%</dd>
+  {{#if spellTest}}
+  <dt>Raw Difficulty</dt><dd> {{zhExplicitSign difficultyRating.raw}}% ({{zhCapitalize spell.system.principle}} Magick)</dd>
+  <dt>Channel Power Bonus</dt><dd> {{zhExplicitSign difficultyRating.channelPowerBonus}}%</dd>
+  <dt>Total Difficulty</dt>{{else}}<dt>Difficulty</dt>{{/if}}<dd> {{zhExplicitSign difficultyRating.total}}%</dd>
+  <dt>Result has been flipped</dt><dd> {{#if effectivelyFlipped}} yes {{else}} no {{/if}}</dd>
+</dl>
+<div class="pill-container">
+    <span class="pill pill-roll-mode">{{testModeLabel}} ({{diceFormula}})</span>
+    <span class="pill pill-difficulty-{{difficultyRating.total}}">{{difficultyRating.label}}</span>
+    {{#if flipToFail}}<span class="pill pill-flip-fail">Flip To Fail</span>{{/if}}
+    {{#if flipToSucceed}}<span class="pill pill-flip-succeed">Flip To Succeed</span>{{/if}}
+    {{#if usedFortune}}<span class="pill pill-fortune">Used Fortune</span>{{/if}}
+    {{#if usedMisfortune}}<span class="pill pill-misfortune">Used Misfortune</span>{{/if}}
+    {{#if isReroll}}<span class="pill pill-reroll">Reroll</span>{{/if}}
+    {{#if spellTest}}<span class="pill">{{skill}} Test</span>{{/if}}
+</div>
+<div class="dice-roll">
+    <div class="dice-result">
+        <div class="dice-formula">Total Chance:  {{totalChance}}%</div>
+        {{{tooltip}}}
+        <h4 class="dice-total outcome-{{effectiveOutcome}}">{{outcomeLabel}}: {{roll}}</h4>
+    </div>
+</div>
+
+{{#if chaosManifestation}}
+  <div class="additional-outcome-info chaos-manifestation">
+    A {{zhCapitalize spell.system.principle}} Chaos Manifestation spawns!
+  </div>
+{{/if}}
+
+{{#if degreesOfSuccess}}
+  <div class="additional-outcome-info">
+    Degrees of Success: {{degreesOfSuccess}}
+  </div>
+{{/if}}
+
+<div class="skill-test-controls">
+  <div class="flexrow">
+    <button type="button" class="skill-test-reroll" disabled><i class="fas fa-sync-alt"></i><br/>Reroll</button>
+    {{#if weaponTest}}
+    <button type="button" class="skill-test-damage" disabled><i class="ra ra-sword"></i><br/>Damage</button>
+    <button type="button" class="skill-test-parry" disabled><i class="ra ra-round-shield"></i><br/>Parry</button>
+    <button type="button" class="skill-test-dodge" disabled><i class="ra ra-player-dodge"></i><br/>Dodge</button>
+    {{/if}}
+  </div>
+</div>

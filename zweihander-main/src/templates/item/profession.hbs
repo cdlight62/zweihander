@@ -1,0 +1,36 @@
+<div class="form-group">
+  <label>Archetype</label>
+  <select name="system.archetype">
+    {{#each choices.archetypes}}
+    <option value="{{value}}" {{selected}}>{{label}}</option>
+    {{/each}}
+  </select>
+</div>
+
+{{{arrayInputGroup 'Bonus Advances' 'system.bonusAdvances' system.bonusAdvances 7 'name'}}}
+{{{arrayInputGroup 'Skill Ranks' 'system.skillRanks' system.skillRanks 10 'name'}}}
+{{{arrayInputGroup 'Talents' 'system.talents' system.talents 3 'name'}}}
+
+<div class="form-group">
+  <label>Professional Trait</label>
+  <input name="system.professionalTrait.name" type="text" value="{{system.professionalTrait.name}}">
+</div>
+
+<div class="form-group">
+  <label>Special Trait</label>
+  <input name="system.specialTrait.name" type="text" value="{{system.specialTrait.name}}">
+</div>
+
+<div class="form-group">
+  <label>Drawback</label>
+  <input name="system.drawback.name" type="text" value="{{system.drawback.name}}">
+</div>
+
+<div class="form-group stacked">
+  <label class="checkbox">
+    <input name="system.expert.value" type="checkbox" class="link-checkbox" {{checked system.expert.value}} />
+    Expert Profession
+  </label>
+  <label>Requirements</label>
+  <input name="system.expert.requirements" type="text" value="{{system.expert.requirements}}">
+</div>

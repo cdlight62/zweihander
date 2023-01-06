@@ -1,0 +1,49 @@
+<div>
+  <label>Professional Trait:</label>
+  <a class="fetch-item" data-item-id="{{professionalTrait.linkedId}}">{{professionalTrait.name}}</a>
+  <br />
+  <label>Special Trait:</label>
+  {{#if specialTrait.name}}
+  <a class="fetch-item" data-item-id="{{specialTrait.linkedId}}">{{specialTrait.name}}</a>
+  {{else}} - {{/if}} <br />
+  <label>Drawback:</label>
+  {{#if drawback.name}}
+  <a class="fetch-item" data-item-id="{{drawback.linkedId}}">{{drawback.name}}</a>
+  {{else}} - {{/if}}
+</div>
+<div data-testid="skills{{tier}}">
+  <label>Skill Ranks:</label>
+  {{#each skillRanks as | skillData i |}}
+  <a
+    data-purchase-type="skillRanks"
+    data-purchase-index="{{i}}"
+    class="purchase-link {{#if skillData.purchased}} purchased {{else}} not-purchased {{/if}}"
+  >
+    {{skillData.name}} </a
+  >{{#unless @last}}<span>,</span>{{/unless}} {{/each}}
+</div>
+<div data-testid="advances{{tier}}">
+  <label>Bonus Advances:</label>
+  {{#each bonusAdvances as | advancesData i |}}
+  <a
+    data-purchase-type="bonusAdvances"
+    data-purchase-index="{{i}}"
+    class="purchase-link {{#if advancesData.purchased}} purchased {{else}} not-purchased {{/if}}"
+    >{{advancesData.name}}</a
+  >
+  {{#unless @last}}<span>,</span>{{/unless}} {{/each}}
+</div>
+
+<div data-testid="talents{{tier}}">
+  <label>Talents:</label>
+  {{#each talents as | talentsData i |}}
+  <a
+    data-purchase-type="talents"
+    data-purchase-index="{{i}}"
+    data-item-id="{{talentsData.linkedId}}"
+    class="purchase-link fetch-item {{#if talentsData.linkedId}}{{#if talentsData.purchased}} purchased {{else}} not-purchased {{/if}} {{else}}duplicate{{/if}}"
+    >{{talentsData.name}}
+    
+  </a>
+  {{#unless @last}}<span>,</span>{{/unless}} {{/each}}
+</div>

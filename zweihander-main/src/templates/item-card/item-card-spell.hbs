@@ -1,0 +1,26 @@
+<section class="item-card">
+    <h2 class="item-card-title">{{name}}</h2>
+    <div class="item-card-description">
+      {{{zhProcessRuleText system.flavor.description}}}
+    </div>
+    <br/>
+    <div class="item-card-effect" data-effect-label="Effect">
+      {{{zhProcessRuleText (zhLocalize system.rules.effect)}}}
+    </div>
+    <dl class="zh-collapsed zh-expandable" data-expand-title="Show Item Details">
+      <dt>Tradition</dt>
+      <dd>{{system.tradition}}</dd>
+      <dt>Principle</dt>
+      <dd>{{system.principle}}</dd>
+      <dt>Reagents</dt>
+      <dd>{{{zhProcessRuleText (zhLocalize system.rules.reagents)}}}</dd>
+      <dt>Duration</dt>
+      <dd>{{system.duration}}</dd>
+      <dt>Distance</dt>
+      <dd>{{system.distance}}</dd>
+      <dt>Critical Success</dt>
+      <dd>{{{zhProcessRuleText (zhLocalize system.rules.criticalSuccess)}}}</dd>
+      <dt>Critical Failure</dt>
+      <dd>{{{zhProcessRuleText (zhLocalize system.rules.criticalFailure)}}}</dd>
+    </dl>
+  </section>
