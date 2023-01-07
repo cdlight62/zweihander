@@ -1,6 +1,6 @@
 {
   "id": "zweihander",
-  "title": "Zweihänder Grim & Perilous RPG",
+  "title": "Blackbirds Powered by Zweihänder",
   "description": "An implementation of the Blackbirds system for FoundryVTT.",
   "version": "{{version}}",
   "minimumCoreVersion": "10",
