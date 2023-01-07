@@ -33,7 +33,7 @@
       "name": "Not Long for This World"
     },
     "expert": {
-      "requirements": "You must possess at least two Skill Ranks in Odweft in order to enter this Expert Profession. In addition, you must have the Special Trait of Divine Magick. Finally, you must sacrifice one Fate Point upon entering this Profession.",
+      "requirements": "You must possess at least two Skill Ranks in Incantation in order to enter this Expert Profession. In addition, you must have the Special Trait of Divine Magick. Finally, you must sacrifice one Fate Point upon entering this Profession.",
       "value": true
     },
     "notes": "",
@@ -55,7 +55,7 @@
         "name": "Heal"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Leadership"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/high_lector.svg",
+  "img": "systems/zweihander/assets/icons/high_lector.svg",
   "name": "High Lector",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

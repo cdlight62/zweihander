@@ -52,7 +52,7 @@
         "name": "Folklore"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "48da160674dfc1d2f573dc79233f9052c22c3bf2",
       "sourceId": "Item.80hnRGH7NodhQo9f"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Preceptor",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

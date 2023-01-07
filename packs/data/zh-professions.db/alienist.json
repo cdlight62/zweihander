@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/pendulum-swing.svg",
+  "img": "systems/zweihander/assets/icons/pendulum-swing.svg",
   "name": "Alienist",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/barrister.svg",
+  "img": "systems/zweihander/assets/icons/barrister.svg",
   "name": "Barrister",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

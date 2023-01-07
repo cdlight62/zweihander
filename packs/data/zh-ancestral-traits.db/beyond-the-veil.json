@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Whenever you fail or Critically Fail an Odweft Test, spend one Fortune Point to turn it into a Critical Success."
+        "@en": "Whenever you fail or Critically Fail an Incantation Test, spend one Fortune Point to turn it into a Critical Success."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/ink-swirl.svg",
+  "img": "systems/zweihander/assets/icons/ink-swirl.svg",
   "name": "Beyond the Veil",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,

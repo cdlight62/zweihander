@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/stone-path.svg",
+  "img": "systems/zweihander/assets/icons/stone-path.svg",
   "name": "Reeve",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

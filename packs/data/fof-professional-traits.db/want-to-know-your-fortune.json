@@ -7,7 +7,7 @@
     "notes": "<p>Every Profession possesses a unique knack, an ability that no other Profession has access to. The Trait immediately follows the Profession&rsquo;s description.</p>",
     "rules": {
       "effect": {
-        "@en": "<p>You can attempt an Odweft Test to tell a person&rsquo;s future using an oracular device, providing they can clearly see and hear you. If you succeed, they gain a Coin for personal use only. If you Critically Succeed, they gain two Coins instead. Once the Coins are spent, they are discarded, not placed into the Coin pools. This benefit must be spent before they have their fortune told again. Randomly determine three Common Spells you learn as free Unique Abilities from the Common Spells Listings table. Finally, you can Risk Backlash and Unfetter your Spells (covered in <strong>Article 7: Combat Encounters</strong> and <strong>Article 9: Hexenmeister&rsquo;s Almanack</strong>).</p>"
+        "@en": "<p>You can attempt an Incantation Test to tell a person&rsquo;s future using an oracular device, providing they can clearly see and hear you. If you succeed, they gain a Coin for personal use only. If you Critically Succeed, they gain two Coins instead. Once the Coins are spent, they are discarded, not placed into the Coin pools. This benefit must be spent before they have their fortune told again. Randomly determine three Common Spells you learn as free Unique Abilities from the Common Spells Listings table. Finally, you can Risk Backlash and Unfetter your Spells (covered in <strong>Article 7: Combat Encounters</strong> and <strong>Article 9: Hexenmeister&rsquo;s Almanack</strong>).</p>"
       }
     }
   },
@@ -22,7 +22,7 @@
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "Want to Know Your Fortune?",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

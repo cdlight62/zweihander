@@ -107,10 +107,10 @@
       "hash": "665831c58c5d1164f89977f2ea5e42cd20f77c40",
       "sourceId": "Item.xNaL8dPnFB7V4zx1"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Farmer",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

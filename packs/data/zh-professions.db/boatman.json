@@ -61,7 +61,7 @@
         "name": "Navigation"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Resolve"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/boatman.svg",
+  "img": "systems/zweihander/assets/icons/boatman.svg",
   "name": "Boatman",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

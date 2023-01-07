@@ -78,7 +78,7 @@ async function renderConfigurationDialog(testType, label, testConfiguration = {}
   }));
   return createConfigurationDialog(
     label,
-    'systems/blackbird/src/templates/app/test-config.hbs',
+    'systems/zweihander/src/templates/app/test-config.hbs',
     templateData,
     (resolve) => (html) => {
       let additionalFuryDice = Number(html.find('[name="extraFury"]').val()) || 0;

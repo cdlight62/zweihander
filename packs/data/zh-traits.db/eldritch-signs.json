@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "You automatically gain all of the following Focuses in the Odweft Skill whenever you enter this Profession: Astrology, Card Reading, Dream Interpretation, Hypnotize, Palmistry, Scapulimancy and Scrying. You also understand how to use the Ritual of Magick Circle."
+        "@en": "You automatically gain all of the following Focuses in the Incantation Skill whenever you enter this Profession: Astrology, Card Reading, Dream Interpretation, Hypnotize, Palmistry, Scapulimancy and Scrying. You also understand how to use the Ritual of Magick Circle."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "Eldritch Signs",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

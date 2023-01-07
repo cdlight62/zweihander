@@ -21,13 +21,13 @@
     },
     "exportSource": {
       "coreVersion": "0.8.9",
-      "system": "blackbirds",
+      "system": "zweihander",
       "systemVersion": "0.3.30",
       "world": "talron2"
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/ribcage.svg",
+  "img": "systems/zweihander/assets/icons/ribcage.svg",
   "name": "Bruised Ribs",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,

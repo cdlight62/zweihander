@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/crossed-claws.svg",
+  "img": "systems/zweihander/assets/icons/crossed-claws.svg",
   "name": "Fell Knight",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

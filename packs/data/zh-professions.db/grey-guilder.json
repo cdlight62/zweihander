@@ -33,7 +33,7 @@
       "name": "The Nightfather’s Commandments"
     },
     "expert": {
-      "requirements": "You must possess at least one Skill Rank in Odweft in order to enter this Expert Profession. In addition, you must have the Special Trait of Divine Magick.",
+      "requirements": "You must possess at least one Skill Rank in Incantation in order to enter this Expert Profession. In addition, you must have the Special Trait of Divine Magick.",
       "value": true
     },
     "notes": "",
@@ -58,7 +58,7 @@
         "name": "Guile"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Rumor"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/grey-guilder.svg",
+  "img": "systems/zweihander/assets/icons/grey-guilder.svg",
   "name": "Grey Guilder",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

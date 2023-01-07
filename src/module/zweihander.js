@@ -75,9 +75,9 @@ Hooks.once('ready', function () {
   }
   // patch die class
   patchDie();
-  console.log(`systems/blackbird/assets/${game.settings.get('zweihander', 'gameSystem')}-logo.webp`);
+  console.log(`systems/zweihander/assets/${game.settings.get('zweihander', 'gameSystem')}-logo.webp`);
   $('#ui-left #logo')
-    .attr('src', `systems/blackbird/assets/${game.settings.get('zweihander', 'gameSystem')}-logo.webp`)
+    .attr('src', `systems/zweihander/assets/${game.settings.get('zweihander', 'gameSystem')}-logo.webp`)
     .css('display', 'unset');
 
   // macro bar support
@@ -105,7 +105,7 @@ Hooks.once('init', async function () {
     migrateWorld,
     rollItemMacro,
   };
-  CONFIG.ChatMessage.template = 'systems/blackbird/src/templates/chat/chat-message.hbs';
+  CONFIG.ChatMessage.template = 'systems/zweihander/src/templates/chat/chat-message.hbs';
   /**
    * Set an initiative formula for the system
    * @type {String}
@@ -114,9 +114,9 @@ Hooks.once('init', async function () {
     formula: '1d10 + @stats.secondaryAttributes.initiative.value',
     decimals: 2,
   };
-  CONFIG.TinyMCE.skin_url = 'systems/blackbird/tinymce/skins/ui/zweihander';
+  CONFIG.TinyMCE.skin_url = 'systems/zweihander/tinymce/skins/ui/zweihander';
   CONFIG.TinyMCE.skin = 'zweihander';
-  CONFIG.TinyMCE.content_css = ['/css/mce.css', 'systems/blackbird/tinymce/skins/content/zweihander/content.css'];
+  CONFIG.TinyMCE.content_css = ['/css/mce.css', 'systems/zweihander/tinymce/skins/content/zweihander/content.css'];
   CONFIG.statusEffects = ZWEI.statusEffects;
   CONFIG.ZWEI = ZWEI;
   // Define custom Document classes

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/wisdom.svg",
+  "img": "systems/zweihander/assets/icons/wisdom.svg",
   "name": "Abbot",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

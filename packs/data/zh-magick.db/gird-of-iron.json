@@ -18,7 +18,7 @@
         "@en": "As above, but triple the Duration."
       },
       "effect": {
-        "@en": "After successfully casting this spell, you can Dodge ranged attacks and Parry melee attacks using your Odweft Skill."
+        "@en": "After successfully casting this spell, you can Dodge ranged attacks and Parry melee attacks using your Incantation Skill."
       },
       "reagents": {
         "@en": "A handful of small steel balls"
@@ -29,7 +29,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/kaleidoscope-pearls.svg",
+  "img": "systems/zweihander/assets/icons/kaleidoscope-pearls.svg",
   "name": "Gird of Iron",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

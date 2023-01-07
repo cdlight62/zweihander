@@ -2,7 +2,7 @@
   "_id": "L7s8rQKknZnK0djN",
   "data": {
     "description": {
-      "@en": "<p><em>Swabbing decks, caulking hulls, repairing sails and Handle Vehicleing </em><em>boats are tasks I am well acquainted with.</em></p>"
+      "@en": "<p><em>Swabbing decks, caulking hulls, repairing sails and piloting </em><em>boats are tasks I am well acquainted with.</em></p>"
     },
     "notes": "",
     "purchased": false,
@@ -23,7 +23,7 @@
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/fist.svg",
+  "img": "systems/zweihander/assets/icons/fist.svg",
   "name": "Sailing",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

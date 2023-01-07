@@ -107,10 +107,10 @@
       "hash": "1a68416b0d402d134681ba14bc28982fe161bc84",
       "sourceId": "Item.46kk1zMmwrunETr2"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Road Agent",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

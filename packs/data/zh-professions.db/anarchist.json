@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/anarchy.svg",
+  "img": "systems/zweihander/assets/icons/anarchy.svg",
   "name": "Anarchist",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

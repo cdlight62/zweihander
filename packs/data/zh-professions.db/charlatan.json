@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/charlatan.svg",
+  "img": "systems/zweihander/assets/icons/charlatan.svg",
   "name": "Charlatan",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

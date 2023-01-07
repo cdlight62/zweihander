@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/crime_boss.svg",
+  "img": "systems/zweihander/assets/icons/crime_boss.svg",
   "name": "Crime Boss",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

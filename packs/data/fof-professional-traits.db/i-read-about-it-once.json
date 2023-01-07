@@ -7,7 +7,7 @@
     "notes": "<p>Every Profession possesses a unique knack, an ability that no other Profession has access to. The Trait immediately follows the Profession&rsquo;s description.</p>",
     "rules": {
       "effect": {
-        "@en": "<p>At your option, you may substitute the Education Skill in place of Odweft. In addition, you may substitute Education in place of any Skill required to Resist against Spells.</p>"
+        "@en": "<p>At your option, you may substitute the Education Skill in place of Incantation. In addition, you may substitute Education in place of any Skill required to Resist against Spells.</p>"
       }
     }
   },
@@ -22,7 +22,7 @@
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "I Read About it Once",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

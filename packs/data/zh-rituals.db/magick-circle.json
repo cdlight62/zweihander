@@ -4,9 +4,9 @@
     "castingTime": "One minute for temporary circle, one day for permanent circle",
     "channelAs": "Petty Magick",
     "description": {
-      "@en": "Opening a rift to the Abyss through the Æthereal Veil can be extremely dangerous. Magick is not a simple parlour trick or a bending of light – its practitioners tap into realms of pure chaos and potential to draw forth unnatural power. Each Odweft comes with a risk of damnation, the curse of all that power eating away at your body and soul. However, this does not mean there have not been researched methods to lessen this impact. Indeed, many arcanists are people of science, not only using their power but studying it for further applications. Certain\n  circles of power, made f rom\n  Wytchstone Essence, have\n  proved to lessen the impact\n  of the Ætheric Winds as they\n  storm around a caster. These forms\n  take on a myriad of shapes, but all of them\n  possess ancient symbols written in their circumferences that arcanists are reluctant to tell the meaning of. This Magick Circle is very delicate, however: any disturbance or slight shifting in its form breaks the protective barrier and allows the chaotic energies to seep through.Though these circles are temporary, ancient ruins and some powerful wizards contain either partial or full engraved circles, carved into the very floor to serve as a permanent aid."
+      "@en": "Opening a rift to the Abyss through the Æthereal Veil can be extremely dangerous. Magick is not a simple parlour trick or a bending of light – its practitioners tap into realms of pure chaos and potential to draw forth unnatural power. Each incantation comes with a risk of damnation, the curse of all that power eating away at your body and soul. However, this does not mean there have not been researched methods to lessen this impact. Indeed, many arcanists are people of science, not only using their power but studying it for further applications. Certain\n  circles of power, made f rom\n  Wytchstone Essence, have\n  proved to lessen the impact\n  of the Ætheric Winds as they\n  storm around a caster. These forms\n  take on a myriad of shapes, but all of them\n  possess ancient symbols written in their circumferences that arcanists are reluctant to tell the meaning of. This Magick Circle is very delicate, however: any disturbance or slight shifting in its form breaks the protective barrier and allows the chaotic energies to seep through.Though these circles are temporary, ancient ruins and some powerful wizards contain either partial or full engraved circles, carved into the very floor to serve as a permanent aid."
     },
-    "difficulty": "(Easy +20%) Odweft Test",
+    "difficulty": "(Easy +20%) Incantation Test",
     "notes": "",
     "rules": {
       "condition": {
@@ -26,7 +26,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/pentacle.svg",
+  "img": "systems/zweihander/assets/icons/pentacle.svg",
   "name": "Magick Circle",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

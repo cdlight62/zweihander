@@ -107,10 +107,10 @@
       "hash": "04e2de7b9fe7ef99722cd066fd039b52816b272b",
       "sourceId": "Item.keJJJ6lfdd2c07dj"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Militia",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

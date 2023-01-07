@@ -18,7 +18,7 @@
         "@en": "As above, but victims cannot Dodge or Parry this attack."
       },
       "effect": {
-        "@en": "After successfully casting this spell, the knife becomes ever-sharp and is treated as a one-handed melee weapon with the Vicious Quality. Instead of using your [CB], refer to your [WB] to determine Damage. Finally, whenever you strike or Parry with this knife, refer to your Odweft Skill instead of a Combat-based Skill. You can inflict Injuries with this Magick. After suffering an Injury, the foe must immediately Resist with a successful Toughness Test or begin to Bleed."
+        "@en": "After successfully casting this spell, the knife becomes ever-sharp and is treated as a one-handed melee weapon with the Vicious Quality. Instead of using your [CB], refer to your [WB] to determine Damage. Finally, whenever you strike or Parry with this knife, refer to your Incantation Skill instead of a Combat-based Skill. You can inflict Injuries with this Magick. After suffering an Injury, the foe must immediately Resist with a successful Toughness Test or begin to Bleed."
       },
       "reagents": {
         "@en": "Blood and feces from your own Ancestry, smeared onto a butcher’s knife (expended)"
@@ -29,7 +29,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/wizard-staff.svg",
+  "img": "systems/zweihander/assets/icons/wizard-staff.svg",
   "name": "Slaughterhouse",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,

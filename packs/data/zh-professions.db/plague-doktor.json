@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/plague-doktor.svg",
+  "img": "systems/zweihander/assets/icons/plague-doktor.svg",
   "name": "Plague Doktor",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

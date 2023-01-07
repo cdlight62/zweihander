@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/outrider.svg",
+  "img": "systems/zweihander/assets/icons/outrider.svg",
   "name": "Outrider",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

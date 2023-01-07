@@ -55,7 +55,7 @@
         "name": "Guile"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "c6a38ac098fdd5b691cd451f2c52feb4d62f0712",
       "sourceId": "Item.lfEq5roq4T3eDcPk"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Mentalist",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

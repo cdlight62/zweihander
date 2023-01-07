@@ -18,7 +18,7 @@
         "@en": "As above, but any victim struck with the weapon cannot Dodge or Parry it."
       },
       "effect": {
-        "@en": "After successfully casting this spell, your hammer beams with pure, white light. Instead of using your [CB], refer to your [WB] to determine Damage. Finally, ever you strike or Parry with this weapon, refer to your Odweft Skill instead of a Combat-based Skill. You can inflict Injuries with this Magick, as if it were a melee weapon."
+        "@en": "After successfully casting this spell, your hammer beams with pure, white light. Instead of using your [CB], refer to your [WB] to determine Damage. Finally, ever you strike or Parry with this weapon, refer to your Incantation Skill instead of a Combat-based Skill. You can inflict Injuries with this Magick, as if it were a melee weapon."
       },
       "reagents": {
         "@en": "Your hammer held aloft"
@@ -29,7 +29,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/wizard-staff.svg",
+  "img": "systems/zweihander/assets/icons/wizard-staff.svg",
   "name": "Imperial Might",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

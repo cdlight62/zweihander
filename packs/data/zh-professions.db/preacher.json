@@ -55,7 +55,7 @@
         "name": "Heal"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Leadership"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/preacher.svg",
+  "img": "systems/zweihander/assets/icons/preacher.svg",
   "name": "Preacher",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

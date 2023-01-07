@@ -55,7 +55,7 @@
         "name": "Martial Ranged"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "a2bf3aae745a1eecba0e4bf60d480ca1e8dc2c5f",
       "sourceId": "Item.0sIfCzMXB03DtzWr"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Privateer",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

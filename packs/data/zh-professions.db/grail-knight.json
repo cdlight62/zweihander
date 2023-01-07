@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/grail-knight.svg",
+  "img": "systems/zweihander/assets/icons/grail-knight.svg",
   "name": "Grail Knight",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

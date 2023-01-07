@@ -107,10 +107,10 @@
       "hash": "387f4138b0d01ac612a9cf6e72ed89cba0d633ad",
       "sourceId": "Item.RqglgUQHSHQCQKei"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Survivalist",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

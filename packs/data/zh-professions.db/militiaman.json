@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/militiaman.svg",
+  "img": "systems/zweihander/assets/icons/militiaman.svg",
   "name": "Militiaman",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

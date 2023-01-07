@@ -52,7 +52,7 @@
         "name": "Folklore"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Navigation"
@@ -107,10 +107,10 @@
       "hash": "369e4b4fa0e709fc08473bdfc0b1de1abc7af427",
       "sourceId": "Item.j0ZD1UUbrQQmQJ0D"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Dowser",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

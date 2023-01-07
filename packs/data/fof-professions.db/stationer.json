@@ -58,7 +58,7 @@
         "name": "Folklore"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "3219b490278588de2dedce72b81b694c455f25b6",
       "sourceId": "Item.axil1vstLxFsUGNm"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Stationer",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

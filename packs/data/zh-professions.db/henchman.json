@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/face-to-face.svg",
+  "img": "systems/zweihander/assets/icons/face-to-face.svg",
   "name": "Henchman",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

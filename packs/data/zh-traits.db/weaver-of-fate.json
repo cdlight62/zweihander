@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "You understand how to use the Ritual of Fortune- telling. Furthermore, you treat the Odweft Skill as a Common Skill for purposes of Fortune-telling. Finally, after successfully using Fortune-telling, the person to whom you told their future gains a Fate Point, which must be used within a month or it is lost. A person can only gain the benefits of the Weaver of Fate Trait once a month."
+        "@en": "You understand how to use the Ritual of Fortune- telling. Furthermore, you treat the Incantation Skill as a Common Skill for purposes of Fortune-telling. Finally, after successfully using Fortune-telling, the person to whom you told their future gains a Fate Point, which must be used within a month or it is lost. A person can only gain the benefits of the Weaver of Fate Trait once a month."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "Weaver of Fate",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

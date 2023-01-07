@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/expense.svg",
+  "img": "systems/zweihander/assets/icons/expense.svg",
   "name": "Fence",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

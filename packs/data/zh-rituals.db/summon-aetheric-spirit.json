@@ -6,7 +6,7 @@
     "description": {
       "@en": "Beyond the Material Realm lay the Æthereal Veil. Within it, raw chaos – creation left unchecked – float wildly\n  among the endless void. Collecting into four\n  distinct elemental spirits, they represent an\n  age unknown, when stars collided and where these energies crashed together to forge the world as we know it. These same untamed spirits can be drawn into the Material Realm, taking physical manifestation in either air, earth, fire or water. Without any real sense\n  of identity or intelligence, Ætheric Spirits generally assumes the shape of the first creatures that crawled forth from primordial ooze in the dawn age. Lacking any sense of intelligence, a summoner can control these spirits to obey their every whim, guaranteeing their steely minds are not torn asunder by the realization that they control the same raw natural forces which forged both men and gods."
     },
-    "difficulty": "(Hard -20%) Odweft Test",
+    "difficulty": "(Hard -20%) Incantation Test",
     "notes": "",
     "rules": {
       "condition": {
@@ -26,7 +26,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/pentacle.svg",
+  "img": "systems/zweihander/assets/icons/pentacle.svg",
   "name": "Summon Aetheric Spirit",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/pulley-hook.svg",
+  "img": "systems/zweihander/assets/icons/pulley-hook.svg",
   "name": "Stevedore",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

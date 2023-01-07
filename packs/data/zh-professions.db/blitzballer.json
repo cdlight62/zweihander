@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/american-football-ball.svg",
+  "img": "systems/zweihander/assets/icons/american-football-ball.svg",
   "name": "Blitzballer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

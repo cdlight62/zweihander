@@ -64,7 +64,7 @@
         "name": "Rumor"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Simple Melee"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/laborer.svg",
+  "img": "systems/zweihander/assets/icons/laborer.svg",
   "name": "Laborer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

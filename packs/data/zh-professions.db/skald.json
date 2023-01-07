@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/sound-on.svg",
+  "img": "systems/zweihander/assets/icons/sound-on.svg",
   "name": "Skald",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -61,7 +61,7 @@
         "name": "Navigation"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Simple Melee"
@@ -107,10 +107,10 @@
       "hash": "a921352fed8679286acdbc32d92bd83185c9777d",
       "sourceId": "Item.JD38YhsuFSHMkyf5"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Mariner",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

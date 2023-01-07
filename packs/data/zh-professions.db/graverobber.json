@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/graverobber.svg",
+  "img": "systems/zweihander/assets/icons/graverobber.svg",
   "name": "Graverobber",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/lockpicks.svg",
+  "img": "systems/zweihander/assets/icons/lockpicks.svg",
   "name": "Jackdaw",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

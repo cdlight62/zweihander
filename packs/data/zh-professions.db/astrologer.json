@@ -55,7 +55,7 @@
         "name": "Guile"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Navigation"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/astrologer.svg",
+  "img": "systems/zweihander/assets/icons/astrologer.svg",
   "name": "Astrologer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

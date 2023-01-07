@@ -9,7 +9,7 @@
   },
   "folder": null,
   "formula": "1d12",
-  "img": "systems/blackbird/assets/icons/ogre.svg",
+  "img": "systems/zweihander/assets/icons/ogre.svg",
   "name": "Ogre Ancestral Traits",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,
@@ -22,7 +22,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/muscle-fat.svg",
+      "img": "systems/zweihander/assets/icons/muscle-fat.svg",
       "range": [
         1,
         1
@@ -39,7 +39,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/stomach.svg",
+      "img": "systems/zweihander/assets/icons/stomach.svg",
       "range": [
         2,
         2
@@ -56,7 +56,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/muscular-torso.svg",
+      "img": "systems/zweihander/assets/icons/muscular-torso.svg",
       "range": [
         3,
         3
@@ -73,7 +73,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/shouting.svg",
+      "img": "systems/zweihander/assets/icons/shouting.svg",
       "range": [
         4,
         4
@@ -90,7 +90,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/chest-armor.svg",
+      "img": "systems/zweihander/assets/icons/chest-armor.svg",
       "range": [
         5,
         5
@@ -107,7 +107,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/plant-roots.svg",
+      "img": "systems/zweihander/assets/icons/plant-roots.svg",
       "range": [
         6,
         6
@@ -124,7 +124,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/muscle-up.svg",
+      "img": "systems/zweihander/assets/icons/muscle-up.svg",
       "range": [
         7,
         7
@@ -141,7 +141,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/ages.svg",
+      "img": "systems/zweihander/assets/icons/ages.svg",
       "range": [
         8,
         8
@@ -158,7 +158,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/fire-breath.svg",
+      "img": "systems/zweihander/assets/icons/fire-breath.svg",
       "range": [
         9,
         9
@@ -175,7 +175,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/falling.svg",
+      "img": "systems/zweihander/assets/icons/falling.svg",
       "range": [
         10,
         10
@@ -192,7 +192,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/poison-gas.svg",
+      "img": "systems/zweihander/assets/icons/poison-gas.svg",
       "range": [
         11,
         11
@@ -209,7 +209,7 @@
       "collection": "zweihander.zh-ancestral-traits",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/ice-golem.svg",
+      "img": "systems/zweihander/assets/icons/ice-golem.svg",
       "range": [
         12,
         12

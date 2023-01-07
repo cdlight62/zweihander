@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/gamekeeper.svg",
+  "img": "systems/zweihander/assets/icons/gamekeeper.svg",
   "name": "Gamekeeper",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -107,10 +107,10 @@
       "hash": "d837083b0fb4ee3e60496911f59324f2bd9ab201",
       "sourceId": "Item.fwWzXx353iG6XllH"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Clergy",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

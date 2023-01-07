@@ -8,14 +8,14 @@
     "purchased": false,
     "rules": {
       "effect": {
-        "@en": "When boating in waters where the shore can be seen, you gain a +20 Base Chance to Handle Vehicle Tests."
+        "@en": "When boating in waters where the shore can be seen, you gain a +20 Base Chance to Pilot Tests."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/sea-cliff.svg",
+  "img": "systems/zweihander/assets/icons/sea-cliff.svg",
   "name": "Mariner",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "You may flip the results to succeed at Handle Vehicle Tests. When you succeed, it is always considered a Critical Success. In addition, when using the Movement subtype of Swim, you do not have to add the additional 1 Action Point cost."
+        "@en": "You may flip the results to succeed at Pilot Tests. When you succeed, it is always considered a Critical Success. In addition, when using the Movement subtype of Swim, you do not have to add the additional 1 Action Point cost."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "Batten Down the Hatches",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

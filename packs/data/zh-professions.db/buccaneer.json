@@ -61,7 +61,7 @@
         "name": "Intimidate"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Resolve"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/pirate-flag.svg",
+  "img": "systems/zweihander/assets/icons/pirate-flag.svg",
   "name": "Buccaneer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

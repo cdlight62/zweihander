@@ -18,7 +18,7 @@
         "@en": "As above, but a victim suffers an additional [[/roll 1D10]] physical Peril if caught in a Chokehold with the tongue."
       },
       "effect": {
-        "@en": "After successfully casting this spell, your tongue mutates and grows in length to grotesquely coil at your feet. Your newly extended tongue is treated as a one- handed ranged weapon with the Entangling, Ineffective and Throwing Qualities, with a Distance of 1+[WB] yards and requires 1 AP to Load. Finally, whenever you strike with this tongue, refer to your Odweft Skill instead of a Combat-based Skill."
+        "@en": "After successfully casting this spell, your tongue mutates and grows in length to grotesquely coil at your feet. Your newly extended tongue is treated as a one- handed ranged weapon with the Entangling, Ineffective and Throwing Qualities, with a Distance of 1+[WB] yards and requires 1 AP to Load. Finally, whenever you strike with this tongue, refer to your Incantation Skill instead of a Combat-based Skill."
       },
       "reagents": {
         "@en": "A perfume made from rose petals, sprayed on your neck"
@@ -29,7 +29,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/wizard-staff.svg",
+  "img": "systems/zweihander/assets/icons/wizard-staff.svg",
   "name": "Florentine Kiss",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,

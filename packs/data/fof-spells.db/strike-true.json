@@ -18,7 +18,7 @@
         "@en": "As above, but you can cast Strike True on nine ammunition instead."
       },
       "effect": {
-        "@en": "<p>After successfully casting, the ammunition you touch is considered to be Magical, and will automatically Critically Succeed to hit a foe once fired. After being fired, the ammunition is destroyed. You begin to Bleed, no matter whether you succeeded or failed at using this Spell. You can cast this Spell upon a number of ammunition equal to the number of Skill Ranks in Odweft you have. Finally, you cannot cast Strike True more than once every twenty-four hours.</p>"
+        "@en": "<p>After successfully casting, the ammunition you touch is considered to be Magical, and will automatically Critically Succeed to hit a foe once fired. After being fired, the ammunition is destroyed. You begin to Bleed, no matter whether you succeeded or failed at using this Spell. You can cast this Spell upon a number of ammunition equal to the number of Skill Ranks in Incantation you have. Finally, you cannot cast Strike True more than once every twenty-four hours.</p>"
       },
       "reagents": {
         "@en": "Drops of your own blood, placed on a single piece of ammunition"
@@ -42,7 +42,7 @@
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/spell-book.svg",
+  "img": "systems/zweihander/assets/icons/spell-book.svg",
   "name": "Strike True",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

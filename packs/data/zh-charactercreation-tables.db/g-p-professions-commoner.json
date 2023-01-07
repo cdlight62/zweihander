@@ -5,7 +5,7 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667813916883,
-    "systemId": "blackbirds",
+    "systemId": "zweihander",
     "systemVersion": "5.0.1"
   },
   "description": "",
@@ -16,7 +16,7 @@
     },
     "exportSource": {
       "coreVersion": "9.255",
-      "system": "blackbirds",
+      "system": "zweihander",
       "systemVersion": "4.3.0",
       "world": "aeon-of-cinders"
     }
@@ -37,7 +37,7 @@
       "documentId": "xaNYFiMIe5uxcBsa",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/artisan.svg",
+      "img": "systems/zweihander/assets/icons/artisan.svg",
       "range": [
         1,
         6
@@ -52,7 +52,7 @@
       "documentId": "u5WzhEZa89UQTH68",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/razor.svg",
+      "img": "systems/zweihander/assets/icons/razor.svg",
       "range": [
         7,
         13
@@ -67,7 +67,7 @@
       "documentId": "jnDMy6HCRfmMpSwh",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/american-football-ball.svg",
+      "img": "systems/zweihander/assets/icons/american-football-ball.svg",
       "range": [
         14,
         20
@@ -82,7 +82,7 @@
       "documentId": "mcGihWA7uICkbNKd",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/boatman.svg",
+      "img": "systems/zweihander/assets/icons/boatman.svg",
       "range": [
         21,
         27
@@ -97,7 +97,7 @@
       "documentId": "cVsTZGa4cidENHtj",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/camp-follower.svg",
+      "img": "systems/zweihander/assets/icons/camp-follower.svg",
       "range": [
         28,
         34
@@ -112,7 +112,7 @@
       "documentId": "gVQ54DeKnhOyjdD6",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/cheapjack.svg",
+      "img": "systems/zweihander/assets/icons/cheapjack.svg",
       "range": [
         35,
         41
@@ -127,7 +127,7 @@
       "documentId": "cYwtbYxK1SrqK3lk",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/coachman.svg",
+      "img": "systems/zweihander/assets/icons/coachman.svg",
       "range": [
         42,
         47
@@ -142,7 +142,7 @@
       "documentId": "FEZa3QCLMstGe5AJ",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/doomsayer.svg",
+      "img": "systems/zweihander/assets/icons/doomsayer.svg",
       "range": [
         48,
         54
@@ -157,7 +157,7 @@
       "documentId": "A7QKE10rNur3jZH9",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/jailer.svg",
+      "img": "systems/zweihander/assets/icons/jailer.svg",
       "range": [
         55,
         61
@@ -172,7 +172,7 @@
       "documentId": "Sl6aFx9NZwDPpxPS",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/laborer.svg",
+      "img": "systems/zweihander/assets/icons/laborer.svg",
       "range": [
         62,
         68
@@ -187,7 +187,7 @@
       "documentId": "p5iaiTO6x1P8u9vX",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/peasant.svg",
+      "img": "systems/zweihander/assets/icons/peasant.svg",
       "range": [
         69,
         75
@@ -202,7 +202,7 @@
       "documentId": "zboM6GSm6dJAYwbm",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/mouse.svg",
+      "img": "systems/zweihander/assets/icons/mouse.svg",
       "range": [
         76,
         82
@@ -217,7 +217,7 @@
       "documentId": "Obb8j8aM2IifJxvU",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/servant.svg",
+      "img": "systems/zweihander/assets/icons/servant.svg",
       "range": [
         83,
         89
@@ -232,7 +232,7 @@
       "documentId": "P15pE0Zh52LDNxDq",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/pulley-hook.svg",
+      "img": "systems/zweihander/assets/icons/pulley-hook.svg",
       "range": [
         90,
         95
@@ -247,7 +247,7 @@
       "documentId": "YdQm2YiYZHdTmW2o",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/coffin.svg",
+      "img": "systems/zweihander/assets/icons/coffin.svg",
       "range": [
         96,
         100

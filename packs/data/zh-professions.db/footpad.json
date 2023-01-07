@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/footpad.svg",
+  "img": "systems/zweihander/assets/icons/footpad.svg",
   "name": "Footpad",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

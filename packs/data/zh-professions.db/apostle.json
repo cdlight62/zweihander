@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/shepherds-crook.svg",
+  "img": "systems/zweihander/assets/icons/shepherds-crook.svg",
   "name": "Apostle",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

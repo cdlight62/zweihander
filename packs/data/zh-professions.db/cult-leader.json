@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/snake.svg",
+  "img": "systems/zweihander/assets/icons/snake.svg",
   "name": "Cult Leader",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -58,7 +58,7 @@
         "name": "Martial Melee"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "b59890c0675363043c6fd1bc66d9b5bdad200bd7",
       "sourceId": "Item.zteE6W5Bs7Y4gSkD"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Boatswain",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

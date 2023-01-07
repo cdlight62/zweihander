@@ -5,7 +5,7 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667813989405,
-    "systemId": "blackbirds",
+    "systemId": "zweihander",
     "systemVersion": "5.0.1"
   },
   "description": "",
@@ -16,7 +16,7 @@
     },
     "exportSource": {
       "coreVersion": "9.255",
-      "system": "blackbirds",
+      "system": "zweihander",
       "systemVersion": "4.3.0",
       "world": "aeon-of-cinders"
     }
@@ -37,7 +37,7 @@
       "documentId": "Aq2u395Fb2GRVH3U",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/beggar.svg",
+      "img": "systems/zweihander/assets/icons/beggar.svg",
       "range": [
         1,
         6
@@ -52,7 +52,7 @@
       "documentId": "NmogenhMUbElxKdr",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/burglar.svg",
+      "img": "systems/zweihander/assets/icons/burglar.svg",
       "range": [
         7,
         13
@@ -67,7 +67,7 @@
       "documentId": "7uYDKq7nMbrTOPoq",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/charlatan.svg",
+      "img": "systems/zweihander/assets/icons/charlatan.svg",
       "range": [
         14,
         20
@@ -82,7 +82,7 @@
       "documentId": "1AKmYQFu1EiudJxY",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/handcuffed.svg",
+      "img": "systems/zweihander/assets/icons/handcuffed.svg",
       "range": [
         21,
         27
@@ -97,7 +97,7 @@
       "documentId": "Cp8rEg6ILlcXlZJs",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/expense.svg",
+      "img": "systems/zweihander/assets/icons/expense.svg",
       "range": [
         28,
         34
@@ -112,7 +112,7 @@
       "documentId": "5WushkXisvmRu0Jq",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/footpad.svg",
+      "img": "systems/zweihander/assets/icons/footpad.svg",
       "range": [
         35,
         41
@@ -127,7 +127,7 @@
       "documentId": "JOUpRyNHRTdCO9kG",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/gambler.svg",
+      "img": "systems/zweihander/assets/icons/gambler.svg",
       "range": [
         42,
         47
@@ -142,7 +142,7 @@
       "documentId": "zWdKVkw7R9JwbKWD",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/graverobber.svg",
+      "img": "systems/zweihander/assets/icons/graverobber.svg",
       "range": [
         48,
         54
@@ -157,7 +157,7 @@
       "documentId": "OQzlASvA3dN4Hjt5",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/guttersnipe.svg",
+      "img": "systems/zweihander/assets/icons/guttersnipe.svg",
       "range": [
         55,
         61
@@ -172,7 +172,7 @@
       "documentId": "VjPtYMCVNQGUPt1q",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/highwayman.svg",
+      "img": "systems/zweihander/assets/icons/highwayman.svg",
       "range": [
         62,
         68
@@ -187,7 +187,7 @@
       "documentId": "lXf0NdYE8DkuBcjH",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/prostitute.svg",
+      "img": "systems/zweihander/assets/icons/prostitute.svg",
       "range": [
         69,
         75
@@ -202,7 +202,7 @@
       "documentId": "ppGitGf4vlaqCqF6",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/drakkar.svg",
+      "img": "systems/zweihander/assets/icons/drakkar.svg",
       "range": [
         76,
         82
@@ -217,7 +217,7 @@
       "documentId": "zFbTCoid1TP2FfuN",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/smuggler.svg",
+      "img": "systems/zweihander/assets/icons/smuggler.svg",
       "range": [
         83,
         89
@@ -232,7 +232,7 @@
       "documentId": "R1hh8a5kukeibLgg",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/vagabond.svg",
+      "img": "systems/zweihander/assets/icons/vagabond.svg",
       "range": [
         90,
         95
@@ -247,7 +247,7 @@
       "documentId": "PRmFfj0RAZMzoz8A",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/vigilante.svg",
+      "img": "systems/zweihander/assets/icons/vigilante.svg",
       "range": [
         96,
         100

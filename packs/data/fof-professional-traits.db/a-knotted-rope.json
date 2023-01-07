@@ -7,7 +7,7 @@
     "notes": "<p>Every Profession possesses a unique knack, an ability that no other Profession has access to. The Trait immediately follows the Profession&rsquo;s description.</p>",
     "rules": {
       "effect": {
-        "@en": "<p>You may flip the results to succeed at Handle Vehicle Tests. When you succeed, it is always considered a Critical Success. In addition, when using the Movement subtype of Rowing, you do not have to add the additional 1 Action Point cost.</p>"
+        "@en": "<p>You may flip the results to succeed at Pilot Tests. When you succeed, it is always considered a Critical Success. In addition, when using the Movement subtype of Rowing, you do not have to add the additional 1 Action Point cost.</p>"
       }
     }
   },
@@ -22,7 +22,7 @@
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "A Knotted Rope",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

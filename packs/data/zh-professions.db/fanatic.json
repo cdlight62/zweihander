@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/suspicious.svg",
+  "img": "systems/zweihander/assets/icons/suspicious.svg",
   "name": "Fanatic",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

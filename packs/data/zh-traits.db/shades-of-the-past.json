@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "When you touch a corpse, make a successful Odweft Test to learn three important facts about their past. However, you may only ever exert this power over an individual corpse once."
+        "@en": "When you touch a corpse, make a successful Incantation Test to learn three important facts about their past. However, you may only ever exert this power over an individual corpse once."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "Shades of the Past",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

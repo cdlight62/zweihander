@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/church.svg",
+  "img": "systems/zweihander/assets/icons/church.svg",
   "name": "Friar",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

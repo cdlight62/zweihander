@@ -58,7 +58,7 @@
         "name": "Heal"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Resolve"
@@ -98,10 +98,10 @@
     "core": {
       "sourceId": "Compendium.zweihander.professions.FTvKmUMeBLS5eeQH"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/adherent.svg",
+  "img": "systems/zweihander/assets/icons/adherent.svg",
   "name": "Adherent",
   "permission": {
     "9cw85KJ7nPukNIXd": 3,

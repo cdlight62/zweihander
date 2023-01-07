@@ -5,7 +5,7 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667813916975,
-    "systemId": "blackbirds",
+    "systemId": "zweihander",
     "systemVersion": "5.0.1"
   },
   "description": "",
@@ -16,7 +16,7 @@
     },
     "exportSource": {
       "coreVersion": "9.255",
-      "system": "blackbirds",
+      "system": "zweihander",
       "systemVersion": "4.3.0",
       "world": "aeon-of-cinders"
     }
@@ -37,7 +37,7 @@
       "documentId": "dPmhU1YMHkXMG2Wu",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/adherent.svg",
+      "img": "systems/zweihander/assets/icons/adherent.svg",
       "range": [
         1,
         6
@@ -52,7 +52,7 @@
       "documentId": "t6uRo8fjVkuOpYgL",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/anchorite.svg",
+      "img": "systems/zweihander/assets/icons/anchorite.svg",
       "range": [
         7,
         13
@@ -67,7 +67,7 @@
       "documentId": "mMjlBmM8pWAnlxak",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/antiquarian.svg",
+      "img": "systems/zweihander/assets/icons/antiquarian.svg",
       "range": [
         14,
         20
@@ -82,7 +82,7 @@
       "documentId": "rNNmXhciyYskIbrJ",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/apothecary.svg",
+      "img": "systems/zweihander/assets/icons/apothecary.svg",
       "range": [
         21,
         27
@@ -97,7 +97,7 @@
       "documentId": "d2j4pbRTuyDZnaVF",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/astrologer.svg",
+      "img": "systems/zweihander/assets/icons/astrologer.svg",
       "range": [
         28,
         34
@@ -112,7 +112,7 @@
       "documentId": "42UvXIlRmNaUqxJ1",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/diabolist.svg",
+      "img": "systems/zweihander/assets/icons/diabolist.svg",
       "range": [
         35,
         41
@@ -127,7 +127,7 @@
       "documentId": "4bDFfrWAV5YDLcGG",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/engineer.svg",
+      "img": "systems/zweihander/assets/icons/engineer.svg",
       "range": [
         42,
         47
@@ -142,7 +142,7 @@
       "documentId": "zpiadJQ82qOpcwhU",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/full-folder.svg",
+      "img": "systems/zweihander/assets/icons/full-folder.svg",
       "range": [
         48,
         54
@@ -157,7 +157,7 @@
       "documentId": "QIHRzRD0AuE47I6d",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/informer.svg",
+      "img": "systems/zweihander/assets/icons/informer.svg",
       "range": [
         55,
         61
@@ -172,7 +172,7 @@
       "documentId": "F86QXGM3NI6fyUTg",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/investigator.svg",
+      "img": "systems/zweihander/assets/icons/investigator.svg",
       "range": [
         62,
         68
@@ -187,7 +187,7 @@
       "documentId": "G5XtOImPJ6WTsdjU",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/monk.svg",
+      "img": "systems/zweihander/assets/icons/monk.svg",
       "range": [
         69,
         75
@@ -202,7 +202,7 @@
       "documentId": "7yJQZLcSLsxPtmKA",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/newspaper.svg",
+      "img": "systems/zweihander/assets/icons/newspaper.svg",
       "range": [
         76,
         82
@@ -217,7 +217,7 @@
       "documentId": "7SIcvv9DFMDllGj1",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/preacher.svg",
+      "img": "systems/zweihander/assets/icons/preacher.svg",
       "range": [
         83,
         89
@@ -232,7 +232,7 @@
       "documentId": "drp0LRnRNLvcsE12",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/barrel.svg",
+      "img": "systems/zweihander/assets/icons/barrel.svg",
       "range": [
         90,
         95
@@ -247,7 +247,7 @@
       "documentId": "l2UeXRBOYthOu61d",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/scribe.svg",
+      "img": "systems/zweihander/assets/icons/scribe.svg",
       "range": [
         96,
         100

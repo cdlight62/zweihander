@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "When you Critically Fail an Odweft Test to cast Magick, you gain a Malignancy."
+        "@en": "When you Critically Fail an Incantation Test to cast Magick, you gain a Malignancy."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/spiked-halo.svg",
+  "img": "systems/zweihander/assets/icons/spiked-halo.svg",
   "name": "Black Temperament",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

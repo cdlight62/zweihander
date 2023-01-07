@@ -11,7 +11,7 @@ if [ $? -ne 0 ]; then
 fi
 version=$1
 manifest_branch=$(git branch --show-current)
-cat system.template.json | sed -e 's/{{version}}/'"${version}"'/g' -e 's/{{manifest}}/https:\/\/raw.githubusercontent.com\/cdlight62\/blackbirds\/'"${manifest_branch}"'\/zweihander-main\/system.json/g' > system.json
+cat system.template.json | sed -e 's/{{version}}/'"${version}"'/g' -e 's/{{manifest}}/https:\/\/raw.githubusercontent.com\/fh-fvtt\/zweihander\/'"${manifest_branch}"'\/system.json/g' > system.json
 if [ "$2" != "--manifest-only" ] && [ "$3" != "--manifest-only" ]; then
   git add system.json
   git commit -m "preparing release v${version}"

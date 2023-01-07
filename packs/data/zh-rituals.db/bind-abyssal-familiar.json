@@ -6,7 +6,7 @@
     "description": {
       "@en": "Countless terrible spirits dwell within the pit of the Abyss, but not all of them are powerful enough to ascend into demonhood. Many are trickster-wretches, chaotic beings who long to be released into the Material Realm. The vainest of magisters will harness these spirits, binding one permanently into their service to be a servant and a Magickal conduit. The rite to summon one of these\n  impish familiars involves filling a bronze censer with incense and Wytchstone Essence. Once alight, the acrid smoke drifts up and congeals\n  in an inky blackness and with a blinding flash\n  the familiar appears – devoted to the caster as much as an insane spirit can be. These familiars take on simple forms to disguise themselves from mortals, often in the shape of an innocuous and harmless small mammal – insufferably cute to belie its nature (perhaps a beloved\n  household pet such as a kitten, piglet,\n  puppy or even a small child). However,\n  the familiar’s craven nature oftentimes\n  puts itself at odds with your goals, tempting\n  you towards damnation. Strangely, the\n  familiar never ages – remaining small and never\n  maturing in size. They must feed, however, to maintain their form and physical presence in this reality. They often leave the confines of their master’s domicile at night, teleporting away to suck the blood of newborns and steal the livers of old drunkards. If worst comes to worst, their master can also provide them with sustenance through the taste of their own blood – an unusual, but frequently fulfilled demand. The familiar has many tricks up its sleeve to aid its master and the risks associated with binding them to your service are well worth the exchange in power gained."
     },
-    "difficulty": "(Challenging -10%) Odweft Test",
+    "difficulty": "(Challenging -10%) Incantation Test",
     "notes": "",
     "rules": {
       "condition": {
@@ -26,7 +26,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/pentacle.svg",
+  "img": "systems/zweihander/assets/icons/pentacle.svg",
   "name": "Bind Abyssal Familiar",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

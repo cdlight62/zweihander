@@ -107,10 +107,10 @@
       "hash": "6686cd9f4af1d35ef5abe0786b9b2b8aef41f388",
       "sourceId": "Item.0liYCyFjOFxSnQsU"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Town Crier",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

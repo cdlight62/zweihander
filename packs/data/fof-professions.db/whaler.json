@@ -58,7 +58,7 @@
         "name": "Navigation"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "c74bc184c3fefdfb1d7ff4d97849c0137413e1f7",
       "sourceId": "Item.OzGd9YhCu287XGXC"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Whaler",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

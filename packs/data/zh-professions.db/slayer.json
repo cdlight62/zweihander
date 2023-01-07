@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/slayer.svg",
+  "img": "systems/zweihander/assets/icons/slayer.svg",
   "name": "Slayer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

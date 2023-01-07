@@ -55,7 +55,7 @@
         "name": "Guile"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Navigation"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/cultist.svg",
+  "img": "systems/zweihander/assets/icons/cultist.svg",
   "name": "Cultist",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/brutal-helm.svg",
+  "img": "systems/zweihander/assets/icons/brutal-helm.svg",
   "name": "Sanguine Legionnaire",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/razor.svg",
+  "img": "systems/zweihander/assets/icons/razor.svg",
   "name": "Barber Surgeon",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

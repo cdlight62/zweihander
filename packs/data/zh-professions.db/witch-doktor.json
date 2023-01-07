@@ -33,7 +33,7 @@
       "name": "Ruinous Power"
     },
     "expert": {
-      "requirements": "You must possess at least one Skill Rank in Odweft in order to enter this Expert Profession. In addition, you must have the Special Trait of either Arcane or Divine Magick.",
+      "requirements": "You must possess at least one Skill Rank in Incantation in order to enter this Expert Profession. In addition, you must have the Special Trait of either Arcane or Divine Magick.",
       "value": true
     },
     "notes": "",
@@ -52,7 +52,7 @@
         "name": "Handle Animal"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Leadership"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/tusks-flag.svg",
+  "img": "systems/zweihander/assets/icons/tusks-flag.svg",
   "name": "Witch Doktor",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

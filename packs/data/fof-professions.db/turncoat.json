@@ -107,10 +107,10 @@
       "hash": "71db9aca82e76f141c571f64b9c4516327cb22c5",
       "sourceId": "Item.bePPsTUoRMeRyY80"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Turncoat",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

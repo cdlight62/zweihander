@@ -18,13 +18,13 @@
   "flags": {
     "exportSource": {
       "coreVersion": "0.8.9",
-      "system": "blackbirds",
+      "system": "zweihander",
       "systemVersion": "0.3.30",
       "world": "talron2"
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/tired-eye.svg",
+  "img": "systems/zweihander/assets/icons/tired-eye.svg",
   "name": "Black Eye",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,

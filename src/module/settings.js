@@ -129,8 +129,8 @@ export const registerSystemSettings = function () {
       removeUsedMisfortune: false,
       notifications: 'notify',
       size: 'normal',
-      fortunePath: '/systems/blackbird/assets/fortune-life.webp',
-      misfortunePath: '/systems/blackbird/assets/fortune-death.webp',
+      fortunePath: '/systems/zweihander/assets/fortune-life.webp',
+      misfortunePath: '/systems/zweihander/assets/fortune-death.webp',
     },
   });
   game.settings.registerMenu('zweihander', 'fortuneTrackerSettingsMenu', {

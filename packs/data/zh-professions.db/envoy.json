@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/wax-seal.svg",
+  "img": "systems/zweihander/assets/icons/wax-seal.svg",
   "name": "Envoy",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

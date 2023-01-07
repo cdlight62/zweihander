@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/animal-tamer.svg",
+  "img": "systems/zweihander/assets/icons/animal-tamer.svg",
   "name": "Animal Tamer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

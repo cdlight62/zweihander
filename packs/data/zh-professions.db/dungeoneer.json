@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/dungeoneer.svg",
+  "img": "systems/zweihander/assets/icons/dungeoneer.svg",
   "name": "Dungeoneer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

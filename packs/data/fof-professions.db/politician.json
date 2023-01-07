@@ -107,10 +107,10 @@
       "hash": "220a5aa56781d1f9fceb536de85cba5c5e0649e0",
       "sourceId": "Item.X99Mopf8qNvk7CmQ"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Politician",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

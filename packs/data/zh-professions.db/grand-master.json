@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/gothic-cross.svg",
+  "img": "systems/zweihander/assets/icons/gothic-cross.svg",
   "name": "Grand Master",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -18,7 +18,7 @@
         "@en": "As above, but victims cannot Dodge or Parry this attack."
       },
       "effect": {
-        "@en": "After successfully casting this spell, a fiery blade extends from the glowing hilt. The blade is a one-handed melee weapon with the Punishing Quality. The Flaming Sword provides a significant amount of heat and light, equivalent to a torch. Its flames are considered to be Moderately Dangerous. Instead of using your [CB], refer to your [WB] to determine Damage. Finally, whenever you strike or Parry with this sword, refer to your Odweft Skill instead of a Combat-based Skill. You can inflict Injuries with this Magick, but they are set On Fire instead."
+        "@en": "After successfully casting this spell, a fiery blade extends from the glowing hilt. The blade is a one-handed melee weapon with the Punishing Quality. The Flaming Sword provides a significant amount of heat and light, equivalent to a torch. Its flames are considered to be Moderately Dangerous. Instead of using your [CB], refer to your [WB] to determine Damage. Finally, whenever you strike or Parry with this sword, refer to your Incantation Skill instead of a Combat-based Skill. You can inflict Injuries with this Magick, but they are set On Fire instead."
       },
       "reagents": {
         "@en": "A hilt of any castle-forged sword, held aloft"
@@ -29,7 +29,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/flame-sword.svg",
+  "img": "systems/zweihander/assets/icons/flame-sword.svg",
   "name": "Flaming Sword",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

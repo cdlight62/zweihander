@@ -372,7 +372,7 @@ export default class ZweihanderBaseActorSheet extends ActorSheet {
         createdItemArray = await this.actor.createEmbeddedDocuments('ActiveEffect', [
           {
             label: 'New Effect',
-            icon: 'systems/blackbird/assets/icons/dice-fire.svg',
+            icon: 'systems/zweihander/assets/icons/dice-fire.svg',
             origin: 'Actor.' + this.actor.id,
             details: {
               source: `${this.actor.name} (Manual)`,
@@ -480,9 +480,9 @@ export default class ZweihanderBaseActorSheet extends ActorSheet {
       //console.log(item);
       let html;
       try {
-        html = await renderTemplate(`systems/blackbird/src/templates/item-card/item-card-${item.type}.hbs`, item);
+        html = await renderTemplate(`systems/zweihander/src/templates/item-card/item-card-${item.type}.hbs`, item);
       } catch (e) {
-        html = await renderTemplate(`systems/blackbird/src/templates/item-card/item-card-fallback.hbs`, item);
+        html = await renderTemplate(`systems/zweihander/src/templates/item-card/item-card-fallback.hbs`, item);
       }
       await ChatMessage.create({ content: html });
     });

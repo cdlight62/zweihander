@@ -107,10 +107,10 @@
       "hash": "7abc10cb579323b3aa850caeb0821706c9bb62d6",
       "sourceId": "Item.mwHNpmzHZjo02JxD"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Partisan",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "When you Critically Succeed at an Odweft Test, a single, hand-sized shard of Wytchstone appears in your palm. In addition, you may ignore the divine commandments your previous Expert Profession required of you through its Drawbacks."
+        "@en": "When you Critically Succeed at an Incantation Test, a single, hand-sized shard of Wytchstone appears in your palm. In addition, you may ignore the divine commandments your previous Expert Profession required of you through its Drawbacks."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "Faustian Bargain",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

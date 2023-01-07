@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/helmet-head-shot.svg",
+  "img": "systems/zweihander/assets/icons/helmet-head-shot.svg",
   "name": "Armiger",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -58,7 +58,7 @@
         "name": "Navigation"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Rumor"
@@ -107,10 +107,10 @@
       "hash": "42e9b1665e721b0e5400ba376900a7571d1dd864",
       "sourceId": "Item.bzzj9sDk5PluMRmn"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Mutineer",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

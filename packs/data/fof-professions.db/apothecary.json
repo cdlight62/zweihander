@@ -58,7 +58,7 @@
         "name": "Heal"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "7cc3468936f00cb41fdefc332176942d996b9cfc",
       "sourceId": "Item.dHW8NalAubK3P3AV"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Apothecary",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

@@ -33,7 +33,7 @@
       "name": "Yellow Temperament"
     },
     "expert": {
-      "requirements": "You must possess at least one Skill Rank in Odweft in order to enter this Expert Profession. In addition, you must have the Special Trait of Arcane Magick.",
+      "requirements": "You must possess at least one Skill Rank in Incantation in order to enter this Expert Profession. In addition, you must have the Special Trait of Arcane Magick.",
       "value": true
     },
     "notes": "",
@@ -55,7 +55,7 @@
         "name": "Folklore"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Rumor"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/hermetic.svg",
+  "img": "systems/zweihander/assets/icons/hermetic.svg",
   "name": "Hermetic",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

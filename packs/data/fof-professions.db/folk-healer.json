@@ -52,7 +52,7 @@
         "name": "Heal"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Leadership"
@@ -107,10 +107,10 @@
       "hash": "4ae86d65353602ddda4aaad6eeecd1380ff715cd",
       "sourceId": "Item.fD8LuvQjpWenpm4M"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Folk Healer",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

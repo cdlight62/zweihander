@@ -15,8 +15,8 @@
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/skills.svg",
-  "name": "Handle Vehicle",
+  "img": "systems/zweihander/assets/icons/skills.svg",
+  "name": "Pilot",
   "permission": {
     "9cw85KJ7nPukNIXd": 3,
     "default": 0

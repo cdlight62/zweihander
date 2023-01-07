@@ -33,13 +33,13 @@
     },
     "exportSource": {
       "coreVersion": "0.8.9",
-      "system": "blackbirds",
+      "system": "zweihander",
       "systemVersion": "0.3.30",
       "world": "talron2"
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/war-axe.svg",
+  "img": "systems/zweihander/assets/icons/war-axe.svg",
   "name": "Lochaber Axe",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

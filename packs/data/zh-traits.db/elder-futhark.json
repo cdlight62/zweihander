@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Anytime you use the Ritual of Inscribe Magick Rune, you may flip the results to succeed Odweft Tests during the empowerment cycle. In addition, you automatically understand how to use the Ritual of Inscribe Magick Rune. Finally, you may treat the Odweft Skill as a Common Skill for purposes of Rituals associated with the Skill Focus (Runesmith)."
+        "@en": "Anytime you use the Ritual of Inscribe Magick Rune, you may flip the results to succeed Incantation Tests during the empowerment cycle. In addition, you automatically understand how to use the Ritual of Inscribe Magick Rune. Finally, you may treat the Incantation Skill as a Common Skill for purposes of Rituals associated with the Skill Focus (Runesmith)."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "Elder Futhark",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

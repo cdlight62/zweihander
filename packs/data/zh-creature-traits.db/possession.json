@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "These creatures can use Skin Guest from the Arcana of Sorcery without having to make an Odweft Test. In addition, they do not have to maintain Concentration."
+        "@en": "These creatures can use Skin Guest from the Arcana of Sorcery without having to make an Incantation Test. In addition, they do not have to maintain Concentration."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "Possession",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

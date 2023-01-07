@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/jester.svg",
+  "img": "systems/zweihander/assets/icons/jester.svg",
   "name": "Jester",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

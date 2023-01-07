@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/sword-spin.svg",
+  "img": "systems/zweihander/assets/icons/sword-spin.svg",
   "name": "Bladedancer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

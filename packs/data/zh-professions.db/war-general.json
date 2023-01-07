@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/conqueror.svg",
+  "img": "systems/zweihander/assets/icons/conqueror.svg",
   "name": "War General",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

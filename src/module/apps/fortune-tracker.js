@@ -47,7 +47,7 @@ export default class FortuneTracker extends Application {
 
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
-      template: 'systems/blackbird/src/templates/app/fortune-tracker.hbs',
+      template: 'systems/zweihander/src/templates/app/fortune-tracker.hbs',
       popOut: true,
       minimizable: false,
       resizable: false,
@@ -420,7 +420,7 @@ export default class FortuneTracker extends Application {
   playAudio() {
     AudioHelper.play(
       {
-        src: 'systems/blackbird/assets/sounds/coins.mp3',
+        src: 'systems/zweihander/assets/sounds/coins.mp3',
         volume: 0.5,
         loop: false,
       },

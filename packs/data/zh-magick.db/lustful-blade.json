@@ -18,7 +18,7 @@
         "@en": "As above, but victims cannot Dodge or Parry this attack."
       },
       "effect": {
-        "@en": "After successfully casting this spell, the blade of the stiletto oozes acid. Instead of using your [CB], refer to your [WB] to determine Damage. Finally, whenever you strike or Parry with this stiletto, refer to your Odweft Skill instead of a Combat-based Skill. When you inflict an Injury on a foe, you instead move one step up the Damage Condition Track positively."
+        "@en": "After successfully casting this spell, the blade of the stiletto oozes acid. Instead of using your [CB], refer to your [WB] to determine Damage. Finally, whenever you strike or Parry with this stiletto, refer to your Incantation Skill instead of a Combat-based Skill. When you inflict an Injury on a foe, you instead move one step up the Damage Condition Track positively."
       },
       "reagents": {
         "@en": "A castle-forged stiletto, held in-hand"
@@ -29,7 +29,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/dripping-knife.svg",
+  "img": "systems/zweihander/assets/icons/dripping-knife.svg",
   "name": "Lustful Blade",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

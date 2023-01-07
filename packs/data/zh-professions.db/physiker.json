@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/anatomy.svg",
+  "img": "systems/zweihander/assets/icons/anatomy.svg",
   "name": "Physiker",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

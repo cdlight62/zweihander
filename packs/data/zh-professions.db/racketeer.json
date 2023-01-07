@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/racketeer.svg",
+  "img": "systems/zweihander/assets/icons/racketeer.svg",
   "name": "Racketeer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

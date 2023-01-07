@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/apothecary.svg",
+  "img": "systems/zweihander/assets/icons/apothecary.svg",
   "name": "Apothecary",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

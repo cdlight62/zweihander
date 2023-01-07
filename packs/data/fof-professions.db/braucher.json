@@ -55,7 +55,7 @@
         "name": "Guile"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "555bf3ccf430e56686410296b866e00df5472992",
       "sourceId": "Item.vVVRjRZK4OBfIKXt"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Braucher",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "You can now attempt to learn Magicks from the Arcana of Luminescence. In addition, you automatically learn one Petty and one Lesser Magick spell from the Arcana of Luminescence. You cannot cast Lesser Magick from the Arcana of Luminescence until you have two Skill Ranks in Odweft. You can continue to learn Generalist Magick. Finally, you may only ever use Arcana of Luminescence and cannot adopt any other Profession that gives different Arcana types."
+        "@en": "You can now attempt to learn Magicks from the Arcana of Luminescence. In addition, you automatically learn one Petty and one Lesser Magick spell from the Arcana of Luminescence. You cannot cast Lesser Magick from the Arcana of Luminescence until you have two Skill Ranks in Incantation. You can continue to learn Generalist Magick. Finally, you may only ever use Arcana of Luminescence and cannot adopt any other Profession that gives different Arcana types."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/sunbeams.svg",
+  "img": "systems/zweihander/assets/icons/sunbeams.svg",
   "name": "Arcana of Luminescence",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

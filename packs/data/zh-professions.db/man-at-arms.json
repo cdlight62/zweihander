@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/man-at-arms.svg",
+  "img": "systems/zweihander/assets/icons/man-at-arms.svg",
   "name": "Man-At-Arms",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

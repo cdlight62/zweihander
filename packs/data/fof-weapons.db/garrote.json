@@ -33,7 +33,7 @@
     },
     "exportSource": {
       "coreVersion": "0.8.9",
-      "system": "blackbirds",
+      "system": "zweihander",
       "systemVersion": "0.3.30",
       "world": "talron2"
     },
@@ -44,7 +44,7 @@
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/skipping-rope.svg",
+  "img": "systems/zweihander/assets/icons/skipping-rope.svg",
   "name": "Garrote",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

@@ -107,10 +107,10 @@
       "hash": "fa4c9e3c1705783b766d89d5db9377362dbb1a07",
       "sourceId": "Item.8Qv23dIRZKEk1xGX"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Musician",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/guttersnipe.svg",
+  "img": "systems/zweihander/assets/icons/guttersnipe.svg",
   "name": "Guttersnipe",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/pilgrim.svg",
+  "img": "systems/zweihander/assets/icons/pilgrim.svg",
   "name": "Pilgrim",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

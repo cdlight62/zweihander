@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "You may substitute Handle Vehicle in place of any Skill required to drive a vehicle, use a boat or ride a creature. Furthermore, whenever your vehicle is Wrecked!, you do not crash. Instead, your vehicle coasts a Distance of 6 yards and stops, collapsing to pieces."
+        "@en": "You may substitute Pilot in place of any Skill required to drive a vehicle, use a boat or ride a creature. Furthermore, whenever your vehicle is Wrecked!, you do not crash. Instead, your vehicle coasts a Distance of 6 yards and stops, collapsing to pieces."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/lever.svg",
+  "img": "systems/zweihander/assets/icons/lever.svg",
   "name": "Red Baron",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

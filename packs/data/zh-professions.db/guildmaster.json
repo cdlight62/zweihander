@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/guildmaster.svg",
+  "img": "systems/zweihander/assets/icons/guildmaster.svg",
   "name": "Guildmaster",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

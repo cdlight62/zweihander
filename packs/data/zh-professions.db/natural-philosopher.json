@@ -58,7 +58,7 @@
         "name": "Heal"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Scrutinize"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/air-balloon.svg",
+  "img": "systems/zweihander/assets/icons/air-balloon.svg",
   "name": "Natural Philosopher",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -107,10 +107,10 @@
       "hash": "eaa37faf5d998c07dcf15162b9faa88b25a6e517",
       "sourceId": "Item.VwbUnCmIrEnIPPAE"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Architect",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

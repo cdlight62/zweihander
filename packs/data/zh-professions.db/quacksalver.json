@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/bubbling-flask.svg",
+  "img": "systems/zweihander/assets/icons/bubbling-flask.svg",
   "name": "Quacksalver",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

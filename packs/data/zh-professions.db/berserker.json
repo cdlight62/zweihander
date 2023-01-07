@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/berserker.svg",
+  "img": "systems/zweihander/assets/icons/berserker.svg",
   "name": "Berserker",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

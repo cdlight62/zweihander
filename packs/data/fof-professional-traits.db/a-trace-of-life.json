@@ -7,7 +7,7 @@
     "notes": "<p>Every Profession possesses a unique knack, an ability that no other Profession has access to. The Trait immediately follows the Profession&rsquo;s description.</p>",
     "rules": {
       "effect": {
-        "@en": "<p>Whenever attempting to track a threat classified as an Animal or find a place using a sacred tool, substitute Odweft in place of other Skills required to do so. Randomly determine three Common Spells you learn as free Unique Abilities from the Common Spells Listings table. Finally, you can Risk Backlash and Unfetter your Spells (covered in <strong>Article 7: Combat Encounters</strong> and <strong>Article 9: Hexenmeister&rsquo;s Almanack</strong>).</p>"
+        "@en": "<p>Whenever attempting to track a threat classified as an Animal or find a place using a sacred tool, substitute Incantation in place of other Skills required to do so. Randomly determine three Common Spells you learn as free Unique Abilities from the Common Spells Listings table. Finally, you can Risk Backlash and Unfetter your Spells (covered in <strong>Article 7: Combat Encounters</strong> and <strong>Article 9: Hexenmeister&rsquo;s Almanack</strong>).</p>"
       }
     }
   },
@@ -22,7 +22,7 @@
     }
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "A Trace of Life",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

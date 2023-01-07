@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/female-legs.svg",
+  "img": "systems/zweihander/assets/icons/female-legs.svg",
   "name": "Courtesan",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

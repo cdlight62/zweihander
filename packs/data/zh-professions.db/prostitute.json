@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/prostitute.svg",
+  "img": "systems/zweihander/assets/icons/prostitute.svg",
   "name": "Prostitute",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

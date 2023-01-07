@@ -33,7 +33,7 @@
       "name": "Damned"
     },
     "expert": {
-      "requirements": "You must possess at least two Skill Ranks in Odweft in order to enter this Expert Profession. In addition, you must have the Special Trait of Covenant Magick and Drawback of Ruinous Power.",
+      "requirements": "You must possess at least two Skill Ranks in Incantation in order to enter this Expert Profession. In addition, you must have the Special Trait of Covenant Magick and Drawback of Ruinous Power.",
       "value": true
     },
     "notes": "",
@@ -55,7 +55,7 @@
         "name": "Folklore"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Intimidate"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/heptagram.svg",
+  "img": "systems/zweihander/assets/icons/heptagram.svg",
   "name": "Occult Magician",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -8,7 +8,7 @@ export const triggerAnalytics = async () => {
         flavor: 'Wants to create premium content for this system and needs your help',
         flags: {
           zweihander: {
-            img: 'systems/blackbird/assets/icons/informer.svg',
+            img: 'systems/zweihander/assets/icons/informer.svg',
             analytics: {},
           },
         },

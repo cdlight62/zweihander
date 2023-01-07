@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/pickelhaube.svg",
+  "img": "systems/zweihander/assets/icons/pickelhaube.svg",
   "name": "Grognard",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

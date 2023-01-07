@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/anchorite.svg",
+  "img": "systems/zweihander/assets/icons/anchorite.svg",
   "name": "Anchorite",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

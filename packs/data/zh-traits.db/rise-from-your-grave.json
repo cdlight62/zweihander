@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Anytime you attempt to create or control creatures classified as Supernatural, you may flip the results to succeed at Odweft Tests. In addition, you automatically understand how to use the Ritual of Awaken the Dead. Finally, you can use any Ritual which brings Supernatural creatures under your control within one minute, instead of the normal casting time required."
+        "@en": "Anytime you attempt to create or control creatures classified as Supernatural, you may flip the results to succeed at Incantation Tests. In addition, you automatically understand how to use the Ritual of Awaken the Dead. Finally, you can use any Ritual which brings Supernatural creatures under your control within one minute, instead of the normal casting time required."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/raise-skeleton.svg",
+  "img": "systems/zweihander/assets/icons/raise-skeleton.svg",
   "name": "Rise From Your Grave",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

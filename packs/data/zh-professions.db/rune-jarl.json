@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/broken-tablet.svg",
+  "img": "systems/zweihander/assets/icons/broken-tablet.svg",
   "name": "Rune Jarl",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

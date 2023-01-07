@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "You can now attempt to learn Magicks from the Prayers of the Crouching One, as listed under Chapter 10: Grimoire. In addition, you automatically learn one Petty and one Lesser Magick spell from the Prayers of the Crouching One. You cannot cast Lesser Magick from the Prayers of the Crouching One until you have two Skill Ranks in Odweft. You can continue to learn Generalist Magick. Finally, you may only ever use Prayers of the Crouching One and cannot adopt any other Profession that gives different Prayer types."
+        "@en": "You can now attempt to learn Magicks from the Prayers of the Crouching One, as listed under Chapter 10: Grimoire. In addition, you automatically learn one Petty and one Lesser Magick spell from the Prayers of the Crouching One. You cannot cast Lesser Magick from the Prayers of the Crouching One until you have two Skill Ranks in Incantation. You can continue to learn Generalist Magick. Finally, you may only ever use Prayers of the Crouching One and cannot adopt any other Profession that gives different Prayer types."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/book-storm.svg",
+  "img": "systems/zweihander/assets/icons/book-storm.svg",
   "name": "Prayers of the Crouching One",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

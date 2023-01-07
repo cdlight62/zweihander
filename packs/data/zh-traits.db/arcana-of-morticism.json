@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "You can now attempt to learn Magicks from the Arcana of Morticism. In addition, you automatically learn one Petty and one Lesser Magick spell from the Arcana of Morticism. You cannot cast Lesser Magick from the Arcana of Morticism until you have two Skill Ranks in Odweft. You can continue to learn Generalist Magick. Finally, you may only ever use Arcana of Morticism and cannot adopt any other Profession that gives different Arcana types."
+        "@en": "You can now attempt to learn Magicks from the Arcana of Morticism. In addition, you automatically learn one Petty and one Lesser Magick spell from the Arcana of Morticism. You cannot cast Lesser Magick from the Arcana of Morticism until you have two Skill Ranks in Incantation. You can continue to learn Generalist Magick. Finally, you may only ever use Arcana of Morticism and cannot adopt any other Profession that gives different Arcana types."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/grave-flowers.svg",
+  "img": "systems/zweihander/assets/icons/grave-flowers.svg",
   "name": "Arcana of Morticism",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/sword-altar.svg",
+  "img": "systems/zweihander/assets/icons/sword-altar.svg",
   "name": "Sworn Sword",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

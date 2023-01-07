@@ -5,7 +5,7 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667813916967,
-    "systemId": "blackbirds",
+    "systemId": "zweihander",
     "systemVersion": "5.0.1"
   },
   "description": "",
@@ -16,7 +16,7 @@
     },
     "exportSource": {
       "coreVersion": "9.255",
-      "system": "blackbirds",
+      "system": "zweihander",
       "systemVersion": "4.3.0",
       "world": "aeon-of-cinders"
     }
@@ -37,7 +37,7 @@
       "documentId": "4ByKyczR0CF2GHvO",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/berserker.svg",
+      "img": "systems/zweihander/assets/icons/berserker.svg",
       "range": [
         1,
         6
@@ -52,7 +52,7 @@
       "documentId": "vIJapvCgzyjYWwMF",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/bravo.svg",
+      "img": "systems/zweihander/assets/icons/bravo.svg",
       "range": [
         7,
         13
@@ -67,7 +67,7 @@
       "documentId": "ZC6KOuoDyOgWI36w",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/pirate-flag.svg",
+      "img": "systems/zweihander/assets/icons/pirate-flag.svg",
       "range": [
         14,
         20
@@ -82,7 +82,7 @@
       "documentId": "TtwXuRQaSxabtIOL",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/all-for-one.svg",
+      "img": "systems/zweihander/assets/icons/all-for-one.svg",
       "range": [
         21,
         27
@@ -97,7 +97,7 @@
       "documentId": "hNPpxqWEIHgJubaU",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/dragoon.svg",
+      "img": "systems/zweihander/assets/icons/dragoon.svg",
       "range": [
         28,
         34
@@ -112,7 +112,7 @@
       "documentId": "G89bcHOGNimwSXsn",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/hedge-knight.svg",
+      "img": "systems/zweihander/assets/icons/hedge-knight.svg",
       "range": [
         35,
         41
@@ -127,7 +127,7 @@
       "documentId": "KN7rdnRNUXEx9I1R",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/face-to-face.svg",
+      "img": "systems/zweihander/assets/icons/face-to-face.svg",
       "range": [
         42,
         47
@@ -142,7 +142,7 @@
       "documentId": "7QdwTDKFo2FbUgdo",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/man-at-arms.svg",
+      "img": "systems/zweihander/assets/icons/man-at-arms.svg",
       "range": [
         48,
         54
@@ -157,7 +157,7 @@
       "documentId": "tS8w8gSNlw90IlxZ",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/militiaman.svg",
+      "img": "systems/zweihander/assets/icons/militiaman.svg",
       "range": [
         55,
         61
@@ -172,7 +172,7 @@
       "documentId": "63Cw5rWJQrONxONv",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/pit_fighter.svg",
+      "img": "systems/zweihander/assets/icons/pit_fighter.svg",
       "range": [
         62,
         68
@@ -187,7 +187,7 @@
       "documentId": "3gVetu2PuWkLHSGm",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/pugilist.svg",
+      "img": "systems/zweihander/assets/icons/pugilist.svg",
       "range": [
         69,
         75
@@ -202,7 +202,7 @@
       "documentId": "4rERqA0NrBR27m40",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/sellsword.svg",
+      "img": "systems/zweihander/assets/icons/sellsword.svg",
       "range": [
         76,
         82
@@ -217,7 +217,7 @@
       "documentId": "xJ6bAJJY5nOwBuFu",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/sound-on.svg",
+      "img": "systems/zweihander/assets/icons/sound-on.svg",
       "range": [
         83,
         89
@@ -232,7 +232,7 @@
       "documentId": "uAFvXHVWXXFxt9Uu",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/knight-banner.svg",
+      "img": "systems/zweihander/assets/icons/knight-banner.svg",
       "range": [
         90,
         95
@@ -247,7 +247,7 @@
       "documentId": "FxoRaxiFPBDlndbJ",
       "drawn": false,
       "flags": {},
-      "img": "systems/blackbird/assets/icons/watchman.svg",
+      "img": "systems/zweihander/assets/icons/watchman.svg",
       "range": [
         96,
         100

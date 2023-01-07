@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "When these creatures are made subject to Chaos Manifestations, they can roll twice and choose the most desirous result. Finally, they can Counterspell for 0 APs and can use Dispel Magick without having to make an Odweft Test."
+        "@en": "When these creatures are made subject to Chaos Manifestations, they can roll twice and choose the most desirous result. Finally, they can Counterspell for 0 APs and can use Dispel Magick without having to make an Incantation Test."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "The Changer of Ways",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

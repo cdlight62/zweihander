@@ -12,7 +12,7 @@
     "principle": "Lesser",
     "rules": {
       "criticalFailure": {
-        "@en": "Today is not your lucky day. Your ignorance of the proper Odwefts has left you dumbfounded. You are left Helpless and can be convinced to do anything by the very same person you attempted to Flimflam, for up to three minutes."
+        "@en": "Today is not your lucky day. Your ignorance of the proper incantations has left you dumbfounded. You are left Helpless and can be convinced to do anything by the very same person you attempted to Flimflam, for up to three minutes."
       },
       "criticalSuccess": {
         "@en": "As above, but the action can be up to three minutes long."
@@ -29,7 +29,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/convince.svg",
+  "img": "systems/zweihander/assets/icons/convince.svg",
   "name": "Flimflam",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -107,10 +107,10 @@
       "hash": "8bf7dc4b9e6dc34ed91056570c831f643f6d39dd",
       "sourceId": "Item.jBKth7AWU144ErZw"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Dispatch Rider",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

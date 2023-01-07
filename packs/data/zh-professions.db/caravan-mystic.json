@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/dragon-orb.svg",
+  "img": "systems/zweihander/assets/icons/dragon-orb.svg",
   "name": "Caravan Mystic",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/heart-stake.svg",
+  "img": "systems/zweihander/assets/icons/heart-stake.svg",
   "name": "Vampire Hunter",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

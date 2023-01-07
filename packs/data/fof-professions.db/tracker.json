@@ -107,10 +107,10 @@
       "hash": "820df1f1fafa93949dfd619cc48e14bcc131d1fa",
       "sourceId": "Item.0TUkQmWSJAFteZnP"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Tracker",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

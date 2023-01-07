@@ -33,7 +33,7 @@
       "name": "Diabolical Mark"
     },
     "expert": {
-      "requirements": "You must possess at least two Skill Ranks in Odweft in order to enter this Expert Profession. In addition, you must have the Special Trait of Divine Magick.",
+      "requirements": "You must possess at least two Skill Ranks in Incantation in order to enter this Expert Profession. In addition, you must have the Special Trait of Divine Magick.",
       "value": true
     },
     "notes": "",
@@ -55,7 +55,7 @@
         "name": "Heal"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Leadership"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/dark-disciple.svg",
+  "img": "systems/zweihander/assets/icons/dark-disciple.svg",
   "name": "Dark Disciple",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

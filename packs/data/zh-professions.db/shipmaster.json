@@ -33,7 +33,7 @@
       "name": "Sea Legs"
     },
     "expert": {
-      "requirements": "You must possess at least two Skill Ranks in Handle Vehicle in order to enter this Expert Profession.",
+      "requirements": "You must possess at least two Skill Ranks in Pilot in order to enter this Expert Profession.",
       "value": true
     },
     "notes": "",
@@ -61,7 +61,7 @@
         "name": "Navigation"
       },
       {
-        "name": "Handle Vehicle"
+        "name": "Pilot"
       },
       {
         "name": "Rumor"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/ship-wheel.svg",
+  "img": "systems/zweihander/assets/icons/ship-wheel.svg",
   "name": "Shipmaster",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

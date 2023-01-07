@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/burglar.svg",
+  "img": "systems/zweihander/assets/icons/burglar.svg",
   "name": "Burglar",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

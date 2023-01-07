@@ -33,7 +33,7 @@
       "name": "Ambition Denied"
     },
     "expert": {
-      "requirements": "You must possess at least two Skill Ranks in Odweft in order to enter this Expert Profession. In addition, you must have the Special Trait of Covenant Magick and Drawback of Ruinous Power.",
+      "requirements": "You must possess at least two Skill Ranks in Incantation in order to enter this Expert Profession. In addition, you must have the Special Trait of Covenant Magick and Drawback of Ruinous Power.",
       "value": true
     },
     "notes": "",
@@ -52,7 +52,7 @@
         "name": "Guile"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Intimidate"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/radial-balance.svg",
+  "img": "systems/zweihander/assets/icons/radial-balance.svg",
   "name": "Havoc Conjuror",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

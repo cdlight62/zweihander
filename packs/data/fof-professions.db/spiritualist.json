@@ -55,7 +55,7 @@
         "name": "Folklore"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "2d0bbcf45efc0673684c62c2779d196968f5b6d1",
       "sourceId": "Item.NpMvptmtsJyoKYI5"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Spiritualist",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

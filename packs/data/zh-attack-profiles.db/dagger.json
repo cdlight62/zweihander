@@ -5,13 +5,13 @@
     "createdTime": null,
     "lastModifiedBy": "5vFvLMyCloE0U6VX",
     "modifiedTime": 1667812055634,
-    "systemId": "blackbirds",
+    "systemId": "zweihander",
     "systemVersion": "5.0.1"
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/plain-dagger.svg",
+  "img": "systems/zweihander/assets/icons/plain-dagger.svg",
   "name": "Dagger",
   "ownership": {
     "default": 0

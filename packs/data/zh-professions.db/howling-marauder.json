@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/battered-axe.svg",
+  "img": "systems/zweihander/assets/icons/battered-axe.svg",
   "name": "Howling Marauder",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

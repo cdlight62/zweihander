@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/sellsword.svg",
+  "img": "systems/zweihander/assets/icons/sellsword.svg",
   "name": "Sellsword",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

@@ -13,14 +13,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "While at Ignore 2 or 3 Skill Ranks on the Peril Condition Track, those afflicted with this Disorder must Channel Power with each Magick spell they cast by at least one step. At any time, a Mana Junkie may flip the results to succeed at Odweft Tests. Each time they take advantage of this benefit, they gain 6 Corruption."
+        "@en": "While at Ignore 2 or 3 Skill Ranks on the Peril Condition Track, those afflicted with this Disorder must Channel Power with each Magick spell they cast by at least one step. At any time, a Mana Junkie may flip the results to succeed at Incantation Tests. Each time they take advantage of this benefit, they gain 6 Corruption."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-057.svg",
+  "img": "systems/zweihander/assets/icons/abstract-057.svg",
   "name": "Mana Junkie",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,

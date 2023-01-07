@@ -33,7 +33,7 @@
       "name": "Warp Dissonance"
     },
     "expert": {
-      "requirements": "You must possess at least two Skill Ranks in Odweft in order to enter this Expert Profession. In addition, you must have the Special Trait of Arcane Magick. Finally, you must sacrifice one Fate Point upon entering this Profession.",
+      "requirements": "You must possess at least two Skill Ranks in Incantation in order to enter this Expert Profession. In addition, you must have the Special Trait of Arcane Magick. Finally, you must sacrifice one Fate Point upon entering this Profession.",
       "value": true
     },
     "notes": "",
@@ -58,7 +58,7 @@
         "name": "Folklore"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Resolve"
@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/archmage.svg",
+  "img": "systems/zweihander/assets/icons/archmage.svg",
   "name": "Archmage",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

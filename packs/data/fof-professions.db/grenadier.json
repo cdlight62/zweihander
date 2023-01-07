@@ -107,10 +107,10 @@
       "hash": "ac195efad22368ad691707edba0adf8e5e41aeee",
       "sourceId": "Item.In3dByMsigH6xtjn"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Grenadier",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

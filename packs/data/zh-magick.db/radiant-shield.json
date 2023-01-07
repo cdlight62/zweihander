@@ -18,7 +18,7 @@
         "@en": "As above, but it redirects melee and ranged attacks right back at the attacker (as if you had made an Opportunity Attack, requiring no Skill Test to strike)."
       },
       "effect": {
-        "@en": "After successfully casting this spell, you gain 2 additional APs at the beginning of your Turns in combat. However, they can only be used to Counterspell, Dodge and Parry. Refer to your Odweft Skill whenever you Dodge or Parry using this Magick."
+        "@en": "After successfully casting this spell, you gain 2 additional APs at the beginning of your Turns in combat. However, they can only be used to Counterspell, Dodge and Parry. Refer to your Incantation Skill whenever you Dodge or Parry using this Magick."
       },
       "reagents": {
         "@en": "A glass globe, held in-hand"
@@ -29,7 +29,7 @@
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/wizard-staff.svg",
+  "img": "systems/zweihander/assets/icons/wizard-staff.svg",
   "name": "Radiant Shield",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

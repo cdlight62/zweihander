@@ -58,7 +58,7 @@
         "name": "Guile"
       },
       {
-        "name": "Odweft"
+        "name": "Incantation"
       },
       {
         "name": "Resolve"
@@ -107,10 +107,10 @@
       "hash": "fd4c1c4cfe375710713d934a9142aec70189fd5c",
       "sourceId": "Item.BdRSBdtSOejqOQRy"
     },
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/abstract-082.svg",
+  "img": "systems/zweihander/assets/icons/abstract-082.svg",
   "name": "Fortune Teller",
   "permission": {
     "VOagSWOxwT3osUDT": 3,

@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/bravo.svg",
+  "img": "systems/zweihander/assets/icons/bravo.svg",
   "name": "Bravo",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

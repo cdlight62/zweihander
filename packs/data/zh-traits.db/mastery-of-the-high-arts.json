@@ -7,14 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Select one Petty, one Lesser and one Greater Magick spell over the course of your Profession. When you succeed at your Odweft Test to cast these spells, treat them as Critical Successes instead."
+        "@en": "Select one Petty, one Lesser and one Greater Magick spell over the course of your Profession. When you succeed at your Incantation Test to cast these spells, treat them as Critical Successes instead."
       }
     }
   },
   "effects": [],
   "flags": {},
   "folder": null,
-  "img": "systems/blackbird/assets/icons/vitruvian-man.svg",
+  "img": "systems/zweihander/assets/icons/vitruvian-man.svg",
   "name": "Mastery of the High Arts",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,

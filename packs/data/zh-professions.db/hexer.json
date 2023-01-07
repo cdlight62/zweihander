@@ -95,10 +95,10 @@
   },
   "effects": [],
   "flags": {
-    "blackbirds": {}
+    "zweihander": {}
   },
   "folder": null,
-  "img": "systems/blackbird/assets/icons/nested-hexagons.svg",
+  "img": "systems/zweihander/assets/icons/nested-hexagons.svg",
   "name": "Hexer",
   "permission": {
     "9cilLhNTlIyJpmtZ": 3,
