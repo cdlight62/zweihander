@@ -1,7 +1,7 @@
 {
   "id": "zweihander",
   "title": "Zweihänder Grim & Perilous RPG",
-  "description": "An implementation of the Zweihänder system for FoundryVTT.",
+  "description": "An implementation of the Blackbirds system for FoundryVTT.",
   "version": "{{version}}",
   "minimumCoreVersion": "10",
   "compatibility": {
@@ -42,7 +42,7 @@
   "socket": true,
   "url": "https://github.com/fh-fvtt/zweihander",
   "manifest": "{{manifest}}",
-  "download": "https://github.com/fh-fvtt/zweihander/releases/download/v{{version}}/system.zip",
+  "download": "https://github.com/cdlight62/zweihander/releases/download/v{{version}}/system.zip",
   "license": "LICENCE.txt",
   "primaryTokenAttribute": "stats.secondaryAttributes.damageCurrent",
   "secondaryTokenAttribute": "stats.secondaryAttributes.perilCurrent",
