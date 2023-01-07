@@ -1,7 +1,7 @@
 {
   "id": "zweihander",
-  "title": "Blackbirds Powered by Zweihänder",
-  "description": "An implementation of the Blackbirds system for FoundryVTT.",
+  "title": "Zweihänder Grim & Perilous RPG",
+  "description": "An implementation of the Zweihänder system for FoundryVTT.",
   "version": "5.0.4",
   "minimumCoreVersion": "10",
   "compatibility": {
@@ -19,15 +19,12 @@
     {
       "name": "kxfin",
       "discord": "kxfin#0458"
-    },
-    {
-      "name": "NightLight"
     }
   ],
   "media": [
     {
       "type": "cover",
-      "url": "https://images-geeknative-com.exactdn.com/wp-content/uploads/2020/11/27135148/blackbirds.png",
+      "url": "https://i.imgur.com/5pkuu0s.png",
       "caption": "zweihander"
     }
   ],
@@ -43,9 +40,9 @@
   "gridDistance": 1,
   "gridUnits": "yd",
   "socket": true,
-  "url": "https://github.com/cdlight62/zweihander",
-  "manifest": "https://raw.githubusercontent.com/cdlight62/zweihander/main/system.json",
-  "download": "https://github.com/cdlight62/zweihander/archive/refs/heads/main.zip",
+  "url": "https://github.com/fh-fvtt/zweihander",
+  "manifest": "https://raw.githubusercontent.com/fh-fvtt/zweihander/main/system.json",
+  "download": "https://github.com/fh-fvtt/zweihander/releases/download/v5.0.4/system.zip",
   "license": "LICENCE.txt",
   "primaryTokenAttribute": "stats.secondaryAttributes.damageCurrent",
   "secondaryTokenAttribute": "stats.secondaryAttributes.perilCurrent",
