@@ -3,6 +3,9 @@
     {{#each system.stats.primaryAttributes as | attr key | }}
     <li class="pa pa-{{key}}">
       <h4 class="block-title">{{key}}</h4 class="block-title">
+      {{#if attr.unlocked}}
+      <i class="fa fa-lock-open pa-unlocked"></i>
+      {{/if}}
       <div class="pa-display flexrow">
         <input class="pa-value" type="number" name="system.stats.primaryAttributes.{{key}}.value"
           value="{{attr.value}}">

@@ -218,15 +218,7 @@ export async function rollTest(
       },
     },
   };
-  let sound;
-  if (['dodge', 'parry'].includes(testType)) {
-    if (isSuccess(effectiveOutcome)) {
-      sound = ZweihanderActorConfig.getValue(actor, `${testType}Sound`);
-    } else if (ZweihanderActorConfig.getValue(actor, 'playGruntSound')) {
-      sound = ZweihanderActorConfig.getValue(actor, `gruntSound`);
-    }
-  }
-  let messageData = await roll.toMessage({ content, flavor, speaker, flags, sound }, { rollMode, create });
+  let messageData = await roll.toMessage({ content, flavor, speaker, flags }, { rollMode, create });
   // magick content
   if (create) {
     messageData = messageData.toObject();

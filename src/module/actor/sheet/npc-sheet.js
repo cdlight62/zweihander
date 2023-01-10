@@ -61,7 +61,7 @@ export default class ZweihanderNpcSheet extends ZweihanderCreatureSheet {
         placeholder: 'Archetype',
         choices: selectedChoice(
           this.actor.system.details.archetype ?? CONFIG.ZWEI.archetypes[0],
-          CONFIG.ZWEI.archetypes.map((a) => ({ value: a, label: a }))
+          CONFIG.ZWEI.archetypes.map((a) => ({ value: a.name, label: a.name }))
         ),
         hidden: this.actor.limited,
       },

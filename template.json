@@ -6,25 +6,32 @@
         "stats": {
           "primaryAttributes": {
             "combat": {
-              "value": 0
+              "value": 0,
+              "unlocked": false
             },
             "brawn": {
-              "value": 0
+              "value": 0,
+              "unlocked": false
             },
             "agility": {
-              "value": 0
+              "value": 0,
+              "unlocked": false
             },
             "perception": {
-              "value": 0
+              "value": 0,
+              "unlocked": false
             },
             "intelligence": {
-              "value": 0
+              "value": 0,
+              "unlocked": false
             },
             "willpower": {
-              "value": 0
+              "value": 0,
+              "unlocked": false
             },
             "fellowship": {
-              "value": 0
+              "value": 0,
+              "unlocked": false
             }
           },
           "secondaryAttributes": {
@@ -37,13 +44,13 @@
               "max": 5
             },
             "parry": {
-              "associatedSkill": "Simple Melee"
+              "associatedSkill": "Melee"
             },
             "dodge": {
               "associatedSkill": "Coordination"
             },
             "magick": {
-              "associatedSkill": "Incantation"
+              "associatedSkill": "Wortcunning"
             }
           }
         }
@@ -146,8 +153,8 @@
         "fate": 0,
         "reputation": 0,
         "rewardPoints": {
-          "current": 1000,
-          "total": 1000,
+          "current": 9,
+          "total": 9,
           "spent": 0
         }
       },
@@ -261,7 +268,7 @@
       "templates": ["flavor", "trapping"],
       "weaponType": "",
       "equipped": false,
-      "associatedSkill": "Simple Melee",
+      "associatedSkill": "Melee",
       "load": 0,
       "handling": "One-handed",
       "qualities": {
@@ -296,6 +303,8 @@
       "archetype": "",
       "bonusAdvances": [],
       "skillRanks": [],
+      "unlockedSkills": [],
+      "unlockedBonuses": [],
       "talents": [],
       "professionalTrait": {
         "name": ""

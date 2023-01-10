@@ -177,33 +177,6 @@
 
       <hr>
       {{/if}}
-      <h3>Sound FX</h3>
-      <div class="form-group">
-        <label>Dodge SFX</label>
-        <div class="flexrow">
-          <input type="text" name="flags.dodgeSound" value="{{flags.dodgeSound}}" />
-          {{filePicker target="flags.dodgeSound" type="sound"}}
-        </div>
-      </div>
-      <div class="form-group">
-        <label>Parry SFX</label>
-        <div class="flexrow">
-          <input type="text" name="flags.parrySound" value="{{flags.parrySound}}" />
-          {{filePicker target="flags.parrySound" type="sound"}}
-        </div>
-      </div>
-      <div class="form-group">
-        <label>Grunt SFX</label>
-        <div class="flexrow">
-          <input type="text" name="flags.gruntSound" value="{{flags.gruntSound}}" />
-          {{filePicker target="flags.gruntSound" type="sound"}}
-        </div>
-      </div>
-      <div class="form-group">
-        <label>Play Grunt Sound</label>
-        <input type="checkbox" name="flags.playGruntSound" {{checked flags.playGruntSound}} />
-        <p class="notes">Check this box to play a grunt SFX when failing to dodge or parry an attack.</p>
-      </div>
     </section>
   </form>
 </div>

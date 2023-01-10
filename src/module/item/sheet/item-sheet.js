@@ -67,8 +67,8 @@ export default class ZweihanderItemSheet extends ItemSheet {
       sheetData.choices.archetypes = ZweihanderUtils.selectedChoice(
         sheetData.system.archetype ?? CONFIG.ZWEI.archetypes[0],
         CONFIG.ZWEI.archetypes.map((option) => ({
-          value: option,
-          label: option,
+          value: option.name,
+          label: option.name,
         }))
       );
     }

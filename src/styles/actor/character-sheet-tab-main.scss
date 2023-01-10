@@ -37,6 +37,11 @@
       pa-icon {
         transition: color 175ms ease-in;
       }
+      .pa-unlocked {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+      }
       &.pa-hover-helper {
         h4.block-title,
         .pa-icon {

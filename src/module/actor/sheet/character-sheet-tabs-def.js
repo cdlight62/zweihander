@@ -296,21 +296,14 @@ export function getItemGroups(groupsData) {
       details: [
         {
           title: 'Tier',
-          size: 120,
+          size: 130,
           key: 'system.tier',
         },
         {
           title: 'Archetype',
-          size: 140,
+          size: 190,
           key: 'system.archetype',
-        },
-        {
-          title: 'Completed',
-          size: 100,
-          key: 'system.completed',
-          isCheckbox: true,
-          classes: 'profession-checkbox',
-        },
+        }
       ],
       items: groupsData.professions,
     },

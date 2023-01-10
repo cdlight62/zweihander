@@ -180,7 +180,13 @@ ZWEI.packSets = {
   },
 };
 
-ZWEI.archetypes = ['Academic', 'Commoner', 'Knave', 'Ranger', 'Socialite', 'Warrior', 'Expert Profession'];
+ZWEI.archetypes = [
+  { name: 'The Path of Bow & Blade', unlockedBonuses: ['CB', 'BB'], unlockedSkills: ['Athletics', 'Melee', 'Ranged', 'Toughness', 'Warfare'] }, 
+  { name: 'The Path of Charm & Manipulation', unlockedBonuses: ['FB', 'WB'], unlockedSkills: ['Bargain', 'Charm', 'Guile', 'Leadership', 'Rumor'] }, 
+  { name: 'The Path of Craft & Expertise', unlockedBonuses: ['IB', 'PB'], unlockedSkills: ['Education', 'Handle Animal', 'Heal', 'Navigation', 'Scrutinize', 'Strategy', 'Tradecraft', 'Handle Vehicle'] }, 
+  { name: 'The Path of Od & Ritual', unlockedBonuses: ['IB', 'WB'], unlockedSkills: ['Bargain', 'Folklore', 'Odweft', 'Resolve', 'Wortcunning'] }, 
+  { name: 'The Path of Shadow & Subterfuge', unlockedBonuses: ['AB', 'PB'], unlockedSkills: ['Awareness', 'Coordination', 'Disguise', 'Eavesdrop', 'Gamble', 'Skulduggery', 'Stealth', 'Survival'] }
+];
 
 ZWEI.injurySeverities = [
   { value: 0, label: 'Moderate' },

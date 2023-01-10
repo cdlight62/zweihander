@@ -13,16 +13,12 @@ export default class ZweihanderActorConfig extends FormApplication {
     encumbranceModifier: 0,
     initiativeModifier: 0,
     movementModifier: 0,
-    parrySkills: ['Simple Melee', 'Martial Melee', 'Guile', 'Charm', 'Incantation'],
-    dodgeSkills: ['Coordination', 'Guile', 'Drive', 'Ride'],
-    magickSkills: ['Incantation', 'Folklore'],
+    parrySkills: ['Melee', 'Guile', 'Charm', 'Odweft'],
+    dodgeSkills: ['Coordination', 'Guile'],
+    magickSkills: ['Odweft', 'Wortcunning'],
     isMagickUser: false,
     permanentChaosRanks: 0,
-    permanentOrderRanks: 0,
-    dodgeSound: 'systems/zweihander/assets/sounds/dodge.mp3',
-    parrySound: 'systems/zweihander/assets/sounds/parry.mp3',
-    gruntSound: 'systems/zweihander/assets/sounds/grunt_m.mp3',
-    playGruntSound: true,
+    permanentOrderRanks: 0
   };
 
   static getValue(actorData, key) {

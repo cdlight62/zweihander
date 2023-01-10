@@ -1,8 +1,8 @@
 {
   "id": "zweihander",
-  "title": "Zweihänder Grim & Perilous RPG",
+  "title": "Blackbirds Powered by Zweihänder",
   "description": "An implementation of the Blackbirds system for FoundryVTT.",
-  "version": "",
+  "version": "1.0.1",
   "minimumCoreVersion": "10",
   "compatibility": {
     "minimum": 10,
@@ -19,12 +19,15 @@
     {
       "name": "kxfin",
       "discord": "kxfin#0458"
+    },
+    {
+      "name": "NightLight"
     }
   ],
   "media": [
     {
       "type": "cover",
-      "url": "https://i.imgur.com/5pkuu0s.png",
+      "url": "https://images-geeknative-com.exactdn.com/wp-content/uploads/2020/11/27135148/blackbirds.png",
       "caption": "zweihander"
     }
   ],
@@ -40,7 +43,7 @@
   "gridDistance": 1,
   "gridUnits": "yd",
   "socket": true,
-  "url": "https://github.com/fh-fvtt/zweihander",
+  "url": "https://github.com/cdlight62/zweihander",
   "manifest": "https://raw.githubusercontent.com/cdlight62/zweihander/main/system.json",
   "download": "https://github.com/cdlight62/zweihander/releases/download/v/system.zip",
   "license": "LICENCE.txt",
@@ -78,48 +81,6 @@
       "type": "Item"
     },
     {
-      "name": "zh-magick",
-      "label": "Zweihander Magick",
-      "system": "zweihander",
-      "path": "./packs/zh-magick.db",
-      "type": "Item"
-    },
-    {
-      "name": "zh-professions",
-      "label": "Zweihander Professions",
-      "system": "zweihander",
-      "path": "./packs/zh-professions.db",
-      "type": "Item"
-    },
-    {
-      "name": "zh-talents",
-      "label": "Zweihander Talents",
-      "system": "zweihander",
-      "path": "./packs/zh-talents.db",
-      "type": "Item"
-    },
-    {
-      "name": "zh-drawbacks",
-      "label": "Zweihander Drawbacks",
-      "system": "zweihander",
-      "path": "./packs/zh-drawbacks.db",
-      "type": "Item"
-    },
-    {
-      "name": "zh-traits",
-      "label": "Zweihander Traits",
-      "system": "zweihander",
-      "path": "./packs/zh-traits.db",
-      "type": "Item"
-    },
-    {
-      "name": "zh-creature-traits",
-      "label": "Zweihander Creature Traits",
-      "system": "zweihander",
-      "path": "./packs/zh-creature-traits.db",
-      "type": "Item"
-    },
-    {
       "name": "zh-weapons",
       "label": "Zweihander Weapons",
       "system": "zweihander",
@@ -131,20 +92,6 @@
       "label": "Zweihander Weapons (Alt. Damage)",
       "system": "zweihander",
       "path": "./packs/zh-weapons-alt-damage.db",
-      "type": "Item"
-    },
-    {
-      "name": "zh-attack-profiles",
-      "label": "Zweihander Attack Profiles",
-      "system": "zweihander",
-      "path": "./packs/zh-attack-profiles.db",
-      "type": "Item"
-    },
-    {
-      "name": "zh-taints",
-      "label": "Zweihander Taints of Chaos",
-      "system": "zweihander",
-      "path": "./packs/zh-taints.db",
       "type": "Item"
     },
     {
@@ -183,20 +130,6 @@
       "type": "Item"
     },
     {
-      "name": "zh-disorders",
-      "label": "Zweihander Disorders",
-      "system": "zweihander",
-      "path": "./packs/zh-disorders.db",
-      "type": "Item"
-    },
-    {
-      "name": "zh-rituals",
-      "label": "Zweihander Rituals",
-      "system": "zweihander",
-      "path": "./packs/zh-rituals.db",
-      "type": "Item"
-    },
-    {
       "name": "zh-injuries",
       "label": "Zweihander Injuries",
       "system": "zweihander",
@@ -218,95 +151,11 @@
       "type": "RollTable"
     },
     {
-      "name": "zh-bestiary",
-      "label": "Zweihander Bestiary",
-      "system": "zweihander",
-      "path": "./packs/zh-bestiary.db",
-      "type": "Actor"
-    },
-    {
       "name": "zh-macros",
       "label": "Zweihander Macros",
       "system": "zweihander",
       "path": "./packs/zh-macros.db",
       "type": "Macro"
-    },
-    {
-      "name": "fof-afflictions",
-      "label": "FoF Afflictions (Disorders)",
-      "system": "zweihander",
-      "path": "./packs/fof-afflictions.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-ailments-and-drugs",
-      "label": "FoF Ailments & Drugs (Diseases)",
-      "system": "zweihander",
-      "path": "./packs/fof-ailments-and-drugs.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-injuries",
-      "label": "FoF Injuries",
-      "system": "zweihander",
-      "path": "./packs/fof-injuries.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-professional-traits",
-      "label": "FoF Professional Traits",
-      "system": "zweihander",
-      "path": "./packs/fof-professional-traits.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-professions",
-      "label": "FoF Professions",
-      "system": "zweihander",
-      "path": "./packs/fof-professions.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-qualities",
-      "label": "FoF Qualities",
-      "system": "zweihander",
-      "path": "./packs/fof-qualities.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-quirks",
-      "label": "FoF Quirks (Drawbacks)",
-      "system": "zweihander",
-      "path": "./packs/fof-quirks.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-spells",
-      "label": "FoF Spells",
-      "system": "zweihander",
-      "path": "./packs/fof-spells.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-talents",
-      "label": "FoF Talents",
-      "system": "zweihander",
-      "path": "./packs/fof-talents.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-traits",
-      "label": "FoF Traits",
-      "system": "zweihander",
-      "path": "./packs/fof-traits.db",
-      "type": "Item"
-    },
-    {
-      "name": "fof-weapons",
-      "label": "FoF Weapons",
-      "system": "zweihander",
-      "path": "./packs/fof-weapons.db",
-      "type": "Item"
     }
   ]
 }

@@ -42,9 +42,9 @@ export default class ZweihanderCharacterSheet extends ZweihanderBaseActorSheet {
     sheetData.settings.trackRewardPoints = game.settings.get('zweihander', 'trackRewardPoints');
     if (sheetData.settings.trackRewardPoints) {
       const tierMultiplier = {
-        Basic: 100,
-        Intermediate: 200,
-        Advanced: 300,
+        Basic: 1,
+        Intermediate: 2,
+        Advanced: 3,
       };
       sheetData.system.stats.rewardPoints.spent = sheetData.professions
         .map((profession) => tierMultiplier[profession.system.tier] * profession.system.advancesPurchased)

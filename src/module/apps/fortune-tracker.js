@@ -112,9 +112,6 @@ export default class FortuneTracker extends Application {
   }
 
   set state(updatedState) {
-    if (updatedState.used !== this.used || updatedState.removed !== this.removed || updatedState.total !== this.total) {
-      this.playAudio();
-    }
     this.#waiting = false;
     this.#state = updatedState;
     if (game.users.get(game.userId).isGM) {
@@ -415,16 +412,5 @@ export default class FortuneTracker extends Application {
       throw "Can't use misfortune!";
     }
     return true;
-  }
-
-  playAudio() {
-    AudioHelper.play(
-      {
-        src: 'systems/zweihander/assets/sounds/coins.mp3',
-        volume: 0.5,
-        loop: false,
-      },
-      true
-    );
   }
 }

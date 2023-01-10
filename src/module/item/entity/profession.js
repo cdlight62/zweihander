@@ -31,7 +31,6 @@ export default class ZweihanderProfession extends ZweihanderBaseItem {
       (item.system.skillRanks?.reduce?.((a, b) => a + Number(b.purchased), 0) ?? 0) +
       (item.system.talents?.reduce?.((a, b) => a + Number(b.purchased), 0) ?? 0);
     item.system.advancesPurchased = advancesPurchased;
-    item.system.completed = advancesPurchased === 21;
   }
 
   async _preCreate(data, options, user, item) {
@@ -41,11 +40,11 @@ export default class ZweihanderProfession extends ZweihanderBaseItem {
       'system.tier': CONFIG.ZWEI.tiers[tier],
       'system.skillRanks': item.system.skillRanks.map((sr) => ({
         ...sr,
-        purchased: false,
+        purchased: true
       })),
       'system.bonusAdvances': item.system.bonusAdvances.map((ba) => ({
         ...ba,
-        purchased: false,
+        purchased: true
       })),
     });
     await super._preCreate(data, options, user, item);
@@ -55,13 +54,13 @@ export default class ZweihanderProfession extends ZweihanderBaseItem {
     if (changed.system['skillRanks'] !== undefined) {
       changed.system.skillRanks = changed.system.skillRanks.map((sr) => ({
         ...sr,
-        purchased: sr.purchased ?? false,
+        purchased: true
       }));
     }
     if (changed.system['bonusAdvances'] !== undefined) {
       changed.system.bonusAdvances = changed.system.bonusAdvances.map((ba) => ({
         ...ba,
-        purchased: ba.purchased ?? false,
+        purchased: true
       }));
     }
     await super._preUpdate(changed, options, user, item);

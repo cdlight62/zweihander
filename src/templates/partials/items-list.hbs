@@ -63,10 +63,6 @@
         </div>
         <h4 class="flexrow" data-testid="{{#if ../isEffect}}{{item.label}}{{else}}{{item.name}}{{/if}}">
           {{#if ../isEffect}}{{item.label}}{{else}}{{item.name}}{{/if}}
-          {{#zhProfessionWarn item}}
-          {{else}}
-          <div class="profession-warn"><i class="fa fa-exclamation-triangle" title="Profession is missing a Talent, has a misspelled Talent, or has a duplicate one. Please add to/change Talent list."></i></div>
-          {{/zhProfessionWarn}}
         </h4>
       </div>
       {{#each itemGroup.details as |detail| }}

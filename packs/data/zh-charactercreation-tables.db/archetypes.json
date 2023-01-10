@@ -27,7 +27,7 @@
       ],
       "rangeH": 1,
       "rangeL": 1,
-      "text": "Academic",
+      "text": "The Path of Od & Ritual",
       "type": 0,
       "weight": 1
     },
@@ -42,7 +42,7 @@
       ],
       "rangeH": 2,
       "rangeL": 2,
-      "text": "Commoner",
+      "text": "The Path of Craft & Expertise",
       "type": 0,
       "weight": 1
     },
@@ -57,7 +57,7 @@
       ],
       "rangeH": 3,
       "rangeL": 3,
-      "text": "Knave",
+      "text": "The Path of Shadow & Subterfuge",
       "type": 0,
       "weight": 1
     },
@@ -87,7 +87,7 @@
       ],
       "rangeH": 5,
       "rangeL": 5,
-      "text": "Socialite",
+      "text": "The Path of Charm & Manipulation",
       "type": 0,
       "weight": 1
     },
@@ -102,7 +102,7 @@
       ],
       "rangeH": 6,
       "rangeL": 6,
-      "text": "Warrior",
+      "text": "The Path of Bow & Blade",
       "type": 0,
       "weight": 1
     }
