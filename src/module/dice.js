@@ -49,6 +49,13 @@ export async function rollPeril(perilType, actor) {
   }
 }
 
+export async function rollOdicDice(totalDice) {
+  const roll = new Roll(`${totalDice}d6`);
+  roll.toMessage({
+    flavor: `Is rolling for Odic Manifestations`
+  });
+}
+
 export async function rollCombatReaction(type, enemyActorId, enemyTestConfiguration) {
   const actor = game.actors.get(ZweihanderUtils.determineCurrentActorId(true));
   if (!actor) return;

@@ -1,0 +1,15 @@
+<div class="odictracker-container flexrow">
+  {{#unless waiting}}
+    {{#if params.compact}}
+    <a class="odic-tracker-odic-trigger odic-tracker-text-odic">Odic Dice: {{odicDice.value}}</a> 
+    {{else}}
+    <div class="odictracker-token-container">
+      <a class="odic-tracker-odic-trigger">
+        <div class="odictracker-dice" title="Current Odic Dice: {{../odicDice.value}}">{{odicDice.value}}</div>
+      </a>
+    </div>
+    {{/if}}
+  {{else}}
+    <span id="odicTrackerAppWaiting"><i class="fas fa-sync-alt"></i>Waiting for a GM to connect</span>
+  {{/unless}}
+</div>

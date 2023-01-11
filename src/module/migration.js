@@ -349,21 +349,21 @@ const migrateIcons = (document) => {
 };
 
 export const migrateWorldSafe = async () => {
-  if (!game.user.isGM) return;
-  const currentVersion = game.settings.get('zweihander', 'systemMigrationVersion');
-  const NEEDS_MIGRATION_VERSION = '4.2.3-beta2f';
-  const COMPATIBLE_MIGRATION_VERSION = '4.2.0';
-  const totalDocuments = game.actors.size + game.scenes.size + game.items.size;
-  if (!currentVersion && totalDocuments === 0)
-    return game.settings.set('zweihander', 'systemMigrationVersion', game.system.version);
-  const needsMigration = !currentVersion || isNewerVersion(NEEDS_MIGRATION_VERSION, currentVersion);
-  if (!needsMigration) return;
+  // if (!game.user.isGM) return;
+  // const currentVersion = game.settings.get('zweihander', 'systemMigrationVersion');
+  // const NEEDS_MIGRATION_VERSION = '4.2.3-beta2f';
+  // const COMPATIBLE_MIGRATION_VERSION = '4.2.0';
+  // const totalDocuments = game.actors.size + game.scenes.size + game.items.size;
+  // if (!currentVersion && totalDocuments === 0)
+  //   return game.settings.set('zweihander', 'systemMigrationVersion', game.system.version);
+  // const needsMigration = !currentVersion || isNewerVersion(NEEDS_MIGRATION_VERSION, currentVersion);
+  // if (!needsMigration) return;
 
-  // Perform the migration
-  if (currentVersion && isNewerVersion(COMPATIBLE_MIGRATION_VERSION, currentVersion)) {
-    const warning =
-      'Your Zweihander system data is from too old a Foundry version and cannot be reliably migrated to the latest version. The process will be attempted, but errors may occur.';
-    ui.notifications.error(warning, { permanent: true });
-  }
-  await migrateWorld();
+  // // Perform the migration
+  // if (currentVersion && isNewerVersion(COMPATIBLE_MIGRATION_VERSION, currentVersion)) {
+  //   const warning =
+  //     'Your Zweihander system data is from too old a Foundry version and cannot be reliably migrated to the latest version. The process will be attempted, but errors may occur.';
+  //   ui.notifications.error(warning, { permanent: true });
+  // }
+  // await migrateWorld();
 };

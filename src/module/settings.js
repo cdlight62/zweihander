@@ -141,6 +141,15 @@ export const registerSystemSettings = function () {
     type: FortuneTrackerSettings, // A FormApplication subclass
     restricted: true, // Restrict this submenu to gamemaster only?
   });
+
+  game.settings.register('zweihander', 'odicTrackerPersistedState', {
+    scope: 'world',
+    config: false,
+    type: Object,
+    default: {
+      total: 0
+    },
+  });
   game.settings.register('zweihander', 'currencySettings', {
     scope: 'world',
     config: false,

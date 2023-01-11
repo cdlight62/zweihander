@@ -1,0 +1,75 @@
+body.game.vtt.system-zweihander #odicTrackerApp {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  .window-header {
+    // background: rgba(40,40,40,0.9);
+    background-image: none;
+    background-color: rgba(var(--zh-clr-bg0-rgb), 0.9);
+    border: 1px solid var(--zh-clr-bg0);
+    border-radius: 1ch;
+    color: var(--zh-clr-fg0);
+  }
+  .window-content {
+    background-image: none;
+    background-color: rgba(var(--zh-clr-bg0-rgb), 0.15);
+    position: relative;
+  }
+  h4.window-title {
+    color: var(--zh-clr-aqua);
+  }
+  #odicTrackerAppTotal {
+    color: var(--zh-clr-fg1);
+    &.waiting-true,
+    &.waiting-true + .odic-tracker-reset {
+      display: none;
+    }
+  }
+  @keyframes odicTrackerAppWaitingAnim {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  #odicTrackerAppWaiting {
+    margin-top: 45px;
+    display: block;
+    text-align: center;
+    i {
+      display: inline-block;
+      margin-right: 1ch;
+      animation: odicTrackerAppWaitingAnim 3s linear infinite;
+      transform: rotate(0deg);
+    }
+  }
+  .odictracker-container {
+    .odic-tracker-text-odic {
+      display: block;
+      flex: 1 0 100%;
+      line-height: 28px;
+      font-size: 30px;
+      border: 1px solid transparent;
+      border-radius: 1ch;
+      text-align: center;
+      text-shadow: none;
+      &:hover {
+        filter: brightness(1.1) contrast(1.1);
+      }
+    }
+    .odictracker-token-container {
+      position: relative;
+      padding: 10px;
+      .odictracker-dice {
+        position: absolute;
+        font-size: 50px;
+        width: 125px;
+        height: 125px;
+        &:hover {
+          filter: brightness(1.1) contrast(1.1);
+        }
+      }
+    }
+  }
+}

@@ -12,6 +12,7 @@ import ZweihanderCreatureSheet from './actor/sheet/creature-sheet';
 import ZweihanderItem from './item/item';
 import ZweihanderItemSheet from './item/sheet/item-sheet';
 import FortuneTracker from './apps/fortune-tracker';
+import OdicTracker from './apps/odic-tracker';
 import * as ZweihanderUtils from './utils';
 import * as ZweihanderChat from './chat';
 
@@ -56,6 +57,8 @@ Hooks.once('ready', function () {
     game.zweihander.socket = socket;
     FortuneTracker.INSTANCE = new FortuneTracker(socket);
     FortuneTracker.INSTANCE?.syncState();
+    OdicTracker.INSTANCE = new OdicTracker(socket);
+    OdicTracker.INSTANCE?.syncStateOdicDice();
     socket.register('updateChatMessage', (messageId, diffData) => {
       game.messages.get(messageId).update(diffData);
     });

@@ -5,6 +5,7 @@ const templatesToLoad = [
   $$('app/currency-settings.hbs'),
   $$('app/fortune-tracker-settings.hbs'),
   $$('app/fortune-tracker.hbs'),
+  $$('app/odic-tracker.hbs'),
   $$('app/language-config.hbs'),
   $$('app/test-config.hbs'),
 
