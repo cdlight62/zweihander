@@ -96,7 +96,7 @@ export default class FortuneTracker extends Application {
   }
 
   get resetRule() {
-    return 'Set total fortune points to the number of connected players plus one.';
+    return 'Set total fortune points to the number of connected players times 2.';
   }
 
   get removeUsedMisfortune() {
@@ -304,7 +304,7 @@ export default class FortuneTracker extends Application {
     if (game.users.get(game.userId).isGM) {
       const activePlayers = game.users.players.map((x) => (x.active ? 1 : 0)).reduce((x, y) => x + y, 0);
       this.state = {
-        total: activePlayers + 1, //TODO: customize this for rule systems
+        total: activePlayers * 2, //TODO: customize this for rule systems
         used: 0,
         removed: 0,
       };

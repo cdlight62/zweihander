@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Shields and weapons of this Quality add a +10 Base Chance to Parry."
+        "@en": "When using this weapon to Parry against Melee weapons, add +10 Base Chance, or the number in parentheses if one is indicated."
       }
     }
   },

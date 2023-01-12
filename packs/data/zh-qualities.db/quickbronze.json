@@ -1,0 +1,25 @@
+{
+  "_id": "Ubt0PwKhjHyPJduM",
+  "data": {
+    "description": {
+      "@en": ""
+    },
+    "notes": "",
+    "rules": {
+      "effect": {
+        "@en": "This weapon or armor is made from the liquid magical bronze of the aes, hardened into its current form by artisans and smiths of that eldritch species. It gains the Enchanted Quality and may strike opponents that can only be hit with magical weapons and may cause them Bane Damage. Quickbronze weapons do not have a penalty for making a second attack during the same Turn, the third attack is made at –10, and so on. Quickbronze armor ignores the Heavy or Cumbersome Qualities if they have been assigned, and if they have not been assigned, the wearer adds +10 to all Dodge tests. Such weapons and armor are extremely rare and valuable; add 5 to the Patronage level required to obtain such weapons, if they are even available. In addition, they do not suffer Degradation from the Wheel unless it comes into contact with the children of Anhelios."
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/zweihander/assets/icons/rule-book.svg",
+  "name": "Quickbronze",
+  "permission": {
+    "4be9WK4Hp7jWrwWe": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "type": "quality"
+}

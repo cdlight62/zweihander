@@ -1,5 +1,5 @@
 {
-  "_id": "Rg7ayPFAQ8iYSTDz",
+  "_id": "FLG4e5wPDp6wqhZ9",
   "data": {
     "description": {
       "@en": ""
@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Immediately after striking an Engaged foe, weapons of this Quality force a foe to Resist with Toughness or be shoved out of the Engagement."
+        "@en": "Lose Skill Ranks in Coordination-, Stealth-, and Combat-related Skills while wielding Finesse weapons equal to the number in parentheses, or 1 Skill Rank if no number is indicated"
       }
     }
   },
@@ -15,7 +15,7 @@
   "flags": {},
   "folder": null,
   "img": "systems/zweihander/assets/icons/rule-book.svg",
-  "name": "Powerful",
+  "name": "Cumbersome",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

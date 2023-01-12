@@ -1,5 +1,5 @@
 {
-  "_id": "FvNQGHmIZpHF4pay",
+  "_id": "yhblpN1hFOMKc6Ag",
   "data": {
     "description": {
       "@en": ""
@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Weapons of this Quality can only inflict Moderate or Serious Injuries, never Grievous Injuries."
+        "@en": "Whenever a wielder of a weapon with this Quality succeeds in a Parry against or is parried by a Melee weapon with the Finesse Quality, its wielder can spend 1 AP to break that weapon."
       }
     }
   },
@@ -15,7 +15,7 @@
   "flags": {},
   "folder": null,
   "img": "systems/zweihander/assets/icons/rule-book.svg",
-  "name": "Weak",
+  "name": "Breaker",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

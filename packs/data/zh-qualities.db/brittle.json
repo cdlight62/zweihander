@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Clothing or armor of this Quality cannot adequately protect you from harm. Should you suffer an Injury during this time without wearing a suit of armor, you begin to Bleed (as mentioned in Chapter 8: Combat)."
+        "@en": "If a Critical or Sublime Failure is rolled for the wielder of a weapon with this Quality, the weapon breaks. If a Critical or Sublime Success is rolled against someone wearing armor with this Quality, the armor breaks."
       }
     }
   },
@@ -15,7 +15,7 @@
   "flags": {},
   "folder": null,
   "img": "systems/zweihander/assets/icons/rule-book.svg",
-  "name": "Dangerous",
+  "name": "Brittle",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

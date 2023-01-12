@@ -1,0 +1,25 @@
+{
+  "_id": "WHHLRaX35WwuQGwO",
+  "data": {
+    "description": {
+      "@en": ""
+    },
+    "notes": "",
+    "rules": {
+      "effect": {
+        "@en": "Weapons and armor of this Quality are badly made and, therefore, less effective. Reduce Damage Threshold bonus for armor by –1 or the number in parentheses, if one is indicated. Reduce the Damage done by weapons by ‒1 or the number in parentheses, if one is indicated."
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/zweihander/assets/icons/rule-book.svg",
+  "name": "Shoddy",
+  "permission": {
+    "4be9WK4Hp7jWrwWe": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "type": "quality"
+}

@@ -1,5 +1,5 @@
 {
-  "_id": "WHHLRaX35WwuQGwO",
+  "_id": "vOutwhK95uttj9j8",
   "data": {
     "description": {
       "@en": ""
@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Whenever a weapon with this Quality is fired, it affects multiple targets in a Cone Template."
+        "@en": "This item is difficult to repair. Subtract –10 or the number in parentheses from Tradecraft rolls made to repair or craft it, and you must have access to a forge to do so. In addition, crafting takes twice as long."
       }
     }
   },
@@ -15,7 +15,7 @@
   "flags": {},
   "folder": null,
   "img": "systems/zweihander/assets/icons/rule-book.svg",
-  "name": "Shrapnel",
+  "name": "Intricate",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

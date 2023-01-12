@@ -7,19 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "<p>Weapons and shields of this Quality cannot be Disarmed from their wielder.</p>"
+        "@en": "A Critical or Sublime Success with this weapon causes the Bleed condition based on the number in parentheses. This condition with (1) or no value is A Trickle of Red, (2) is Scarlet Torrent, and (3) is Arterial Spray. These function identically to the Injuries of the same name."
       }
     }
   },
   "effects": [],
-  "flags": {
-    "core": {
-      "sourceId": "Item.XaZ656xbzOdrG79Z"
-    }
-  },
   "folder": null,
   "img": "systems/zweihander/assets/icons/flint-spark.svg",
-  "name": "Arming",
+  "name": "Biting",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,
     "default": 0

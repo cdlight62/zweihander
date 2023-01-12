@@ -1,5 +1,5 @@
 {
-  "_id": "3DGCaUossFziUOch",
+  "_id": "rZRQDceaCG1Xq7Bx",
   "data": {
     "description": {
       "@en": ""
@@ -7,19 +7,14 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "<p>Immediately after Taking Aim at a foe, weapons and shields of this Quality force the foe to Resist Dirty Tricks.</p>"
+        "@en": "Whenever a foe is threatened with Disarm using a weapon of this Quality, they suffer a –10 Base Chance to Resist its effects, or the value in parentheses if none is indicated."
       }
     }
   },
   "effects": [],
-  "flags": {
-    "core": {
-      "sourceId": "Item.wOScpQtzGMgQvw6Z"
-    }
-  },
   "folder": null,
   "img": "systems/zweihander/assets/icons/flint-spark.svg",
-  "name": "Distraction",
+  "name": "Disarming",
   "permission": {
     "JyjuBRFhP4y9QWxg": 3,
     "default": 0

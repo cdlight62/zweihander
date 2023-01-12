@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Whenever a foe is struck by weapons of this Quality, they gain a +10 Base Chance to Dodge or Parry its Damage."
+        "@en": "Opponents gain a +10 Base Chance to Parry and Dodge against attacks the Blackbird makes with this weapon."
       }
     }
   },

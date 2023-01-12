@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Weapons of this Quality may strike a foe you’re Engaged with or standing one yard away from outside of an Engagement. Additionally, foes who are armed with a Reach weapon can make an Opportunity Attack whenever someone Charges or Runs toward them."
+        "@en": "Weapons with this Quality may strike a foe with which the Blackbird is Engaged or standing 1 stride away from outside of an Engagement. Additionally, foes armed with a Reach weapon can make an Opportunity Attack whenever someone makes a Charge or Run at them."
       }
     }
   },

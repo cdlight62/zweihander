@@ -1,5 +1,5 @@
 {
-  "_id": "Ubt0PwKhjHyPJduM",
+  "_id": "AzjY6oWyIGOukSqQ",
   "data": {
     "description": {
       "@en": ""
@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Ranged weapons of this Quality can be fired up to three times without having to spend Action Points to load."
+        "@en": "Weapons with this Quality force foes to Resist with a successful Toughness test immediately after being struck or shoved out of the Engagement. Their Movement does not provoke Opportunity Attacks."
       }
     }
   },
@@ -15,7 +15,7 @@
   "flags": {},
   "folder": null,
   "img": "systems/zweihander/assets/icons/rule-book.svg",
-  "name": "Repeating",
+  "name": "Staggering",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

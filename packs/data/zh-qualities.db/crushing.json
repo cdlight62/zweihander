@@ -1,0 +1,24 @@
+{
+  "_id": "3DGCaUossFziUOch",
+  "data": {
+    "description": {
+      "@en": ""
+    },
+    "notes": "",
+    "rules": {
+      "effect": {
+        "@en": "When using this weapon, Damage or Bane dice that roll ‘1’ or ‘2’ are instead changed to ‘3’s. This weapon removes 1 AP or the number of AP in parentheses, if indicated, from the target when the player wielding it gets a Critical Success. On a Sublime Success, all AP are lost."
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "img": "systems/zweihander/assets/icons/flint-spark.svg",
+  "name": "Crushing",
+  "permission": {
+    "JyjuBRFhP4y9QWxg": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "type": "quality"
+}

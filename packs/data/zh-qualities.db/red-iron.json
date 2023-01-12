@@ -1,0 +1,25 @@
+{
+  "_id": "bdsMSsigsu16yXIl",
+  "data": {
+    "description": {
+      "@en": ""
+    },
+    "notes": "",
+    "rules": {
+      "effect": {
+        "@en": "This weapon or armor is made from the deep iron that can only be found in mines far below the surface of the world and is thought to be the congealed blood of Ouroboros itself. For this reason, it is sometimes called Dragon’s Blood. Such weapons gain the Enchanted Quality, may strike opponents that can only be hit with magical weapons, and may cause Bane Damage, particularly to Outsiders or other beings that exist or originate partially or wholly from within the Od. They also offer a +10 to hit when used to attack magical creatures, theurges, or those with the Witches Blood Boon. Armor or shields made from this substance give their bearers a +10 to tests made to Resist Vitiations or other sources of magic. Such weapons and armor are extremely rare and valuable; add 5 to the Patronage level required to obtain such Trappings, if they are even available. In addition, they do not suffer Degradation from the Wheel."
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/zweihander/assets/icons/rule-book.svg",
+  "name": "Red Iron",
+  "permission": {
+    "4be9WK4Hp7jWrwWe": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "type": "quality"
+}

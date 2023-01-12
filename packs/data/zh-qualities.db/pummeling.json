@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Weapons of this Quality always refer to [BB] whenever inflicting Damage, instead of [CB]. Pummeling weapons can only inflict Moderate Injuries, never Serious or Grievous Injuries. Finally, Pummeling weapons cannot be used to cause Bleeding."
+        "@en": "Weapons of this Quality always refer to [BB] whenever inflicting Damage, instead of [CB]."
       }
     }
   },

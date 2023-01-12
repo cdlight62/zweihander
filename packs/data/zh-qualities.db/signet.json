@@ -1,0 +1,23 @@
+{
+  "_id": "wXih2ldbp63137Dr",
+  "data": {
+    "description": {
+      "@en": ""
+    },
+    "notes": "",
+    "rules": {
+      "effect": {
+        "@en": "This Quality is conferred by the handiwork of guildmasters. Weapons of this Quality gain a +10 Base Chance to strike and a +2 Damage adjustment. Armor and shields with this Quality add a passive +2 to the Damage Threshold Modifier. Add 3 to the Patronage level required to obtain such items, if they are even available. In addition, they do not suffer Degradation from the Wheel."
+      }
+    }
+  },
+  "folder": null,
+  "img": "systems/zweihander/assets/icons/flint-spark.svg",
+  "name": "Signet",
+  "permission": {
+    "JyjuBRFhP4y9QWxg": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "type": "quality"
+}

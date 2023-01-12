@@ -1,0 +1,25 @@
+{
+  "_id": "FvNQGHmIZpHF4pay",
+  "data": {
+    "description": {
+      "@en": ""
+    },
+    "notes": "",
+    "rules": {
+      "effect": {
+        "@en": "This weapon is made from what remains of the wood of Yggdrasil. It gains the Enchanted Quality and may strike opponents that can only be hit with magical weapons, possibly causing them Bane Damage. Such weapons are extremely rare and valuable; add 5 to the Patronage level required to obtain such items, if they are even available. Once per Rekindling, the wielder of a weeping ash Melee weapon may spend 2 AP and 1 Fortune to change its form to a different Melee weapon, so long as it requires the same number of hands to wield (a onehanded weapon could change to any other onehanded weapon, a one-to-two-handed weapon could change to any other one-to-two-handed weapon, and a two-handed weapon could only change to another two-handed weapon). In addition, weeping ash weapons may not be Disarmed and do not suffer Degradation from the Wheel"
+      }
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "img": "systems/zweihander/assets/icons/rule-book.svg",
+  "name": "Weeping Ash",
+  "permission": {
+    "4be9WK4Hp7jWrwWe": 3,
+    "default": 0
+  },
+  "sort": 0,
+  "type": "quality"
+}

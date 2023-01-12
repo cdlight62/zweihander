@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Weapons of this Quality grant an additional 1D6 Chaos Die to determine whether you inflict an Injury upon a foe."
+        "@en": "Weapons of this Quality grant an additional 1D6 Injury to determine whether you inflict an Injury upon a foe."
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_id": "0L1YXMkZ0dXhGb0R",
+  "_id": "Rg7ayPFAQ8iYSTDz",
   "data": {
     "description": {
       "@en": ""
@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Weapons of this Quality can be loaded and fired while standing in an Engagement. Furthermore, these weapons cannot be Dodged or Parried. Finally, they explode on a face ‘1’ or ‘6’."
+        "@en": "This weapon ignores Damage Threshold provided by armor up to the number in parentheses. If no number is indicated, it ignores 1 Damage Threshold"
       }
     }
   },
@@ -15,7 +15,7 @@
   "flags": {},
   "folder": null,
   "img": "systems/zweihander/assets/icons/rule-book.svg",
-  "name": "Gunpowder",
+  "name": "Piercing",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

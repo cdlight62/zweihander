@@ -1,5 +1,5 @@
 {
-  "_id": "vOutwhK95uttj9j8",
+  "_id": "RihtCN1KtuSrnTxW",
   "data": {
     "description": {
       "@en": ""
@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Whenever weapons or shields of this Quality are held in your off-hand when attacking with a melee weapon in your primary hand, add +1 to Total Damage."
+        "@en": "This item — usually armor — can only be used by the person it was made for unless it is specifically refitted for someone else."
       }
     }
   },
@@ -15,7 +15,7 @@
   "flags": {},
   "folder": null,
   "img": "systems/zweihander/assets/icons/rule-book.svg",
-  "name": "Light",
+  "name": "Fitted",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Armor of this Quality prohibits the use of the Incantation Skill to cast Magick and Coordination in order to Dodge attacks."
+        "@en": "When combat begins, the Blackbird may move freely in this armor for their [BB] in Turns before fatigue becomes an issue. At the end of the last Turn and every Turn thereafter, make a successful Toughness test for the wearer, or they gain 1 level of Peril from exhaustion. If a Blackbird chooses to travel in Heavy armor, they accumulate 1 level of Peril every hour."
       }
     }
   },

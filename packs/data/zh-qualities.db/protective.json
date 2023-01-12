@@ -7,16 +7,11 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "<p>Shields of this Quality can be used to Parry any Attack Action made with a ranged weapon.</p>"
+        "@en": "Shields with this Quality can be used to Parry attacks made with Ranged weapons. If a number in parentheses is indicated, adjust the Parry for Ranged weapons by this amount."
       }
     }
   },
   "effects": [],
-  "flags": {
-    "core": {
-      "sourceId": "Item.71E5bFFG05kLwNZh"
-    }
-  },
   "folder": null,
   "img": "systems/zweihander/assets/icons/flint-spark.svg",
   "name": "Protective",

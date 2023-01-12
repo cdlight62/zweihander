@@ -1,5 +1,5 @@
 {
-  "_id": "54UHXtp9NHFzttLQ",
+  "_id": "0L1YXMkZ0dXhGb0R",
   "data": {
     "description": {
       "@en": ""
@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Armor of this Quality adds a +10 Base Chance to Dodge attacks."
+        "@en": "Make a successful Toughness test for anyone struck by this weapon, or they take the Damage listed in parentheses from poison. If this is a weapon smeared with venom and not a natural attack, this Quality is lost after the first hit."
       }
     }
   },
@@ -15,7 +15,7 @@
   "flags": {},
   "folder": null,
   "img": "systems/zweihander/assets/icons/rule-book.svg",
-  "name": "Natural",
+  "name": "Envenomed",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

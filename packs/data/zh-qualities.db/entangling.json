@@ -7,7 +7,7 @@
     "notes": "",
     "rules": {
       "effect": {
-        "@en": "Immediately after striking a foe, weapons of this Quality force a foe to Resist either a Chokehold or Takedown – you choose which. Additionally, whenever a foe is threatened with a Chokehold or Takedown with this weapon, they must flip the results to fail when Resisting its effects."
+        "@en": "Immediately after striking a foe, weapons of this Quality force a foe to Resist either a Grapple or Takedown – you choose which. Additionally, the foe must adjust the chance to Resist by the number in parentheses, or none if no value is indicated."
       }
     }
   },
