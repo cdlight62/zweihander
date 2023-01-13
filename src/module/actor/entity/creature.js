@@ -23,7 +23,16 @@ export default class ZweihanderCreature extends ZweihanderBaseActor {
       sa.movement.value = 3 + pa.agility.bonus;
       sa.movement.fly = 3 + sa.movement.value;
       sa.perilThreshold.value = 3 + pa.willpower.bonus;
-      sa.damageThreshold.value = pa.brawn.bonus;
+      
+      // get equipped armor
+      const equippedArmor = actor.items.filter((a) => a.type === 'armor' && a.system.equipped);
+      // calculate total damage threshold modifier from armor
+      // according to the rule book, this doesn't stack, so we choose the maximium!
+      // to account for shields with "maker's mark" quality, we need to implement active effects
+      const maxEquippedArmor =
+        equippedArmor?.[ZweihanderUtils.argMax(equippedArmor.map((a) => a.system.damageThresholdModifier))];
+      const damageModifier = maxEquippedArmor?.system?.damageThresholdModifier ?? 0;
+      sa.damageThreshold.value = pa.brawn.bonus + damageModifier;
     }
   }
 
