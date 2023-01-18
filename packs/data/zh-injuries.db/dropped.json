@@ -1,5 +1,5 @@
 {
-  "_id": "IUDTRmoBhggipYnl",
+  "_id": "5zhoatfivqTDstHR",
   "data": {
     "active": true,
     "description": {
@@ -9,16 +9,13 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "You are knocked Prone. Until fully Recuperated, you cannot move as you're paralyzed."
+        "@en": "That last hit knocked the victim off their feet. They immediately fall Prone. All attacks made against them while they’re down gain an additional 1Ð6 Damage. Until recuperated, apply ‒3 to the victim’s Movement."
       }
     },
-    "severity": 1
+    "severity": 0
   },
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.SLJ7uR91MyXFfvsN"
-    },
     "exportSource": {
       "coreVersion": "0.8.9",
       "system": "zweihander",
@@ -27,8 +24,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/stoned-skull.svg",
-  "name": "Temporary Paralysis",
+  "img": "systems/zweihander/assets/icons/foot-plaster.svg",
+  "name": "Dropped",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

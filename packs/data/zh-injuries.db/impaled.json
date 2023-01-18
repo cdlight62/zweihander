@@ -9,7 +9,7 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you remain Incapacitated!. You must undergo a successful surgery or suffer the consequences. Once a Mangled Organ has undergone a failed surgery, you permanently gain the Eunuch Drawback. If you already have this Drawback, you permanently lose 9% Fellowship."
+        "@en": "The victim's been run through. While impaled on a foe’s weapon, they cannot Dodge, and all Combat-based Skill and Parry tests made for them are Flip to Fail. On their Turn, the victim may attempt to remove their foe’s weapon from their body, which costs 3 AP. However, they immediately suffer from the Scarlet Torrent Serious Injury Bleeding effects. If the victim cannot be impaled by their foe’s weapon, they are instead Hobbled."
       }
     },
     "severity": 2
@@ -28,7 +28,7 @@
   },
   "folder": null,
   "img": "systems/zweihander/assets/icons/liver.svg",
-  "name": "Mangled Organ",
+  "name": "Impaled",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

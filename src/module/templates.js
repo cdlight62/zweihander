@@ -10,7 +10,7 @@ const templatesToLoad = [
   $$('app/test-config.hbs'),
 
   $$('character/currency.hbs'),
-  $$('character/encumbrance-meter.hbs'),
+  $$('character/tithe.hbs'),
   $$('character/header.hbs'),
   $$('character/magick-skill-selector.hbs'),
   $$('character/main.hbs'),
@@ -44,6 +44,8 @@ const templatesToLoad = [
   $$('item/trapping.hbs'),
   $$('item/uniqueAdvance.hbs'),
   $$('item/weapon.hbs'),
+  $$('item/patron.hbs'),
+  $$('item/outsider.hbs'),
 
   $$('item-card/item-card-fallback.hbs'),
   $$('item-card/item-card-profession.hbs'),
@@ -66,6 +68,8 @@ const templatesToLoad = [
   $$('item-summary/trapping.hbs'),
   $$('item-summary/uniqueAdvance.hbs'),
   $$('item-summary/weapon.hbs'),
+  $$('item-summary/patron.hbs'),
+  $$('item-summary/outsider.hbs'),
 
   $$('partials/detail-item-wrapper.hbs'),
   $$('partials/detail-languages.hbs'),

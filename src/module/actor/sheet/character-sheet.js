@@ -180,6 +180,8 @@ export default class ZweihanderCharacterSheet extends ZweihanderBaseActorSheet {
       'uniqueAdvance',
       'taint',
       'effect',
+      'patron',
+      'outsider'
     ];
     const pluralize = (t) =>
       ({
@@ -265,9 +267,6 @@ export default class ZweihanderCharacterSheet extends ZweihanderBaseActorSheet {
     this._registerDimensionChangeListener(html.find('.actor-sheet-header'), resizePotrait);
     this._registerDimensionChangeListener(html.find('.actor-sheet-header .empty-placeholder'), resizePotrait);
 
-    // Update the encumbrance meter
-    this._updateEncumbranceMeter(html);
-
     // Everything below here is only needed if the sheet is editable
     if (!this.options.editable) return;
 
@@ -334,8 +333,16 @@ export default class ZweihanderCharacterSheet extends ZweihanderBaseActorSheet {
       });
     };
 
+    const updateTithe = (i) => async (event) => {
+      let element = $('.tithe-input');
+      element.val(parseInt(element.val()) + i);
+    }
+
     html.find('.numerable-field-subtract').click(updateNumerable(-1));
     html.find('.numerable-field-add').click(updateNumerable(1));
+    
+    html.find('.tithe-increase').click(updateTithe(1));
+    html.find('.tithe-decrease').click(updateTithe(-1));
 
     html.find('.focus-indicator').hover(
       (event) => {
@@ -353,18 +360,6 @@ export default class ZweihanderCharacterSheet extends ZweihanderBaseActorSheet {
         $('.zh-focuses-tooltip-instance').remove();
       }
     );
-  }
-
-  _updateEncumbranceMeter(html) {
-    const encumbranceData = this.actor.system.stats.secondaryAttributes.encumbrance;
-    const currentEncumbrance = encumbranceData.current;
-    const totalEncumbrance = encumbranceData.value;
-    let ratio = (currentEncumbrance / totalEncumbrance) * 100;
-    if (ratio > 100) {
-      ratio = 100;
-      html.find('.encumbrance-bar-container').addClass('encumbrance-overage');
-    }
-    html.find('.encumbrance-bar').css('width', ratio + '%');
   }
 
   async _render(force, options) {

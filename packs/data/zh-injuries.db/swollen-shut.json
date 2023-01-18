@@ -9,7 +9,7 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you must flip the results to fail Skill Tests which rely on vision."
+        "@en": "Be it a fragment from an arrow’s shaft, a swollen contusion, or a flap of lacerated flesh, something from that last strike is interfering with the victim’s vision. Until recuperated, Flip to Fail Perception-based tests made for the victim"
       }
     },
     "severity": 0
@@ -25,7 +25,7 @@
   },
   "folder": null,
   "img": "systems/zweihander/assets/icons/tired-eye.svg",
-  "name": "Black Eye",
+  "name": "Swollen Shut",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

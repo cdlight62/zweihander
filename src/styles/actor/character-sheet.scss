@@ -87,6 +87,43 @@ body.game.vtt.system-zweihander .zweihander.sheet.character {
           text-align: right;
         }
       }
+      .tithe-container {
+        flex: 0 0 32px;
+        margin: 10px;
+        text-align: center;
+        .tithe-label { 
+          width: 50px;
+          height: auto;
+          flex: 0;
+        }
+        input {
+          text-align: center;
+          width: 30px;
+        }
+        .tithe-increase {
+          flex: 0 0 15px;
+          height: 15px;
+          width: 15px;
+          font-size: 12px;
+          padding: 0;
+          line-height: 1;
+          text-align: center;
+          top: -10px;
+          position: relative;
+        }
+        .tithe-decrease {
+          flex: 0 0 15px;
+          height: 15px;
+          font-size: 12px;
+          padding: 0;
+          line-height: 1;
+          text-align: center;
+          top: 5px;
+          right: 20px;
+          width: 15px;
+          position: relative;
+        }
+      }
     }
 
     .tab.trappings {

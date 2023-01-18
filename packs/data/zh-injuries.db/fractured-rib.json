@@ -1,5 +1,5 @@
 {
-  "_id": "AABKxORvwNh9dw6z",
+  "_id": "GkWoIpK8YpDo4QxJ",
   "data": {
     "active": true,
     "description": {
@@ -9,7 +9,7 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you cannot use Special Actions in combat."
+        "@en": "A blow to the side sunders the victim’s ribcage. Until recuperated, all rolls made for them to Parry or Dodge suffer ‒20."
       }
     },
     "severity": 1
@@ -17,7 +17,7 @@
   "effects": [],
   "flags": {
     "core": {
-      "sourceId": "Item.YhJd9ZTABx2kSyWZ"
+      "sourceId": "Item.SLJ7uR91MyXFfvsN"
     },
     "exportSource": {
       "coreVersion": "0.8.9",
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/stoned-skull.svg",
-  "name": "Head Trauma",
+  "img": "systems/zweihander/assets/icons/ribcage.svg",
+  "name": "Fractured Rib",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

@@ -9,7 +9,7 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you cannot move as you’re in pain. You must undergo a successful surgery or suffer the consequences. Once a Butchered Leg has undergone a failed surgery, you gain the Veteran’s Leg Drawback. If you already have this Drawback, you permanently lose 9% Agility."
+        "@en": "A strike to the knee lets the victim put weight on one leg only. Until healed, they can’t stand or walk without aid of another, a crutch, or a cane. Even if aided, quarter their Movement."
       }
     },
     "severity": "2"
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/wooden-pegleg.svg",
-  "name": "Butchered Leg",
+  "img": "systems/zweihander/assets/icons/knee-cap.svg",
+  "name": "Hobbled",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

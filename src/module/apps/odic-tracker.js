@@ -53,9 +53,9 @@ export default class OdicTracker extends Application {
       id: 'odicTrackerApp',
       classes: ['zweihander'],
       width: OdicTracker.PARAMS.areaSize * 2,
-      height: OdicTracker.PARAMS.areaSize + 40,
-      top: 150,
-      left: 425,
+      height: OdicTracker.PARAMS.areaSize,
+      top: 50,
+      left: 80,
     });
   }
 
@@ -113,9 +113,9 @@ export default class OdicTracker extends Application {
     return this.#state.total;
   }
 
-  increaseTotal() {
+  increaseTotal(extraDice = 1) {
     const s = this.state;
-    s.total++;
+    s.total += extraDice;
     return s;
   }
 

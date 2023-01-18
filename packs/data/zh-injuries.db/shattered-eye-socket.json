@@ -1,5 +1,5 @@
 {
-  "_id": "AkB7wwf0pz1nYDGy",
+  "_id": "AABKxORvwNh9dw6z",
   "data": {
     "active": true,
     "description": {
@@ -9,15 +9,15 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "You immediately drop whatever you are holding. Until fully Recuperated, you must flip the results to fail all melee weapon attacks with your primary hand."
+        "@en": "And orbital fracture has robbed the victim of half their vision. Until recuperated, all Combat-based Skill tests made for the victim suffer ‒20."
       }
     },
-    "severity": 0
+    "severity": 1
   },
   "effects": [],
   "flags": {
     "core": {
-      "sourceId": "Item.SLJ7uR91MyXFfvsN"
+      "sourceId": "Item.YhJd9ZTABx2kSyWZ"
     },
     "exportSource": {
       "coreVersion": "0.8.9",
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/fingernail.svg",
-  "name": "Jammed Finger",
+  "img": "systems/zweihander/assets/icons/stoned-skull.svg",
+  "name": "Shattered Eye Socket",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

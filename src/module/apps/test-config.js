@@ -68,10 +68,10 @@ async function renderConfigurationDialog(testType, label, testConfiguration = {}
     }))
   );
   templateData.channelPowerBonuses = [
-    { value: 0, label: "Don't Channel" },
-    { value: 10, label: 'One Step (1d6 Chaos Dice)' },
-    { value: 20, label: 'Two Steps (2d6 Chaos Dice)' },
-    { value: 30, label: 'Three Steps (3d6 Chaos Dice)' },
+    { value: 0, label: "Don't Focus" },
+    { value: 10, label: 'One Step (1d6 Odic Dice)' },
+    { value: 20, label: 'Two Steps (2d6 Odic Dice)' },
+    { value: 30, label: 'Three Steps (3d6 Odic Dice)' },
   ].map((option) => ({
     selected: (testConfiguration.channelPowerBonus ?? '0') === option.value ? 'selected' : '',
     ...option,

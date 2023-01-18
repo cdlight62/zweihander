@@ -1,5 +1,5 @@
 {
-  "_id": "UUMiBQtDkF3823BR",
+  "_id": "ieFwwsyoUnlNc6gX",
   "data": {
     "active": true,
     "description": {
@@ -9,16 +9,13 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you start your Turn with 1 less AP."
+        "@en": "Blood flows steadily from where the victim was struck. They are Knocked Out in [BB] Turns unless someone stanches the flow with a bandage or some other medical treatment. Until they heal, the Injury reopens each time a Critical or Sublime Failure is rolled for them on a Combat-, Brawn-, or Agility-based Skill test, requiring the Bleeding be restanched"
       }
     },
     "severity": 0
   },
   "effects": [],
   "flags": {
-    "core": {
-      "sourceId": "Item.SLJ7uR91MyXFfvsN"
-    },
     "exportSource": {
       "coreVersion": "0.8.9",
       "system": "zweihander",
@@ -27,8 +24,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/arm-bandage.svg",
-  "name": "Dislocated Shoulder",
+  "img": "systems/zweihander/assets/icons/bleeding-wound.svg",
+  "name": "A Trickle of Red",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

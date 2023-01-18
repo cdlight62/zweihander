@@ -119,6 +119,12 @@ body.game.vtt.system-zweihander {
         &.outcome-3 {
           background-color: var(--zh-clr-green-alt);
         }
+        &.outcome-4 {
+          background-color: var(--zh-clr-darkred-alt);
+        }
+        &.outcome-5 {
+          background-color: var(--zh-clr-yellow-bright);
+        }
       }
       .dice-tooltip {
         .part-header,

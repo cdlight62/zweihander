@@ -1,5 +1,5 @@
 {
-  "_id": "tUiBe7N06mLsnXWx",
+  "_id": "AkB7wwf0pz1nYDGy",
   "data": {
     "active": true,
     "description": {
@@ -9,10 +9,10 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you cannot smell as you’re in pain. You must undergo a successful surgery or suffer the consequences. Once a Mutilated Nose has undergone a failed surgery, you permanently must flip the results to fail all Skill Tests which rely on smell and taste. If you already have this Drawback, you permanently lose 9% Perception."
+        "@en": "Something twisted wrong in the victim’s hand. Until recuperated, whenever a Critical or Sublime Failure is rolled for them on an attack, the victim’s grip on their weapon slips, letting it skitter at least 3 strides away in a random direction."
       }
     },
-    "severity": 2
+    "severity": 0
   },
   "effects": [],
   "flags": {
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/nose-side.svg",
-  "name": "Mutilated Nose",
+  "img": "systems/zweihander/assets/icons/fingernail.svg",
+  "name": "Strained Ligament",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

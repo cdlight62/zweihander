@@ -1,4 +1,5 @@
 import FortuneTracker from './apps/fortune-tracker';
+import OdicTracker from './apps/odic-tracker';
 import ZweihanderQuality from './item/entity/quality';
 import * as ZweihanderUtils from './utils';
 import { getTestConfiguration } from './apps/test-config';
@@ -51,9 +52,22 @@ export async function rollPeril(perilType, actor) {
 
 export async function rollOdicDice(totalDice) {
   const roll = new Roll(`${totalDice}d6`);
-  roll.toMessage({
+  await roll.toMessage({
     flavor: `Is rolling for Odic Manifestations`
   });
+  let manifestationDice = roll.terms[0].results.filter((r) => r.result === 6).length;
+  if (manifestationDice > 0) {
+    const tablesPack = game.packs.get('zweihander.zh-gm-tables');
+    const tablesIndex = await tablesPack.getIndex();
+
+    const odicTableEntry = tablesIndex.find((table) => ZweihanderUtils.normalizedIncludes(table.name, 'Manifestations'));
+
+    const odicTable = await tablesPack.getDocument(odicTableEntry._id);
+
+    const diceRoll = new Roll('1d100 + ' + (manifestationDice*10));
+    OdicTracker.INSTANCE.requestSyncOdicDice(OdicTracker.INSTANCE.decreaseTotal(manifestationDice));
+    const finalResult = await odicTable.draw({ roll: diceRoll });
+  }
 }
 
 export async function rollCombatReaction(type, enemyActorId, enemyTestConfiguration) {
@@ -191,13 +205,9 @@ export async function rollTest(
       templateData.spell.system.duration,
       actor
     );
-    const totalChaosDie = testConfiguration.additionalChaosDice + testConfiguration.channelPowerBonus / 10;
-    if (totalChaosDie > 0) {
-      const formula = `${totalChaosDie}d6`;
-      const chaosRoll = await new Roll(formula).evaluate();
-      setTimeout(() => game?.dice3d?.showForRoll?.(chaosRoll, game.user, true), 1500);
-      const chaosManifestation = chaosRoll.terms[0].results.some((r) => r.result === 6);
-      templateData.chaosManifestation = chaosManifestation;
+    if (parseInt(spell.system.titheCost) > 0) {
+      let element = $('.tithe-input');
+      element.val(parseInt(element.val()) + parseInt(spell.system.titheCost));
     }
   }
   const content = await renderTemplate(CONFIG.ZWEI.templates.skill, templateData);
@@ -230,6 +240,45 @@ export async function rollTest(
   if (create) {
     messageData = messageData.toObject();
   }
+
+  if (spell) {
+    const totalOdicDie = testConfiguration.additionalChaosDice + testConfiguration.channelPowerBonus / 10;
+    OdicTracker.INSTANCE.requestSyncOdicDice(OdicTracker.INSTANCE.increaseTotal(totalOdicDie));
+    if (OdicTracker.INSTANCE.total > 0) {
+      await Dialog.confirm({
+        title: `Roll for odic manifestation?`,
+        content: `This will roll odic dice and, if a 6 is rolled, roll for odic manifestation.`,
+        yes: async () => {
+          const roll = new Roll(`${OdicTracker.INSTANCE.total}d6`);
+          await roll.toMessage({
+            flavor: `Is rolling for Odic Manifestations`
+          });
+          let manifestationDice = roll.terms[0].results.filter((r) => r.result === 6).length;
+          if (manifestationDice > 0) {
+            const tablesPack = game.packs.get('zweihander.zh-gm-tables');
+            const tablesIndex = await tablesPack.getIndex();
+
+            const odicTableEntry = tablesIndex.find((table) => ZweihanderUtils.normalizedIncludes(table.name, 'Manifestations'));
+
+            const odicTable = await tablesPack.getDocument(odicTableEntry._id);
+
+            const diceRoll = new Roll('1d100 + ' + (manifestationDice*10));
+            OdicTracker.INSTANCE.requestSyncOdicDice(OdicTracker.INSTANCE.decreaseTotal(manifestationDice));
+            const finalResult = await odicTable.draw({ roll: diceRoll });
+          }
+        },
+        no: () => {},
+        defaultYes: true,
+      });
+
+      // const formula = `${totalOdicDie}d6`;
+      // const chaosRoll = await new Roll(formula).evaluate();
+      // setTimeout(() => game?.dice3d?.showForRoll?.(chaosRoll, game.user, true), 1500);
+      // const chaosManifestation = chaosRoll.terms[0].results.some((r) => r.result === 6);
+      // templateData.chaosManifestation = chaosManifestation;
+    }
+  }
+
   return {
     outcome: effectiveOutcome,
     messageData,
@@ -452,14 +501,16 @@ function getScore(tens, units) {
 }
 
 function getResultOutcome(score, totalChance, match) {
-  if (score === 100 || (score > totalChance && match)) return 0; // critical failure
-  else if (score === 1 || (score <= totalChance && match)) return 3; // critical success
+  if (score === 100) return 4; // sublime failure
+  else if (score > totalChance && match) return 0; // critical failure
+  else if (score === 1) return 5; // sublime success
+  else if (score <= totalChance && match) return 3; // critical success
   else if (score > totalChance && !match) return 1; // failure
   else if (score <= totalChance && !match) return 2; // success
 }
 
 function outcomeLabel(outcome) {
-  return ['Critical Failure', 'Failure', 'Success', 'Critical Success'][outcome];
+  return ['Critical Failure', 'Failure', 'Success', 'Critical Success', 'Sublime Failure', 'Sublime Success'][outcome];
 }
 
 export const patchDie = () => {

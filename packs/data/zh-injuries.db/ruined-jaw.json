@@ -1,5 +1,5 @@
 {
-  "_id": "kDOQ9KgS8J619bSD",
+  "_id": "fE5tcMGwEpvFXfwM",
   "data": {
     "active": true,
     "description": {
@@ -9,10 +9,10 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you cannot Counterspell, Dodge or Parry."
+        "@en": "Ideally, talking isn't key for the victim, whose jaw is broken. While healing, they can almost speak, suffering Flip to Fail on Fellowship-based tests involving speech."
       }
     },
-    "severity": 1
+    "severity": "2"
   },
   "effects": [],
   "flags": {
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/broken-bone.svg",
-  "name": "Stress Fracture",
+  "img": "systems/zweihander/assets/icons/nose-side.svg",
+  "name": "Ruined Jaw",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

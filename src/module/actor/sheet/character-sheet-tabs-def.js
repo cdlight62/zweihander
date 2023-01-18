@@ -104,17 +104,40 @@ export function getItemGroups(groupsData) {
       ],
       items: groupsData.trappings,
     },
+    patrons: {
+      title: 'Patrons',
+      type: 'patron',
+      summaryTemplate: 'item-summary/patron',
+      details: [
+        {
+          title: 'Type',
+          size: 140,
+          key: 'system.category'
+        },
+        {
+          title: 'Patronage Score',
+          size: 120,
+          key: 'system.score'
+        }
+      ],
+      items: groupsData.patrons,
+    },
     spells: {
-      title: 'Spells',
+      title: 'Vitiations',
       type: 'spell',
       summaryTemplate: 'item-summary/spell',
       rollType: 'spell-roll',
       rollLabel: groupsData.system.stats.secondaryAttributes.magick.associatedSkill,
       details: [
         {
-          title: 'Principle',
-          size: 140,
+          title: 'Power Level',
+          size: 100,
           key: 'system.principle',
+        },
+        {
+          title: 'Tithe Cost',
+          size: 80,
+          key: 'system.titheCost',
         },
         {
           title: 'Distance',
@@ -132,7 +155,7 @@ export function getItemGroups(groupsData) {
       items: groupsData.spells,
     },
     rituals: {
-      title: 'Rituals',
+      title: 'Wortcunnings',
       type: 'ritual',
       summaryTemplate: 'item-summary/ritual',
       details: [
@@ -154,6 +177,29 @@ export function getItemGroups(groupsData) {
         },
       ],
       items: groupsData.rituals,
+    },
+    outsiders: {
+      title: 'Outsiders',
+      type: 'outsider',
+      summaryTemplate: 'item-summary/outsider',
+      details: [
+        {
+          title: 'Court',
+          size: 100,
+          key: 'system.court'
+        },
+        {
+          title: 'Level',
+          size: 100,
+          key: 'system.level'
+        },
+        {
+          title: 'Contract',
+          size: 100,
+          key: 'system.contract'
+        },
+      ],
+      items: groupsData.outsiders,
     },
     conditions: {
       title: 'Passive Conditions',
@@ -200,20 +246,24 @@ export function getItemGroups(groupsData) {
       items: groupsData.effects,
     },
     disorders: {
-      title: 'Disorders',
-      type: 'disorder',
-      summaryTemplate: 'item-summary/disorder',
+      title: 'Outsiders',
+      type: 'outsider',
+      summaryTemplate: 'item-summary/outsider',
       details: [
         {
-          title: 'Category',
-          size: 140,
-          key: localizePath('system.details.category'),
+          title: 'Court',
+          size: 100,
+          key: 'system.court'
         },
         {
-          title: 'Currently in Effect',
-          size: 150,
-          key: 'system.active',
-          isCheckbox: true,
+          title: 'Level',
+          size: 100,
+          key: 'system.powerLevel'
+        },
+        {
+          title: 'Contract',
+          size: 100,
+          key: 'system.contract'
         },
       ],
       items: groupsData.disorders,
@@ -271,23 +321,22 @@ export function getItemGroups(groupsData) {
       items: groupsData.injuries,
     },
     taints: {
-      title: 'Taints of Chaos',
-      type: 'taint',
-      summaryTemplate: 'item-summary/taint',
+      title: 'Patrons',
+      type: 'patron',
+      summaryTemplate: 'item-summary/patron',
       details: [
         {
-          title: 'Category',
+          title: 'Type',
           size: 140,
-          key: localizePath('system.details.category'),
+          key: 'system.category'
         },
         {
-          title: 'Currently in Effect',
-          size: 150,
-          key: 'system.active',
-          isCheckbox: true,
-        },
+          title: 'Patronage Score',
+          size: 120,
+          key: 'system.score'
+        }
       ],
-      items: groupsData.taints,
+      items: groupsData.patrons,
     },
     professions: {
       title: 'Professions',
@@ -371,19 +420,18 @@ export function attachTabDefinitions(tabData) {
   const $$ = (x) => tabData.itemGroups[x];
   tabData.tabs = {
     trappings: {
-      headerTemplate: 'character/currency',
-      footerTemplate: 'character/encumbrance-meter',
-      itemGroups: ['weapons', 'armor', 'trappings'].map($$),
+      itemGroups: ['weapons', 'armor', 'trappings', 'patrons'].map($$),
     },
     magick: {
+      headerTemplate: 'character/tithe',
       footerTemplate: 'character/magick-skill-selector',
-      itemGroups: ['spells', 'rituals'].map($$),
+      itemGroups: ['spells', 'rituals', 'outsiders'].map($$),
     },
     afflictions: {
-      itemGroups: ['effects', 'conditions', 'disorders', 'diseases', 'injuries' /*, 'taints'*/].map($$),
+      itemGroups: ['effects', 'conditions', 'diseases', 'injuries' /*, 'taints'*/].map($$),
     },
     tiers: {
-      itemGroups: ['professions', 'traits', 'drawbacks', 'talents', 'uniqueAdvances'].map($$),
+      itemGroups: ['professions', 'traits', 'talents'].map($$),
     },
   };
 }

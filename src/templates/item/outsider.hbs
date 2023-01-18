@@ -1,0 +1,26 @@
+<div class="form-group">
+  <label>Court</label>
+  <select name="system.court">
+    {{#each choices.outsiderCourts}}
+    <option value="{{value}}" {{selected}}>{{label}}</option>
+    {{/each}}
+  </select>
+</div>
+
+<div class="form-group">
+  <label>Level</label>
+  <select name="system.level">
+    {{#each choices.outsiderLevels}}
+    <option value="{{value}}" {{selected}}>{{label}}</option>
+    {{/each}}
+  </select>
+</div>
+
+<div class="form-group">
+  <label>Contract</label>
+  <select name="system.contract" bind:value="system.contract">
+    {{#each choices.outsiderContracts}}
+    <option value="{{value}}" {{selected}}>{{label}}</option>
+    {{/each}}
+  </select>
+</div>

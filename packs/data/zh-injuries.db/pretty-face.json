@@ -1,5 +1,5 @@
 {
-  "_id": "GkWoIpK8YpDo4QxJ",
+  "_id": "yfdgpIP8Nc35RiOh",
   "data": {
     "active": true,
     "description": {
@@ -9,10 +9,10 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Your armor gains the Ruined! Quality. Until fully Recuperated, you cannot add Skill Ranks to Combat, Brawn or Agility-based Skills."
+        "@en": "Whatever it was, it just hit the victim in the face. People tend to respond poorly to individuals who look like they have recently engaged in violence. Until recuperated, suffer Flip to Fail on Fellowship-based tests made for the victim to positively influence others."
       }
     },
-    "severity": 1
+    "severity": 0
   },
   "effects": [],
   "flags": {
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/ribcage.svg",
-  "name": "Broken Rib",
+  "img": "systems/zweihander/assets/icons/nose-side.svg",
+  "name": "Pretty Face",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

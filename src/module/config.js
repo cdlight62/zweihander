@@ -60,6 +60,7 @@ ZWEI.perilOptions = [
   'Ignore 2 Skill Ranks',
   'Ignore 1 Skill Rank',
   'Imperiled',
+  'Anxious',
   'Unhindered',
 ];
 ZWEI.damageOptions = [
@@ -68,6 +69,7 @@ ZWEI.damageOptions = [
   'Seriously Wounded',
   'Moderately Wounded',
   'Lightly Wounded',
+  'Barely Wounded',
   'Unharmed',
 ];
 ZWEI.tiers = {
@@ -107,7 +109,7 @@ ZWEI.defaultItemIcons = {
   condition: `${d}/abstract-024.svg`,
   injury: `${d}/bandaged.svg`,
   disease: `${d}/half-dead.svg`,
-  disorder: `${d}/abstract-057.svg`,
+  disorder: `${d}/card-joker.svg`,
   profession: `${d}/abstract-082.svg`,
   ancestry: `${d}/dna2.svg`,
   armor: `${d}/leather-armor.svg`,
@@ -115,12 +117,11 @@ ZWEI.defaultItemIcons = {
   spell: `${d}/wizard-staff.svg`,
   ritual: `${d}/pentacle.svg`,
   talent: `${d}/fist.svg`,
-  trait: `${d}/vitruvian-man.svg`,
   drawback: `${d}/spiked-halo.svg`,
   quality: `${d}/flint-spark.svg`,
   skill: `${d}/skills.svg`,
-  uniqueAdvance: `${d}/card-joker.svg`,
-  taint: `${d}/evil-moon.svg`,
+  outsider: `${d}/card-joker.svg`,
+  taint: `${d}/character.svg`,
 };
 
 ZWEI.defaultActorIcons = {
@@ -145,9 +146,11 @@ ZWEI.packSets = {
       spell: 'zweihander.zh-magick',
       taint: 'zweihander.zh-taints',
       talent: 'zweihander.zh-talents',
-      trait: 'zweihander.zh-traits',
       trapping: 'zweihander.zh-trappings',
       weapon: 'zweihander.zh-weapons, zweihander.zh-weapons-alt-damage',
+      patron: 'zweihander.zh-patrons',
+      outsider: 'zweihander.zh-outsiders',
+      manifestations: 'zweihander.zh-odic-manifestations',
     },
     creature: {
       trait: 'zweihander.zh-creature-traits',
@@ -158,26 +161,7 @@ ZWEI.packSets = {
     character: {
       trait: 'zweihander.zh-ancestral-traits',
     },
-  },
-  fof: {
-    base: {
-      disease: 'zweihander.fof-ailments-and-drugs',
-      disorder: 'zweihander.fof-afflictions',
-      drawback: 'zweihander.fof-quirks',
-      injury: 'zweihander.fof-injuries',
-      profession: 'zweihander.fof-professions',
-      spell: 'zweihander.fof-spells',
-      talent: 'zweihander.fof-talents',
-      trait: 'zweihander.fof-traits, zweihander.fof-professional-traits',
-      weapon: 'zweihander.fof-weapons',
-    },
-    creature: {
-      trait: 'zweihander.zh-creature-traits',
-    },
-    npc: {
-      trait: 'zweihander.zh-creature-traits',
-    },
-  },
+  }
 };
 
 ZWEI.archetypes = [
@@ -192,6 +176,27 @@ ZWEI.injurySeverities = [
   { value: 0, label: 'Moderate' },
   { value: 1, label: 'Serious' },
   { value: 2, label: 'Grievous' },
+];
+
+ZWEI.outsiderCourts = [
+  { value: 'Ignorance', label: 'Ignorance' },
+  { value: 'Joy', label: 'Joy' },
+  { value: 'Peace', label: 'Peace' },
+  { value: 'Silence', label: 'Silence' },
+  { value: 'Truth', label: 'Truth' },
+  { value: 'Nameless', label: 'Nameless' },
+];
+
+ZWEI.outsiderLevels = [
+  { value: 'Imp', label: 'Imp' },
+  { value: 'Villein', label: 'Villein' },
+  { value: 'Lord', label: 'Lord' },
+];
+
+ZWEI.outsiderContracts = [
+  { value: 'Rapport', label: 'Rapport' },
+  { value: 'Communion', label: 'Communion' },
+  { value: 'Pact', label: 'Pact' },
 ];
 
 ZWEI.statusEffects = [

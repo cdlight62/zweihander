@@ -1,5 +1,5 @@
 {
-  "_id": "aXbrII21DCJw4XvK",
+  "_id": "vpoqziaXJkWhCAn7",
   "data": {
     "active": true,
     "description": {
@@ -9,10 +9,10 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you cannot hear as you’re in pain. You must undergo a successful surgery or suffer the consequences. Once a Detached Ear has undergone a failed surgery, you suffer the Crop Ear Drawback. If you already have this Drawback, you permanently lose 9% Perception."
+        "@en": "Blood runs into the victim’s eardrum, making hearing difficult and balance even harder. Until recuperated, Flip to Fail Perception-based Skill tests made for the victim that require hearing and Agility-based Skill tests made that require equilibrium."
       }
     },
-    "severity": 2
+    "severity": 1
   },
   "effects": [],
   "flags": {
@@ -28,7 +28,7 @@
   },
   "folder": null,
   "img": "systems/zweihander/assets/icons/human-ear.svg",
-  "name": "Detached Ear",
+  "name": "A Bit of Ear",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

@@ -1,5 +1,5 @@
 {
-  "_id": "CtfGKqz3Pc4QpUa1",
+  "_id": "kDOQ9KgS8J619bSD",
   "data": {
     "active": true,
     "description": {
@@ -9,7 +9,7 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you must flip the results to fail all Skill Tests."
+        "@en": "One of the victim’s digits cracks like a twig. Use of twohander weapons or parrying with shields incurs a Flip to Fail penalty, and no benefit comes from the Off-Hand Quality until healed."
       }
     },
     "severity": 1
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/broken-skull.svg",
-  "name": "Skull Fracture",
+  "img": "systems/zweihander/assets/icons/broken-bone.svg",
+  "name": "Snapped Finger",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

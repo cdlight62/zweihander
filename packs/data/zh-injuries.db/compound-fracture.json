@@ -1,5 +1,5 @@
 {
-  "_id": "XO7vZyOUEie8KTGD",
+  "_id": "KZLB7QKIHr7D4IuJ",
   "data": {
     "active": true,
     "description": {
@@ -9,13 +9,16 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, any time you fail a Skill Test that relies on Brawn or Agility, you suffer 2D10+2 physical Peril."
+        "@en": "Seeing one's bone poking through one’s skin is a troubling thing to experience, causing the victim to immediately receive 3Ð10+3 Peril. Their Movement is halved."
       }
     },
-    "severity": 1
+    "severity": 2
   },
   "effects": [],
   "flags": {
+    "core": {
+      "sourceId": "Item.SLJ7uR91MyXFfvsN"
+    },
     "exportSource": {
       "coreVersion": "0.8.9",
       "system": "zweihander",
@@ -24,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/knee-cap.svg",
-  "name": "Busted Kneecap",
+  "img": "systems/zweihander/assets/icons/elbow-pad.svg",
+  "name": "Compound Fracture",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

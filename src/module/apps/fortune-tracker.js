@@ -57,7 +57,7 @@ export default class FortuneTracker extends Application {
       width: FortuneTracker.PARAMS.areaSize * 2,
       height: FortuneTracker.PARAMS.areaSize + 40,
       top: 150,
-      left: 125,
+      left: 80,
     });
   }
 

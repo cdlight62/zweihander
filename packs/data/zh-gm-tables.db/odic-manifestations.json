@@ -1,0 +1,288 @@
+{
+    "_id": "ntVYJwoJqqEYEGwh",
+    "name": "Odic Manifestations",
+    "img": "icons/svg/d20-black.svg",
+    "description": "List of Odic Manifestations",
+    "formula": "1d100",
+    "replacement": true,
+    "displayRoll": true,
+    "folder": null,
+    "flags": {
+        "core": {
+          "sourceId": "RollTable.ea6e12813fa44f3f"
+        }
+    },
+    "results": [
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                11,
+                19
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "AdCAnDNNzhbYqbKF",
+            "text": "Witch’s Breath: A sudden wind gusts through the Scene, unsettling animals and people alike. All tasks that require focus and acumen become harder to perform. Apply an extra –10 to Skill tests.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                20,
+                29
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "dJJILMnYFp6hiVBa",
+            "text": "Skittering Frost: An unnatural film of ice envelops everything in the Scene, freezing undrawn blades in their scabbards and requiring 2 AP to draw them. Additionally, all forms of movement are exceedingly tricky. A Coordination test must be made every time someone moves; if failed, they become Prone.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                30,
+                39
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "HWjjfDMyyBFMDmwY",
+            "text": "Whispering Frogs: Misshapen amphibians, babbling and whispering the deepest secrets of those present, fall from the sky. Everyone suffers 1*10+1 Peril when this effect first manifests. Everyone is Deafened during the duration of this effect.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                40,
+                49
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "9GYt0cy2xLYbjV4N",
+            "text": "Barrow Fog: A thick fog spills over the immediate area, blanketing sounds and disrupting visibility to Fleeting Shadows; worse yet, something stalks within the mist. The children of Anhelios are near. The Blackbirds find that 1*6 ghouls have joined the Scene (see Ghoul in Chapter 10: Bestiary for details).",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                50,
+                59
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "0mx8uJEEMLVrbntJ",
+            "text": "Raining Blood: Blood rains from the sky. All participants currently in combat fight to the death unless they can make an (Arduous –30%) Resolve test. If not currently in combat, everyone is filled with shapeless anger and grows more likely to come to blows. All Fellowship-based tests are –10.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                60,
+                69
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "y5JqDQX3kgvrDCzu",
+            "text": "Temporary Bloom of Od: When performing magic, all successful tests are Critical Successes, and all Failures are Critical Failures.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                70,
+                79
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "OvltImjPDEe6iHC3",
+            "text": "Blink Storm: Roll 1D6 for each participant at the beginning of their Turn in the current encounter. If the dice come up a ‘5’ or ‘6,’ they are shunted into the Od momentarily. A Resolve test must be made for them, and they are unseen and unavailable to anyone else or any of the effects in the real world until the beginning of their next Turn. This effect lasts for 1D6 Turns.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                80,
+                89
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "qfxwXJvjukREwdrG",
+            "text": "Plague of Cowardice: No participant may take any Action that would involve rolling Damage dice.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                90,
+                99
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "z8XFr5LH1wwHCVsE",
+            "text": "Unexpected Introduction: A random participant is suddenly made aware of the Outsider that caused the manifestation to happen. They have rapport with said Outsider from this day forward.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                100,
+                109
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "7U8hAzEfiCN20BZS",
+            "text": "The Unseeable: Everyone suffers 2D10+2 Peril once when this manifestation occurs, as the veil is ripped asunder and they see the roiling, raw stuff of the Od unclothed.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                110,
+                119
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "HtgNxdhwNeHs785r",
+            "text": "Faces: A small face appears on every inanimate object in the near vicinity, and they all start talking; each is totally self-aware, including the reality that each is an object. For most of them, the revelation is terrifying. Apply an extra –20 to Skill tests as every item in the area struggles against you.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                120,
+                129
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "hftoNQvvOoTcODQy",
+            "text": "Permanence: Some aspect of the Vitiation that the theurge was empowering becomes permanent and, if possible, sentient, and now has its own motivations and goals.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                130,
+                139
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "fNL9Vv6AHFuvllC3",
+            "text": "Temporal Flux: For every second spent in the area, time moves forward by 1 day outside of it.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                140,
+                149
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "Iv7FVkvMpPsliw79",
+            "text": "Land of Stone: Everything in the area (including living beings) turns permanently to stone, except the Blackbirds and their opponents.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                150,
+                159
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "O0ORIDmWSUwDwqGm",
+            "text": "Hell Frost: Everything liquid freezes, including saltwater. Living things are not frozen, but the chill might kill plants or small animals. The cold lasts until the sun sets and rises again.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                160,
+                169
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "scov5vjl5tiEBgdl",
+            "text": "Bottomless Chasm: A permanent chasm opens in the ground, splitting those present to either side. Roll 1D6 for each person present: odd results on one side, evens on the other. The fissure is 10 strides wide.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                170,
+                179
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "Kc2gzvRzfGxbYqd4",
+            "text": "Od-Rift: A sliver-like rift, no bigger than a tree, is torn between this world and a realm of the Od. This rift allows passage in both directions and lasts indefinitely. The rift is only 1 stride in diameter.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        },
+        {
+            "type": 0,
+            "weight": 1,
+            "range": [
+                180,
+                300
+            ],
+            "drawn": false,
+            "documentCollection": "",
+            "_id": "CbRhpoydOD9DNZCT",
+            "text": "Infinite Journey: All present are drawn into the Od, and the rift seals behind them. They must find a way back to the world they knew before.",
+            "img": "icons/svg/d20-black.svg",
+            "documentId": null,
+            "flags": {}
+        }
+    ],
+    "sort": 0
+}

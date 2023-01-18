@@ -1,5 +1,5 @@
 {
-  "_id": "qY90GsaYnjRVsjsX",
+  "_id": "CtfGKqz3Pc4QpUa1",
   "data": {
     "active": true,
     "description": {
@@ -9,10 +9,10 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, reduce your Initiative by 3."
+        "@en": "The victim's world spins. Until recuperated, their place on the Initiative Ladder is always last."
       }
     },
-    "severity": "0"
+    "severity": 1
   },
   "effects": [],
   "flags": {
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/brain-dump.svg",
-  "name": "Rattled Brain",
+  "img": "systems/zweihander/assets/icons/broken-skull.svg",
+  "name": "Fractured Skull",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

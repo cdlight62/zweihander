@@ -36,12 +36,12 @@
           },
           "secondaryAttributes": {
             "perilCurrent": {
-              "value": 5,
-              "max": 5
+              "value": 6,
+              "max": 6
             },
             "damageCurrent": {
-              "value": 5,
-              "max": 5
+              "value": 6,
+              "max": 6
             },
             "parry": {
               "associatedSkill": "Melee"
@@ -64,6 +64,7 @@
       "currency": {
         "currency": {}
       },
+      "tithe": 0,
       "languages": {
         "languages": []
       },
@@ -132,7 +133,7 @@
       }
     },
     "character": {
-      "templates": ["stats", "flavor", "currency", "languages"],
+      "templates": ["stats", "flavor", "tithe", "languages"],
       "details": {
         "pronoun": "",
         "socialClass": "",
@@ -219,7 +220,9 @@
       "trait",
       "trapping",
       "uniqueAdvance",
-      "weapon"
+      "weapon",
+      "outsider",
+      "patron"
     ],
     "templates": {
       "flavor": {
@@ -294,6 +297,11 @@
       },
       "quantity": 1
     },
+    "patron": {
+      "templates": ["flavor", "trapping"],
+      "category": "",
+      "score": ""
+    },
     "profession": {
       "templates": ["flavor"],
       "expert": {
@@ -341,6 +349,12 @@
         "condition": { "@en": "" },
         "reagents": { "@en": "" }
       }
+    },
+    "outsider": {
+      "templates": ["flavor", "effect"],
+      "court": "",
+      "level": "",
+      "contract": ""
     },
     "skill": {
       "templates": ["flavor"],

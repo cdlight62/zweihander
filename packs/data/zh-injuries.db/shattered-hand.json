@@ -9,7 +9,7 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you cannot use your primary hand as you’re in pain. You must undergo a successful surgery or suffer the consequences. Once a Mutilated Hand has undergone a failed surgery, you lose 1D6-1 fingers. For every finger lost, you permanently lose 1% Agility. If you lose all fingers, you gain the Veteran’s Hand Drawback. If you already have this Drawback, you permanently lose 9% Agility."
+        "@en": "The victim's primary hand is crushed. Until they heal, holding a bit of bread is challenging. That hand can’t use weapons; any Skill test involving it are Flip to Fail."
       }
     },
     "severity": 2
@@ -28,7 +28,7 @@
   },
   "folder": null,
   "img": "systems/zweihander/assets/icons/hand-bandage.svg",
-  "name": "Mutilated Hand",
+  "name": "Shattered Hand",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

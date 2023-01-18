@@ -1,5 +1,5 @@
 {
-  "_id": "F5rA4MtYU5g6N73i",
+  "_id": "aXbrII21DCJw4XvK",
   "data": {
     "active": true,
     "description": {
@@ -9,15 +9,15 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Until fully Recuperated, you cannot add Fury Dice to Damage."
+        "@en": "The victim bleeds out at the end of their next Turn unless someone stanches the flow with a bandage or like treatment. Until healed, the Injury reopens each time a Critical or Sublime Failure is rolled for them on a Combat-, Brawn-, or Agilitybased Skill test, requiring the Bleeding be restanched."
       }
     },
-    "severity": "1"
+    "severity": 2
   },
   "effects": [],
   "flags": {
     "core": {
-      "sourceId": "Item.YhJd9ZTABx2kSyWZ"
+      "sourceId": "Item.SLJ7uR91MyXFfvsN"
     },
     "exportSource": {
       "coreVersion": "0.8.9",
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/brain.svg",
-  "name": "Shell Shock",
+  "img": "systems/zweihander/assets/icons/blood.svg",
+  "name": "Arterial Spray",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

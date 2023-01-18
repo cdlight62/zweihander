@@ -9,7 +9,7 @@
     "recuperationTime": 0,
     "rules": {
       "effect": {
-        "@en": "Whatever you are holding in your primary hand gains the Ruined! Quality. Until fully Recuperated, you start your Turn with 2 less AP."
+        "@en": "That is a lot of blood. The victim bleeds to death in half their [BB] Turns unless someone stanches the flow with a bandage or other medical treatment. Until they’ve recuperated, the Injury reopens each time a Critical or Sublime Failure is rolled for them on a Combat-, Brawn-, or Agility-based Skill test, requiring the Bleeding be restanched. "
       }
     },
     "severity": 1
@@ -27,8 +27,8 @@
     }
   },
   "folder": null,
-  "img": "systems/zweihander/assets/icons/arm-sling.svg",
-  "name": "Torn Shoulder",
+  "img": "systems/zweihander/assets/icons/deadly-strike.svg",
+  "name": "Scarlet Torrent",
   "permission": {
     "4be9WK4Hp7jWrwWe": 3,
     "default": 0

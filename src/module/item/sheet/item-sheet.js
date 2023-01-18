@@ -82,6 +82,20 @@ export default class ZweihanderItemSheet extends ItemSheet {
       const skillPack = game.packs.get(game.settings.get('zweihander', 'skillPack'));
       sheetData.skills = (await skillPack.getDocuments()).map((x) => x.name).sort((a, b) => a.localeCompare(b));
     }
+    if (sheetData.type === 'outsider') {
+      sheetData.choices.outsiderCourts = ZweihanderUtils.selectedChoice(
+        sheetData.system.court ?? 0,
+        CONFIG.ZWEI.outsiderCourts
+      );
+      sheetData.choices.outsiderLevels = ZweihanderUtils.selectedChoice(
+        sheetData.system.level ?? 0,
+        CONFIG.ZWEI.outsiderLevels
+      );
+      sheetData.choices.outsiderContracts = ZweihanderUtils.selectedChoice(
+        sheetData.system.contract ?? 0,
+        CONFIG.ZWEI.outsiderContracts
+      );
+    }
     return sheetData;
   }
 
