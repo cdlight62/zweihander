@@ -80,13 +80,14 @@ function enableChatButtons(html, flags, message, data) {
     ) {
       html.find('.skill-test-damage').prop('disabled', false);
       $(html).on('click', '.skill-test-damage', (event) => {
-        ZweihanderDice.rollWeaponDamage(actorId, testConfiguration);
+        let isCritical = outcome == ZweihanderDice.OUTCOME_TYPES.CRITICAL_SUCCESS || outcome == ZweihanderDice.OUTCOME_TYPES.SUBLIME_SUCCESS;
+        ZweihanderDice.rollWeaponDamage(actorId, testConfiguration, isCritical);
       });
     }
     // enable parry button
     if (
       (game.user.isGM || actorId !== ZweihanderUtils.determineCurrentActorId()) &&
-      ZweihanderDice.isSuccess(outcome)
+      outcome == ZweihanderDice.OUTCOME_TYPES.SUCCESS
     ) {
       html.find('.skill-test-parry').prop('disabled', false);
       $(html).on('click', '.skill-test-parry', (event) => {
@@ -96,7 +97,7 @@ function enableChatButtons(html, flags, message, data) {
     // enable dodge button
     if (
       (game.user.isGM || actorId !== ZweihanderUtils.determineCurrentActorId()) &&
-      ZweihanderDice.isSuccess(outcome)
+      outcome == ZweihanderDice.OUTCOME_TYPES.SUCCESS
     ) {
       html.find('.skill-test-dodge').prop('disabled', false);
       $(html).on('click', '.skill-test-dodge', (event) => {

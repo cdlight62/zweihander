@@ -8,6 +8,18 @@
 </div>
 
 {{{arrayInputGroup 'Bonus Advances' 'system.bonusAdvances' system.bonusAdvances 7 'name'}}}
+{{!-- <div class="form-group">
+  <label>Skill Ranks</label>
+  <div class="array-input flexrow" data-array-input-target="system.skillRanks" data-array-input-max="{{game.actors.get(ZweihanderUtils.determineCurrentActorId(true)).system.stats.primaryAttributes['intelligence'].bonus}}">
+    <input name="proxy.system.skillRanks" type="text" placeholder="Enter values here">
+    <button class="array-input-plus" type="button" tabindex="-1"><i class="fas fa-plus"></i></button>
+    <div class="array-input-pills">
+      {{#each system.skillRanks as | skill index}}
+      <span class="array-input-pill" data-array-input-index="{{index}}">{{skill['name'] ?? skill}}</span>
+      {{/each}}
+    </div>
+  </div>
+</div> --}}
 {{{arrayInputGroup 'Skill Ranks' 'system.skillRanks' system.skillRanks 10 'name'}}}
 {{{arrayInputGroup 'Talents' 'system.talents' system.talents 3 'name'}}}
 

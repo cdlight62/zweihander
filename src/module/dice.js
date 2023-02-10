@@ -13,6 +13,8 @@ export const PERIL_ROLL_TYPES = {
 };
 
 export const OUTCOME_TYPES = {
+  SUBLIME_SUCCESS: 5,
+  SUBLIME_FAILURE: 4,
   CRITICAL_SUCCESS: 3,
   SUCCESS: 2,
   FAILURE: 1,
@@ -99,6 +101,13 @@ export async function rollTest(
   if (weapon && !isReroll && actor.type === 'creature') {
     testConfiguration.additionalFuryDice = actor.system.details.size - 1;
   }
+  let conditionModifier = 0;
+  if (weapon) {
+    if (weapon.system.condition) {
+      let condition = CONFIG.ZWEI.weaponConditions[weapon.system.condition];
+      conditionModifier = parseInt(condition.hitModifier);
+    }
+  }
   if (isReroll && actor.type === 'character') {
     testConfiguration.useFortune = 'fortune';
   } else if (isReroll && actor.type !== 'character') {
@@ -136,7 +145,7 @@ export async function rollTest(
   const rankBonusAfterPeril = ranksPurchasedAfterPeril * bonusPerRank;
   const specialBaseChanceModifier = Number(testConfiguration.baseChanceModifier);
   const baseChance =
-    primaryAttributeValue + Math.max(-30, Math.min(30, rankBonusAfterPeril + specialBaseChanceModifier));
+    primaryAttributeValue + Math.max(-30, Math.min(30, rankBonusAfterPeril + specialBaseChanceModifier + conditionModifier));
   const rawDifficultyRating = Number(testConfiguration.difficultyRating);
   const channelPowerBonus = testConfiguration.channelPowerBonus;
   const difficultyRating = Math.min(30, rawDifficultyRating + (testConfiguration.channelPowerBonus || 0));
@@ -178,6 +187,7 @@ export async function rollTest(
     },
     totalChance,
     perilPenalty: -ranksIgnoredByPeril * bonusPerRank,
+    conditionPenalty: conditionModifier,
     roll: effectiveResult.toLocaleString(undefined, {
       minimumIntegerDigits: 2,
     }),
@@ -206,8 +216,14 @@ export async function rollTest(
       actor
     );
     if (parseInt(spell.system.titheCost) > 0) {
-      let element = $('.tithe-input');
-      element.val(parseInt(element.val()) + parseInt(spell.system.titheCost));
+      const updatedTithe = actor.system.tithe + parseInt(spell.system.titheCost);
+      await actor.update({
+        'system.tithe': updatedTithe
+      });
+      let tithe = actor.system.tithe;
+      if (tithe > 10) {
+        OdicTracker.INSTANCE.requestSyncOdicDice(OdicTracker.INSTANCE.increaseTotal(Math.trunc(parseInt(tithe) / 10)));
+      }
     }
   }
   const content = await renderTemplate(CONFIG.ZWEI.templates.skill, templateData);
@@ -223,7 +239,7 @@ export async function rollTest(
     }[testType] ??
     '';
   const speaker = ChatMessage.getSpeaker({ actor });
-  const rollMode = ZWEI.testModes[testConfiguration.testMode].rollMode;
+  const rollMode = ZWEI.testModes[testConfiguration.testMode].label == 'Standard' ? game.settings.get("core", "rollMode") : ZWEI.testModes[testConfiguration.testMode].testMode;
   const flags = {
     zweihander: {
       skillTestData: {
@@ -241,7 +257,7 @@ export async function rollTest(
     messageData = messageData.toObject();
   }
 
-  if (spell) {
+  if (spell && !isReroll) {
     const totalOdicDie = testConfiguration.additionalChaosDice + testConfiguration.channelPowerBonus / 10;
     OdicTracker.INSTANCE.requestSyncOdicDice(OdicTracker.INSTANCE.increaseTotal(totalOdicDie));
     if (OdicTracker.INSTANCE.total > 0) {
@@ -285,13 +301,20 @@ export async function rollTest(
   };
 }
 
-export async function rollWeaponDamage(actorId, testConfiguration) {
-  const { weaponId, additionalFuryDice } = testConfiguration;
+export async function rollWeaponDamage(actorId, testConfiguration, isCritical) {
+  let { weaponId, additionalFuryDice } = testConfiguration;
+  if (isCritical) {
+    additionalFuryDice += 1;
+  }
   const actor = game.actors.get(actorId);
   const weapon = actor.items.get(weaponId).toObject(false);
-  const formula = ZweihanderUtils.abbreviations2DataPath(
+  let formula = ZweihanderUtils.abbreviations2DataPath(
     weapon.system.damage.formula.replace('[#]', additionalFuryDice || 0)
   );
+  if (weapon.system.condition) {
+    let condition = CONFIG.ZWEI.weaponConditions[weapon.system.condition];
+    formula += condition.damageModifier;
+  }
   const damageRoll = await new Roll(formula, actor.system).evaluate();
   const speaker = ChatMessage.getSpeaker({ actor });
   const flavor = `Determines ${weapon.name}'s Damage`;
@@ -364,7 +387,7 @@ export async function explodeWeaponDamage(message, useFortune) {
 }
 
 export function isSuccess(outcome) {
-  return outcome === OUTCOME_TYPES.CRITICAL_SUCCESS || outcome === OUTCOME_TYPES.SUCCESS;
+  return outcome === OUTCOME_TYPES.SUBLIME_SUCCESS || OUTCOME_TYPES.CRITICAL_SUCCESS || outcome === OUTCOME_TYPES.SUCCESS;
 }
 
 async function simulateStandardTest(totalChance, flip) {

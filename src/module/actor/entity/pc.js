@@ -55,7 +55,14 @@ export default class ZweihanderPC extends ZweihanderBaseActor {
     // to account for shields with "maker's mark" quality, we need to implement active effects
     const maxEquippedArmor =
       equippedArmor?.[ZweihanderUtils.argMax(equippedArmor.map((a) => a.system.damageThresholdModifier))];
-    const damageModifier = maxEquippedArmor?.system?.damageThresholdModifier ?? 0;
+    let damageModifier = maxEquippedArmor?.system?.damageThresholdModifier ?? 0;
+    if (maxEquippedArmor?.system?.condition) {
+      let condition = CONFIG.ZWEI.armorConditions[maxEquippedArmor.system.condition];
+      damageModifier = Math.trunc(eval(damageModifier + condition.thresholdModifier));
+      if (condition.label === 'Worn') {
+        damageModifier = Math.max(1, damageModifier);
+      }
+    }
     sa.damageThreshold.value = systemData.stats.primaryAttributes[configOptions.dthAttribute].bonus + damageModifier;
     // active effects tracking Proof of Concept
     sa.damageThreshold.base = systemData.stats.primaryAttributes[configOptions.dthAttribute].bonus;
@@ -78,8 +85,8 @@ export default class ZweihanderPC extends ZweihanderBaseActor {
     const mov = (systemData.stats.secondaryAttributes.movement = {});
     mov.value =
       systemData.stats.primaryAttributes[configOptions.movAttribute].bonus + 3 + configOptions.movementModifier;
-    mov.overage = 0;
-    mov.current = Math.max(0, ini.value - ini.overage);
+    mov.overage = isNaN(mov.overage) ? 0 : mov.overage;
+    mov.current = Math.max(0, mov.value + mov.overage);
   }
 
   // parry, dodge & magick depend on Item preparation being finished

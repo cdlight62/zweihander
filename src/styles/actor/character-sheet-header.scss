@@ -85,6 +85,7 @@
         .rp-gained,
         .rp-spent {
           flex: 0 0 55px;
+          height: calc(100% - 2px)
         }
         .rp-fate,
         .rp-rep {
@@ -92,6 +93,7 @@
         }
         .rp-fate {
           margin-right: 1ex;
+          height: calc(100% - 2px);
         }
         .sep {
           color: #7a7971;

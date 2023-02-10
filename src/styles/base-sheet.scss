@@ -40,7 +40,6 @@ body.game.vtt.system-zweihander {
       color: var(--zh-clr-fg0);
       border: 1px solid transparent;
       border-radius: 1ch;
-      height: calc(100% - 2px);
       &:read-only,
       &:disabled {
         color: var(--zh-clr-fg2);

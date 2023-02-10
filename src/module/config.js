@@ -199,6 +199,20 @@ ZWEI.outsiderContracts = [
   { value: 'Pact', label: 'Pact' },
 ];
 
+ZWEI.weaponConditions = [
+  { value: 0, label: 'Undamaged', description: '', damageModifier: '', hitModifier: '' },
+  { value: 1, label: 'Worn', description: 'Suffer a ‒1 penalty to Total Damage and  a ‒10 Base Chance to hit.', damageModifier: '-1', hitModifier: '-10' },
+  { value: 2, label: 'Frail', description: 'Suffer a ‒2 penalty to Total Damage and  a ‒20 Base Chance to hit.', damageModifier: '-2', hitModifier: '-20' },
+  { value: 3, label: 'Ruined', description: 'Suffer a ‒3 penalty to Total Damage and  a ‒30 Base Chance to hit.', damageModifier: '-3', hitModifier: '-30' },
+];
+
+ZWEI.armorConditions = [
+  { value: 0, label: 'Undamaged', description: '', thresholdModifier: '' },
+  { value: 1, label: 'Worn', description: 'Subtract ‒1 from the Damage Threshold to a minimum of 1.', thresholdModifier: '-1' },
+  { value: 2, label: 'Frail', description: 'Half the Damage Threshold to a minimum of 0.', thresholdModifier: '*.5' },
+  { value: 3, label: 'Ruined', description: 'Doesn’t add to Damage Threshold at all', thresholdModifier: '*0' },
+];
+
 ZWEI.statusEffects = [
   {
     id: 'dead',

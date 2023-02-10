@@ -333,10 +333,19 @@ export default class ZweihanderCharacterSheet extends ZweihanderBaseActorSheet {
       });
     };
 
-    const updateTithe = (i) => async (event) => {
-      let element = $('.tithe-input');
-      element.val(parseInt(element.val()) + i);
-    }
+    const updateTithe = (i) => (event) => {
+      // let element = $('.tithe-input');
+      // element.val(parseInt(element.val()) + i);
+      if (!this.actor.system.tithe) {
+        this.actor.system.tithe = 0;
+      }
+      const tithe = this.actor.system.tithe + i;
+      this.actor.update({
+        'system.tithe': tithe
+      });
+      // this.actor.system.tithe += i;
+      // $(event.currentTarget).siblings(".tithe-input").text(this.actor.system.tithe)
+    };
 
     html.find('.numerable-field-subtract').click(updateNumerable(-1));
     html.find('.numerable-field-add').click(updateNumerable(1));

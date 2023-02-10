@@ -64,13 +64,14 @@ export default class OdicTracker extends Application {
     const that = this;
     function requestSyncOdicDice(state, requestingUserId) {
       if (state) {
-        let validationError = that.validate(state, requestingUserId);
-        if (!validationError) {
-          socket.executeForEveryone('broadcastOdicState', state);
-        } else {
-          socket.executeForEveryone('broadcastOdicState', that.state);
-          socket.executeAsUser('showIllegalStateNotification', requestingUserId, validationError);
-        }
+        socket.executeForEveryone('broadcastOdicState', state);
+        // let validationError = that.validate(state, requestingUserId);
+        // if (!validationError) {
+        //   socket.executeForEveryone('broadcastOdicState', state);
+        // } else {
+        //   socket.executeForEveryone('broadcastOdicState', that.state);
+        //   socket.executeAsUser('showIllegalStateNotification', requestingUserId, validationError);
+        // }
       }
       return that.state;
     }
@@ -113,15 +114,15 @@ export default class OdicTracker extends Application {
     return this.#state.total;
   }
 
-  increaseTotal(extraDice = 1) {
+  increaseTotal(num = 1) {
     const s = this.state;
-    s.total += extraDice;
+    s.total += num;
     return s;
   }
 
-  decreaseTotal() {
+  decreaseTotal(num = 1) {
     const s = this.state;
-    s.total = s.total > 0 ? s.total - 1 : s.total;
+    s.total = s.total > 0 ? s.total - num : s.total;
     return s;
   }
 

@@ -81,18 +81,29 @@ export default class ZweihanderItemSheet extends ItemSheet {
     if (sheetData.type === 'weapon') {
       const skillPack = game.packs.get(game.settings.get('zweihander', 'skillPack'));
       sheetData.skills = (await skillPack.getDocuments()).map((x) => x.name).sort((a, b) => a.localeCompare(b));
+      
+      sheetData.choices.conditions = ZweihanderUtils.selectedChoice(
+        sheetData.system.condition ?? '',
+        CONFIG.ZWEI.weaponConditions
+      );
+    }
+    if (sheetData.type === 'armor') {
+      sheetData.choices.conditions = ZweihanderUtils.selectedChoice(
+        sheetData.system.condition ?? '',
+        CONFIG.ZWEI.armorConditions
+      );
     }
     if (sheetData.type === 'outsider') {
       sheetData.choices.outsiderCourts = ZweihanderUtils.selectedChoice(
-        sheetData.system.court ?? 0,
+        sheetData.system.court ?? '',
         CONFIG.ZWEI.outsiderCourts
       );
       sheetData.choices.outsiderLevels = ZweihanderUtils.selectedChoice(
-        sheetData.system.level ?? 0,
+        sheetData.system.level ?? '',
         CONFIG.ZWEI.outsiderLevels
       );
       sheetData.choices.outsiderContracts = ZweihanderUtils.selectedChoice(
-        sheetData.system.contract ?? 0,
+        sheetData.system.contract ?? '',
         CONFIG.ZWEI.outsiderContracts
       );
     }

@@ -13,7 +13,20 @@
   <input  name="system.qualities.value" type="text" value="{{system.qualities.value}}">
 </div>
 
-{{zhPriceInputs system.price}}
+<div class="form-group">
+  <label>Condition</label>
+  <select name="system.condition">
+    {{#each choices.conditions}}
+    <option value="{{value}}" {{selected}}>{{label}}</option>
+    {{/each}}
+  </select>
+</div>
+<div class="form-group stacked">
+  <label>Immune to Degradation</label>
+  <label class="checkbox">
+    <input name="system.noDegradation" type="checkbox" class="link-checkbox" {{checked system.noDegradation}} />
+  </label>
+</div>
 
 <div class="form-group stacked">
   <label>Status</label>
@@ -22,3 +35,5 @@
     Equipped
   </label>
 </div>
+
+{{zhPriceInputs system.price}}
