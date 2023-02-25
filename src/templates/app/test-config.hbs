@@ -1,7 +1,11 @@
 <form class="flexcol">
   {{#if weaponRoll}}
   <div class="form-group">
-    <label for="extraFury">Additional Fury Dice</label>
+    <label for="baneDamage">Use Bane Damage</label>
+    <input type="checkbox" name="baneDamage">
+  </div>
+  <div class="form-group">
+    <label for="extraFury">Additional Damage Dice</label>
     <input type="number" name="extraFury" placeholder="0" value="{{additionalFuryDice}}">
   </div>
   {{/if}}

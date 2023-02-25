@@ -13,7 +13,8 @@
   <dt>Capped Base Chance</dt><dd> {{baseChance}}%</dd>
   {{#if spellTest}}
   <dt>Raw Difficulty</dt><dd> {{zhExplicitSign difficultyRating.raw}}% ({{zhCapitalize spell.system.principle}} Magick)</dd>
-  <dt>Channel Power Bonus</dt><dd> {{zhExplicitSign difficultyRating.channelPowerBonus}}%</dd>
+  <dt>Focus Bonus</dt><dd> {{zhExplicitSign difficultyRating.channelPowerBonus}}%</dd>
+  <dt>Penalty from Tithe</dt><dd> {{zhExplicitSign tithePenalty}}%</dd>
   <dt>Total Difficulty</dt>{{else}}<dt>Difficulty</dt>{{/if}}<dd> {{zhExplicitSign difficultyRating.total}}%</dd>
   <dt>Result has been flipped</dt><dd> {{#if effectivelyFlipped}} yes {{else}} no {{/if}}</dd>
 </dl>

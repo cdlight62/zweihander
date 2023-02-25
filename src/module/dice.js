@@ -101,11 +101,11 @@ export async function rollTest(
   if (weapon && !isReroll && actor.type === 'creature') {
     testConfiguration.additionalFuryDice = actor.system.details.size - 1;
   }
-  let conditionModifier = 0;
+  let conditionPenalty = 0;
   if (weapon) {
-    if (weapon.system.condition) {
+    if (weapon.system.condition > 0) {
       let condition = CONFIG.ZWEI.weaponConditions[weapon.system.condition];
-      conditionModifier = parseInt(condition.hitModifier);
+      conditionPenalty = parseInt(condition.hitModifier);
     }
   }
   if (isReroll && actor.type === 'character') {
@@ -145,10 +145,14 @@ export async function rollTest(
   const rankBonusAfterPeril = ranksPurchasedAfterPeril * bonusPerRank;
   const specialBaseChanceModifier = Number(testConfiguration.baseChanceModifier);
   const baseChance =
-    primaryAttributeValue + Math.max(-30, Math.min(30, rankBonusAfterPeril + specialBaseChanceModifier + conditionModifier));
+    primaryAttributeValue + Math.max(-30, Math.min(30, rankBonusAfterPeril + specialBaseChanceModifier + conditionPenalty));
   const rawDifficultyRating = Number(testConfiguration.difficultyRating);
   const channelPowerBonus = testConfiguration.channelPowerBonus;
-  const difficultyRating = Math.min(30, rawDifficultyRating + (testConfiguration.channelPowerBonus || 0));
+  let tithePenalty = 0;
+  if (spell && actor.system.tithe > 10) {
+    tithePenalty = parseInt(actor.system.tithe/10)*10;
+  }
+  const difficultyRating = Math.min(30, rawDifficultyRating + (testConfiguration.channelPowerBonus || 0) + tithePenalty);
   const difficultyRatingLabel = ZweihanderUtils.getDifficultyRatingLabel(difficultyRating);
   let totalChance = baseChance + difficultyRating;
   totalChance = (totalChance >= 100 ? 99 : totalChance < 1 ? 1 : totalChance).toLocaleString(undefined, {
@@ -187,7 +191,8 @@ export async function rollTest(
     },
     totalChance,
     perilPenalty: -ranksIgnoredByPeril * bonusPerRank,
-    conditionPenalty: conditionModifier,
+    conditionPenalty: conditionPenalty,
+    tithePenalty: tithePenalty,
     roll: effectiveResult.toLocaleString(undefined, {
       minimumIntegerDigits: 2,
     }),
@@ -302,7 +307,7 @@ export async function rollTest(
 }
 
 export async function rollWeaponDamage(actorId, testConfiguration, isCritical) {
-  let { weaponId, additionalFuryDice } = testConfiguration;
+  let { weaponId, additionalFuryDice, useBaneDamage } = testConfiguration;
   if (isCritical) {
     additionalFuryDice += 1;
   }
@@ -311,7 +316,11 @@ export async function rollWeaponDamage(actorId, testConfiguration, isCritical) {
   let formula = ZweihanderUtils.abbreviations2DataPath(
     weapon.system.damage.formula.replace('[#]', additionalFuryDice || 0)
   );
-  if (weapon.system.condition) {
+  if (useBaneDamage) {
+    formula = formula.replace('d6', 'd10');
+    formula = formula.replace('x6', 'x>8');
+  }
+  if (weapon.system.condition > 0) {
     let condition = CONFIG.ZWEI.weaponConditions[weapon.system.condition];
     formula += condition.damageModifier;
   }
@@ -325,15 +334,17 @@ export async function rollWeaponDamage(actorId, testConfiguration, isCritical) {
         actorId,
         weaponId,
         exploded: 0,
+        useBaneDamage
       },
     },
   };
-  return damageRoll.toMessage({ speaker, flavor, content, flags }, { rollMode: CONST.DICE_ROLL_MODES.PUBLIC });
+  const rollMode = ZWEI.testModes[testConfiguration.testMode].label == 'Standard' ? game.settings.get("core", "rollMode") : ZWEI.testModes[testConfiguration.testMode].testMode;
+  return damageRoll.toMessage({ speaker, flavor, content, flags }, { rollMode: rollMode });
 }
 
 async function getWeaponDamageContent(weapon, roll, exploded = false, explodedCount = 0) {
   weapon.system.qualities = await ZweihanderQuality.getQualities(weapon.system.qualities.value);
-  const rollContent = await roll.render({ flavor: 'Fury Die' });
+  const rollContent = await roll.render();
   const cardContent = await renderTemplate('systems/zweihander/src/templates/item-card/item-card-weapon.hbs', weapon);
   return await renderTemplate(CONFIG.ZWEI.templates.weapon, {
     cardContent,
@@ -355,24 +366,25 @@ export async function explodeWeaponDamage(message, useFortune) {
     ui.notifications.warn(`Couldn't reroll skill test: There are no ${useFortune} points left.`);
     return;
   }
-  const { actorId, weaponId, exploded } = message.flags.zweihander.weaponTestData;
+  const { actorId, weaponId, exploded, useBaneDamage } = message.flags.zweihander.weaponTestData;
   const actor = game.actors.get(actorId);
   const weapon = actor.items.get(weaponId).toObject(false);
   const roll = message.rolls[0];
-  const dice = roll.dice.find((d) => d.faces === 6);
+  const faces = useBaneDamage ? 10 : 6;
+  const dice = roll.dice.find((d) => d.faces === faces);
   if (dice) {
     const explodeModifiers = dice.modifiers.filter((m) => m.startsWith('x')).join('');
-    const formula = `1d6${explodeModifiers}`;
+    const formula = `1d${faces}${explodeModifiers}`;
     const explodingRoll = await new Roll(formula).evaluate();
     setTimeout(() => game?.dice3d?.showForRoll?.(explodingRoll, game.user, true), 1500);
     const results = dice.results;
     const minimumResult = Math.min(...results.filter((x) => !x.exploded).map((r) => r.result));
     const minimumResultIndex = results.findIndex((r) => r.result === minimumResult);
-    const updatedTotal = roll._total - minimumResult + 6 + explodingRoll.total;
+    const updatedTotal = roll._total - minimumResult + faces + explodingRoll.total;
     results.splice(
       minimumResultIndex,
       1,
-      { result: 6, active: true, exploded: true },
+      { result: faces, active: true, exploded: true },
       ...explodingRoll.terms[0].results
     );
     roll._total = updatedTotal;
@@ -380,6 +392,32 @@ export async function explodeWeaponDamage(message, useFortune) {
   const content = await getWeaponDamageContent(weapon, roll, useFortune, exploded + 1);
   const diffData = {
     'flags.zweihander.weaponTestData.exploded': exploded + 1,
+    content: content,
+    rolls: [roll.toJSON()],
+  };
+  await game.zweihander.socket.executeAsGM('updateChatMessage', message.id, diffData);
+}
+
+export async function rollExtraDamageDie(message) {
+  const { actorId, weaponId, exploded, useBaneDamage } = message.flags.zweihander.weaponTestData;
+  const actor = game.actors.get(actorId);
+  const weapon = actor.items.get(weaponId).toObject(false);
+  const roll = message.rolls[0];
+  const faces = useBaneDamage ? 10 : 6;
+  const dice = roll.dice.find((d) => d.faces === faces);
+  if (dice) {
+    const explodeModifiers = dice.modifiers.filter((m) => m.startsWith('x')).join('');
+    const formula = `1d${faces}${explodeModifiers}`;
+    const extraRoll = await new Roll(formula).evaluate();
+    setTimeout(() => game?.dice3d?.showForRoll?.(extraRoll, game.user, true), 1500);
+    const results = dice.results;
+    const updatedTotal = roll._total + extraRoll.total;
+    results.push(...extraRoll.terms[0].results);
+    roll._total = updatedTotal;
+  }
+  const content = await getWeaponDamageContent(weapon, roll, exploded > 0, exploded);
+  const diffData = {
+    'flags.zweihander.weaponTestData.exploded': exploded,
     content: content,
     rolls: [roll.toJSON()],
   };

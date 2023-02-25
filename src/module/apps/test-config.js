@@ -32,6 +32,7 @@ async function renderConfigurationDialog(testType, label, testConfiguration = {}
     spellRoll: testType === 'spell',
     additionalFuryDice: testConfiguration.additionalFuryDice,
     additionalChaosDice: testConfiguration.additionalChaosDice,
+    useBaneDamage: testConfiguration.useBaneDamage,
   };
   const toPercentileLabel = (i) => (i === 0 ? '+-0%' : i > 0 ? `+${i}%` : `${i}%`);
   templateData.fortuneOptions = [
@@ -81,6 +82,7 @@ async function renderConfigurationDialog(testType, label, testConfiguration = {}
     'systems/zweihander/src/templates/app/test-config.hbs',
     templateData,
     (resolve) => (html) => {
+      let useBaneDamage = Number(html.find('[name="baneDamage"]').prop('checked')) || false;
       let additionalFuryDice = Number(html.find('[name="extraFury"]').val()) || 0;
       let additionalChaosDice = Number(html.find('[name="extraChaos"]').val()) || 0;
       let difficultyRating = Number(html.find('[name="difficultyRatingSelect"]').val());
@@ -98,6 +100,7 @@ async function renderConfigurationDialog(testType, label, testConfiguration = {}
         flip,
         baseChanceModifier,
         testMode,
+        useBaneDamage
       });
     }
   );

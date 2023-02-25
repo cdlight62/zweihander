@@ -68,7 +68,9 @@ function enableChatButtons(html, flags, message, data) {
       (game.user.isGM || actorId === ZweihanderUtils.determineCurrentActorId()) &&
       outcome !== ZweihanderDice.OUTCOME_TYPES.CRITICAL_FAILURE
     ) {
-      html.find('.skill-test-reroll').prop('disabled', false);
+      if (testConfiguration.useFortune !== 'fortune' && testConfiguration.useFortune !== 'misfortune') {
+        html.find('.skill-test-reroll').prop('disabled', false);
+      }
       $(html).on('click', '.skill-test-reroll', (event) => {
         ZweihanderDice.reRollTest(actorId, skillItemId, testType, testConfiguration, { showDialog: event.shiftKey });
       });
@@ -122,6 +124,9 @@ function enableChatButtons(html, flags, message, data) {
         ZweihanderDice.explodeWeaponDamage(message, 'misfortune');
       });
     }
+    $(html).on('click', '.damage-roll-extra', (event) => {
+      ZweihanderDice.rollExtraDamageDie(message);
+    });
   }
 
   const spellTestData = flags?.skillTestData?.testType === 'spell' && flags?.skillTestData;
