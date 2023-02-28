@@ -88,6 +88,7 @@ export default class ZweihanderNpcSheet extends ZweihanderCreatureSheet {
       loot: ['trappings', 'armor'].map($$),
       rules: [
         'traits',
+        'techniques',
         'talents',
         'spells',
         'rituals',
@@ -109,6 +110,13 @@ export default class ZweihanderNpcSheet extends ZweihanderCreatureSheet {
       summaryTemplate: 'item-summary/talent',
       details: [],
       items: groupsData.talents,
+    };
+    itemGroups.techniques = {
+      title: 'Techniques',
+      type: 'technique',
+      summaryTemplate: 'item-summary/technique',
+      details: [],
+      items: groupsData.techniques,
     };
     itemGroups.rituals = {
       title: 'Rituals',

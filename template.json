@@ -217,6 +217,7 @@
       "spell",
       "taint",
       "talent",
+      "technique",
       "trait",
       "trapping",
       "uniqueAdvance",
@@ -265,7 +266,8 @@
       "templates": ["flavor", "effect"]
     },
     "trait": {
-      "templates": ["flavor", "effect"]
+      "templates": ["flavor", "effect"],
+      "equipped": false
     },
     "weapon": {
       "templates": ["flavor", "trapping"],
@@ -367,7 +369,12 @@
       "associatedPrimaryAttribute": "Combat"
     },
     "talent": {
-      "templates": ["flavor", "effect"]
+      "templates": ["flavor", "effect"],
+      "equipped": false
+    },
+    "technique": {
+      "templates": ["flavor", "effect"],
+      "equipped": false
     },
     "uniqueAdvance": {
       "templates": ["flavor"],

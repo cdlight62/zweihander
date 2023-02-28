@@ -15,6 +15,7 @@
 "ITEM.TypeSkill": "Skill",
 "ITEM.TypeSpell": "Spell",
 "ITEM.TypeTalent": "Talent",
+"ITEM.TypeTechnique": "Technique",
 "ITEM.TypePatron": "Patron",
 "ITEM.TypeTrait": "Trait",
 "ITEM.TypeTrapping": "Trapping",

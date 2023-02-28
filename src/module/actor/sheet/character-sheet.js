@@ -173,6 +173,7 @@ export default class ZweihanderCharacterSheet extends ZweihanderBaseActorSheet {
       'spell',
       'ritual',
       'talent',
+      'technique',
       'trait',
       'drawback',
       'quality',

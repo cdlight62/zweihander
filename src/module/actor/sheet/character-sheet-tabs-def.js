@@ -245,29 +245,6 @@ export function getItemGroups(groupsData) {
       ],
       items: groupsData.effects,
     },
-    disorders: {
-      title: 'Outsiders',
-      type: 'outsider',
-      summaryTemplate: 'item-summary/outsider',
-      details: [
-        {
-          title: 'Court',
-          size: 100,
-          key: 'system.court'
-        },
-        {
-          title: 'Level',
-          size: 100,
-          key: 'system.powerLevel'
-        },
-        {
-          title: 'Contract',
-          size: 100,
-          key: 'system.contract'
-        },
-      ],
-      items: groupsData.disorders,
-    },
     diseases: {
       title: 'Diseases',
       type: 'disease',
@@ -356,18 +333,24 @@ export function getItemGroups(groupsData) {
       ],
       items: groupsData.professions,
     },
-    traits: {
-      title: 'Traits',
-      type: 'trait',
-      summaryTemplate: 'item-summary/trait',
+    techniques: {
+      title: 'Techniques',
+      type: 'technique',
+      summaryTemplate: 'item-summary/technique',
       details: [
         {
           title: 'Source',
           size: 240,
           key: 'source',
         },
+        {
+          title: 'Equipped',
+          size: 80,
+          key: 'system.equipped',
+          isCheckbox: true,
+        }
       ],
-      items: groupsData.traits,
+      items: groupsData.techniques,
     },
     drawbacks: {
       title: 'Drawbacks',
@@ -392,8 +375,27 @@ export function getItemGroups(groupsData) {
           size: 240,
           key: 'source',
         },
+        {
+          title: 'Equipped',
+          size: 80,
+          key: 'system.equipped',
+          isCheckbox: true,
+        }
       ],
       items: groupsData.talents,
+    },
+    traits: {
+      title: 'Boons & Banes',
+      type: 'trait',
+      summaryTemplate: 'item-summary/trait',
+      details: [
+        {
+          title: 'Source',
+          size: 240,
+          key: 'source',
+        }
+      ],
+      items: groupsData.traits,
     },
     uniqueAdvances: {
       title: 'Unique Advances',
@@ -431,7 +433,7 @@ export function attachTabDefinitions(tabData) {
       itemGroups: ['effects', 'conditions', 'diseases', 'injuries' /*, 'taints'*/].map($$),
     },
     tiers: {
-      itemGroups: ['professions', 'traits', 'talents'].map($$),
+      itemGroups: ['professions', 'traits', 'techniques', 'talents'].map($$),
     },
   };
 }
